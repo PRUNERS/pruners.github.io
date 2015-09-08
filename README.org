@@ -30,4 +30,4 @@ libraries and APIs.
 - Prof. Zvonimir Rakamaric
 
 * Support
-For any question or problem please contact [Simone Atzeni](mailto:simone@cs.utah.edu?subject=[PRUNER] Info).
+For any question or problem please contact [Simone Atzeni](mailto:(simone@cs.utah.edu?subject=[PRUNER] Info).

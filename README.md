@@ -51,4 +51,4 @@ libraries and APIs.
 
 # Support<a id="sec-3" name="sec-3"></a>
 
-For any question or problem please contact [Simone Atzeni](<simone@cs.utah.edu?subject=[PRUNER>] Info).
+For any question or problem please contact [Simone Atzeni](mailto:(simone@cs.utah.edu?subject=[PRUNER] Info).
