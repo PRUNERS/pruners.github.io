@@ -1,5 +1,3 @@
-Official WebPage of the PRUNER Project
-
 * Description
 Reproducibility is highly desirable for parallel applications, but as
 they are run on increasingly large and heterogeneous platforms,
@@ -30,4 +28,4 @@ libraries and APIs.
 - Prof. Zvonimir Rakamaric
 
 * Support
-For any question or problem please contact :exports([Simone Atzeni](mailto:simone@cs.utah.edu?subject=[PRUNER] Info)).
+For any questions or problems please contact [Simone Atzeni](mailto:simone@cs.utah.edu?subject=[PRUNER] Info).
