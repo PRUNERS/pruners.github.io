@@ -1,0 +1,31 @@
+* Description
+Reproducibility is highly desirable for parallel applications, but as
+they are run on increasingly large and heterogeneous platforms,
+reproducibility of numerical results or code behaviors is becoming
+less and less obtainable. The same code can produce different results
+or occasional failures such as a crash on different systems or even
+across different runs on the same hardware. PRUNER is a research and
+development project that aims at innovating scalable techniques to aid
+applications to obtain the reproducibility. Specifically, our strategy
+is to accomplish this by developing a multilevel analysis and control
+toolset called the PRUNING toolset, which combines static and dynamic
+analysis techniques to detect, control and eliminate targeted sources
+of non-determinism, as introduced through parallel programming
+libraries and APIs.
+
+* Contributors
+** LLNL
+- Dong H. Ahn (Lead)
+- Chris Chambreau
+- Gregory L. Lee
+- Ignacio Laguna
+- Kento Sato (Postdoc)
+- Martin Schulz
+
+** University of Utah - Formal Method Group
+- Simone Atzeni (Phd student)
+- Prof. Ganesh Gopalakrishnan
+- Prof. Zvonimir Rakamaric
+
+* Support
+For any questions or problems please contact [Simone Atzeni](mailto:simone@cs.utah.edu?subject=[PRUNER] Info).
