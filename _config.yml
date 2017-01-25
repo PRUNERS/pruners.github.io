@@ -1,5 +1,5 @@
-title: PRUNER
-description: Providing Reproducibility on Ubiquitously Non-deterministic Environments and Runs
+title: PRUNERS
+description: Providing Reproducibility for Uncovering Non-deterministic Errors in Runs on Supercomputers
 google_analytics: UA-67339505-1
 show_downloads: true
 theme: jekyll-theme-cayman
