@@ -80,11 +80,11 @@ theme 			= "smooth"
     identifier 	= "publications"
     url 		= "/publications/"
     weight 		= -80
-[[menu.main]]
-    name 		= "News"
-    identifier 	= "news"
-    url 		= "/news/"
-    weight 		= -70
+# [[menu.main]]
+#     name 		= "News"
+#     identifier 	= "news"
+#     url 		= "/news/"
+#     weight 		= -70
 [[menu.main]]
     name 		= "About"
     identifier 	= "about"
