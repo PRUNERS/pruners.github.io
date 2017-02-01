@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PRUNERS</title>
-    <link>http://pruners.github.io/index.xml</link>
+    <link>https://pruners.github.io/index.xml</link>
     <description>Recent content on PRUNERS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Jan 2017 15:18:39 -0700</lastBuildDate>
-    <atom:link href="http://pruners.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pruners.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>home</title>
-      <link>http://pruners.github.io/home/</link>
+      <link>https://pruners.github.io/home/</link>
       <pubDate>Mon, 30 Jan 2017 15:18:39 -0700</pubDate>
       
-      <guid>http://pruners.github.io/home/</guid>
+      <guid>https://pruners.github.io/home/</guid>
       <description>&lt;p&gt;Reproducibility is highly desirable for parallel applications, but as they are run on increasingly large and heterogeneous platforms, reproducibility of numerical results or code behaviors is becoming less and less obtainable. The same code can produce different results or occasional failures such as a crash on different systems or even across different runs on the same hardware. PRUNERS is a research and development project that aims at innovating scalable techniques to aid applications to obtain the reproducibility. Specifically, our strategy is to accomplish this by developing a multilevel analysis and control toolset called the PRUNERS toolset, which combines static and dynamic analysis techniques to detect, control and eliminate targeted sources of non-determinism, as introduced through parallel programming libraries and APIs.￼&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>publications</title>
-      <link>http://pruners.github.io/publications/</link>
+      <link>https://pruners.github.io/publications/</link>
       <pubDate>Fri, 27 Jan 2017 22:19:19 -0700</pubDate>
       
-      <guid>http://pruners.github.io/publications/</guid>
+      <guid>https://pruners.github.io/publications/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Copyright notice:&lt;/strong&gt; This material is presented to ensure timely dissemination of research and technical work. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author’s copyright.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Contact Us</title>
-      <link>http://pruners.github.io/contact/</link>
+      <link>https://pruners.github.io/contact/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:55 -0700</pubDate>
       
-      <guid>http://pruners.github.io/contact/</guid>
+      <guid>https://pruners.github.io/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Members</title>
-      <link>http://pruners.github.io/members/</link>
+      <link>https://pruners.github.io/members/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:50 -0700</pubDate>
       
-      <guid>http://pruners.github.io/members/</guid>
+      <guid>https://pruners.github.io/members/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.cs.utah.edu&#34;&gt;&lt;img src=&#34;../img/uofu_logo.svg&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; width=&#34;40%&#34; alt=&#34;UofU Logo&#34; title=&#34;University of Utah&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
@@ -58,55 +58,55 @@
     
     <item>
       <title>The PRUNERS Team</title>
-      <link>http://pruners.github.io/team/</link>
+      <link>https://pruners.github.io/team/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:47 -0700</pubDate>
       
-      <guid>http://pruners.github.io/team/</guid>
+      <guid>https://pruners.github.io/team/</guid>
       <description></description>
     </item>
     
     <item>
       <title>News</title>
-      <link>http://pruners.github.io/news/</link>
+      <link>https://pruners.github.io/news/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:43 -0700</pubDate>
       
-      <guid>http://pruners.github.io/news/</guid>
+      <guid>https://pruners.github.io/news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ReMPI</title>
-      <link>http://pruners.github.io/rempi/</link>
+      <link>https://pruners.github.io/rempi/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:40 -0700</pubDate>
       
-      <guid>http://pruners.github.io/rempi/</guid>
+      <guid>https://pruners.github.io/rempi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FLiT</title>
-      <link>http://pruners.github.io/flit/</link>
+      <link>https://pruners.github.io/flit/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:37 -0700</pubDate>
       
-      <guid>http://pruners.github.io/flit/</guid>
+      <guid>https://pruners.github.io/flit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ninja</title>
-      <link>http://pruners.github.io/ninja/</link>
+      <link>https://pruners.github.io/ninja/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:29 -0700</pubDate>
       
-      <guid>http://pruners.github.io/ninja/</guid>
+      <guid>https://pruners.github.io/ninja/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ARCHER</title>
-      <link>http://pruners.github.io/archer/</link>
+      <link>https://pruners.github.io/archer/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:26 -0700</pubDate>
       
-      <guid>http://pruners.github.io/archer/</guid>
+      <guid>https://pruners.github.io/archer/</guid>
       <description></description>
     </item>
     
