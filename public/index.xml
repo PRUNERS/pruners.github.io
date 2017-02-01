@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PRUNERS</title>
+    <link>http://localhost:1313/index.xml</link>
+    <description>Recent content on PRUNERS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Jan 2017 15:18:39 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>home</title>
+      <link>http://localhost:1313/home/</link>
+      <pubDate>Mon, 30 Jan 2017 15:18:39 -0700</pubDate>
+      
+      <guid>http://localhost:1313/home/</guid>
+      <description>&lt;p&gt;Reproducibility is highly desirable for parallel applications, but as they are run on increasingly large and heterogeneous platforms, reproducibility of numerical results or code behaviors is becoming less and less obtainable. The same code can produce different results or occasional failures such as a crash on different systems or even across different runs on the same hardware. PRUNERS is a research and development project that aims at innovating scalable techniques to aid applications to obtain the reproducibility. Specifically, our strategy is to accomplish this by developing a multilevel analysis and control toolset called the PRUNERS toolset, which combines static and dynamic analysis techniques to detect, control and eliminate targeted sources of non-determinism, as introduced through parallel programming libraries and APIs.￼&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>publications</title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Fri, 27 Jan 2017 22:19:19 -0700</pubDate>
+      
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Copyright notice:&lt;/strong&gt; This material is presented to ensure timely dissemination of research and technical work. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author’s copyright.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Fri, 27 Jan 2017 22:16:55 -0700</pubDate>
+      
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Members</title>
+      <link>http://localhost:1313/members/</link>
+      <pubDate>Fri, 27 Jan 2017 22:16:50 -0700</pubDate>
+      
+      <guid>http://localhost:1313/members/</guid>
+      <description>&lt;div style=&#34;padding-top: 50px;&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cs.utah.edu&#34;&gt;&lt;img src=&#34;../img/uofu_logo.png&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; height=&#34;30%&#34; alt=&#34;UofU Logo&#34; title=&#34;University of Utah&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&#34;padding-top: 50px;&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.llnl.gov&#34;&gt;&lt;img src=&#34;../img/llnl_logo.png&#34; hspace=&#34;70&#34; vspace=&#34;5&#34; height=&#34;30%&#34; alt=&#34;LLNL Logo&#34; title=&#34;Lawrence Livermore National Laboratory&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&#34;padding-top: 50px;&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.rwth-aachen.de&#34;&gt;&lt;img src=&#34;../img/rwthaachen_logo.png&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; height=&#34;70%&#34; alt=&#34;RWTH AACHEN Logo&#34; title=&#34;RWTH AACHEN University&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>team</title>
+      <link>http://localhost:1313/team/</link>
+      <pubDate>Fri, 27 Jan 2017 22:16:47 -0700</pubDate>
+      
+      <guid>http://localhost:1313/team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>http://localhost:1313/news/</link>
+      <pubDate>Fri, 27 Jan 2017 22:16:43 -0700</pubDate>
+      
+      <guid>http://localhost:1313/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rempi</title>
+      <link>http://localhost:1313/rempi/</link>
+      <pubDate>Fri, 27 Jan 2017 22:16:40 -0700</pubDate>
+      
+      <guid>http://localhost:1313/rempi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flit</title>
+      <link>http://localhost:1313/flit/</link>
+      <pubDate>Fri, 27 Jan 2017 22:16:37 -0700</pubDate>
+      
+      <guid>http://localhost:1313/flit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ninja</title>
+      <link>http://localhost:1313/ninja/</link>
+      <pubDate>Fri, 27 Jan 2017 22:16:29 -0700</pubDate>
+      
+      <guid>http://localhost:1313/ninja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>archer</title>
+      <link>http://localhost:1313/archer/</link>
+      <pubDate>Fri, 27 Jan 2017 22:16:26 -0700</pubDate>
+      
+      <guid>http://localhost:1313/archer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborators</title>
+      <link>http://localhost:1313/collaborators/</link>
+      <pubDate>Fri, 13 Jan 2017 16:45:48 -0700</pubDate>
+      
+      <guid>http://localhost:1313/collaborators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>http://localhost:1313/support/</link>
+      <pubDate>Fri, 13 Jan 2017 16:45:48 -0700</pubDate>
+      
+      <guid>http://localhost:1313/support/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

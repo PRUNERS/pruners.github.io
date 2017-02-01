@@ -1,0 +1,110 @@
+MetaDataFormat 	= "toml"
+
+languageCode 	= "en-us"
+title 			= "PRUNERS"
+baseurl 		= "http://localhost:1313/"
+theme 			= "smooth"
+
+[permalinks]
+    page 		= "/:title/"
+    about 		= "/:filename/"
+    
+[params]
+	logo 		= "img/pruner_logo.png"
+    custom_css 	= ["css/smooth.css"]
+    custom_js 	= ["js/smooth.js"]
+    google_analytics = "UA-67339505-1"
+    
+    [params.references]
+  		[params.references.archer]
+    		"bib"  	= "archer"
+    		"title" = "ARCHER"
+  		[params.references.flit]
+    		"bib"  	= "flit"
+    		"title" = "FLiT"
+    	[params.references.ninja]
+    		"bib"  	= "ninja"
+    		"title" = "Ninja"
+  		[params.references.rempi]
+    		"bib"  	= "rempi"
+    		"title" = "ReMPI"
+    
+    [params.footer]
+    	copyright = "Copyright \u00A9 2017. All Rights Reserved."
+
+    	[params.footer.social]
+    	    # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+            # for more icons. The icons are represented by their corresponding
+            # CSS class.
+            [[params.footer.social.networks]]
+            	description = "GitHub"
+                icon 		= "fa-github"
+                url	 		= "https://github.com/PRUNERS"
+
+            [[params.footer.social.networks]]
+            	description = "Slack"
+                icon 		= "fa-slack"
+                url	 		= "https://pruners.slack.com"
+
+# Menu
+[[menu.main]]
+    name 		= "Toolset"
+    identifier 	= "toolset"
+    weight 		= -100
+[[menu.main]]
+    name 		= "ARCHER"
+    identifier 	= "archer"
+    parent 		= "toolset"
+    url 		= "/archer/"
+    weight 		= -100
+[[menu.main]]
+    name 		= "FLiT"
+    identifier 	= "flit"
+    parent 		= "toolset"
+    url 		= "/flit/"
+    weight 		= -90
+[[menu.main]]
+    name 		= "Ninja"
+    identifier 	= "ninja"
+    parent 		= "toolset"
+    url 		= "/ninja/"
+    weight 		= -80
+[[menu.main]]
+    name 		= "ReMPI"
+    identifier 	= "rempi"
+    parent 		= "toolset"
+    url 		= "/rempi/"
+    weight 		= -70
+[[menu.main]]
+    name 		= "Publications"
+    identifier 	= "publications"
+    url 		= "/publications/"
+    weight 		= -80
+[[menu.main]]
+    name 		= "News"
+    identifier 	= "news"
+    url 		= "/news/"
+    weight 		= -70
+[[menu.main]]
+    name 		= "About"
+    identifier 	= "about"
+    weight 		= -60
+[[menu.main]]
+    name 		= "Contact us"
+    identifier 	= "contact"
+    parent 		= "about"
+    url 		= "/contact/"
+    weight 		= -100
+[[menu.main]]
+    name 		= "Members"
+    identifier 	= "members"
+    parent 		= "about"
+    url 		= "/members/"
+    weight 		= -90 
+[[menu.main]]
+    name 		= "The PRUNERS Team"
+    identifier 	= "team"
+    parent 		= "about"
+    url 		= "/team/"
+    weight 		= -80
+# Menu

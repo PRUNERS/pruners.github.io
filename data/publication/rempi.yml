@@ -1,0 +1,30 @@
+---
+references:
+- id: sato_clock_2015
+  type: paper-conference
+  author:
+  - family: Sato
+    given: Kento
+  - family: Ahn
+    given: Dong H.
+  - family: Laguna
+    given: Ignacio
+  - family: Lee
+    given: Gregory L.
+  - family: Schulz
+    given: Martin
+  issued:
+  - year: '2015'
+  title: Clock Delta Compression for Scalable Order-replay of Non-deterministic Parallel
+    Applications
+  container-title: Proceedings of the International Conference for High Performance
+    Computing, Networking, Storage and Analysis
+  collection-title: SC ’15
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  page: 62:1-62:12
+  keyword: compression, debugging tools, non-determinism
+  URL: http://doi.acm.org/10.1145/2807591.2807642
+  DOI: 10.1145/2807591.2807642
+  ISBN: '978-1-4503-3723-6'
+...

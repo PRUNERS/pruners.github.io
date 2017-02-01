@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+<div class="container smooth-container" >
+	<!-- <h1>Description</h1> -->
+	<p  style="margin-bottom:20px;">
+		{{ range where .Site.Pages "Source.Path" "home.md" }}
+    		{{ .Content }}
+		{{ end }}
+	</p>
+</div>
+
+{{ partial "footer.html" . }}

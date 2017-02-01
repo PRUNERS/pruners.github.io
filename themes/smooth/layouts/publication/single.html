@@ -1,0 +1,38 @@
+
+{{ partial "header.html" . }}
+
+
+<div class="container smooth-container">
+	<h1>Publications</h1>
+
+	{{ range .Site.Params.References }}
+		{{ $bib := .bib }}
+		<h3 id="{{ $bib }}">{{ .title }}</h3>
+		{{ range $key, $item := $.Site.Data.publication }}
+			{{ if eq $key $bib }}
+				<ol>
+				{{ range $item.references }}
+				<li><p><a class="smooth-pub" title="{{ .title }}" href='{{ if ne .DOI "" }} https://doi.org/{{ .DOI }} {{ end }}' target="_blank"><u>{{ .title }}</u></a>.
+				{{ $len := (len .author) }}
+				{{ range $index, $item2 := .author }}
+				{{ if ne (sub $len 1) $index }}
+				{{ $item2.given }} {{ $item2.family }},
+				{{ else }}
+				and {{ $item2.given }} {{ $item2.family }},
+				{{ end }}
+				{{ end }} 
+				<p></li>
+				{{ end }}
+				</ol>
+			{{ end }}
+		{{ end }}
+	{{ end }}
+
+	<br>
+	<div style="font-size: 14px;"><p>
+	{{ .Content }}
+	</p></div>
+</div>
+
+
+{{ partial "footer.html" . }}
