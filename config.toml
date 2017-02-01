@@ -2,19 +2,19 @@ MetaDataFormat 	= "toml"
 
 languageCode 	= "en-us"
 title 			= "PRUNERS"
-baseurl 		= "http://pruners.github.io/"
+baseurl 		= "https://pruners.github.io/"
 theme 			= "smooth"
 
 [permalinks]
     page 		= "/:title/"
     about 		= "/:filename/"
-    
+
 [params]
 	logo 		= "img/pruner_logo.png"
     custom_css 	= ["css/smooth.css"]
     custom_js 	= ["js/smooth.js"]
     google_analytics = "UA-67339505-1"
-    
+
     [params.references]
   		[params.references.archer]
     		"bib"  	= "archer"
@@ -28,7 +28,7 @@ theme 			= "smooth"
   		[params.references.rempi]
     		"bib"  	= "rempi"
     		"title" = "ReMPI"
-    
+
     [params.footer]
     	copyright = "Copyright \u00A9 2017. All Rights Reserved."
 
@@ -100,7 +100,7 @@ theme 			= "smooth"
     identifier 	= "members"
     parent 		= "about"
     url 		= "/members/"
-    weight 		= -90 
+    weight 		= -90
 [[menu.main]]
     name 		= "The PRUNERS Team"
     identifier 	= "team"
