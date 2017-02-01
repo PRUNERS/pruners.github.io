@@ -44,15 +44,16 @@
       <pubDate>Fri, 27 Jan 2017 22:16:50 -0700</pubDate>
       
       <guid>https://pruners.github.io/members/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.cs.utah.edu&#34;&gt;&lt;img src=&#34;../img/uofu_logo.svg&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; width=&#34;40%&#34; alt=&#34;UofU Logo&#34; title=&#34;University of Utah&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;div style=&#34;padding-top: 0px;&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cs.utah.edu&#34;&gt;&lt;img src=&#34;../img/uofu_logo.svg&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; width=&#34;40%&#34; alt=&#34;UofU Logo&#34; title=&#34;University of Utah&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div style=&#34;padding-top: 50px;&#34;&gt;
+&lt;div style=&#34;padding-top: 20px;&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.llnl.gov&#34;&gt;&lt;img src=&#34;../img/llnl_logo.svg&#34; hspace=&#34;70&#34; vspace=&#34;5&#34; width=&#34;40%&#34; alt=&#34;LLNL Logo&#34; title=&#34;Lawrence Livermore National Laboratory&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div style=&#34;padding-top: 50px;&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.rwth-aachen.de&#34;&gt;&lt;img src=&#34;../img/rwthaachen_logo.svg&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; width=&#34;40%&#34; alt=&#34;RWTH AACHEN Logo&#34; title=&#34;RWTH AACHEN University&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;div style=&#34;padding-top: 20px;&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.rwth-aachen.de&#34;&gt;&lt;img src=&#34;../img/rwthaachen_logo.svg&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; width=&#34;40%&#34; alt=&#34;RWTH AACHEN Logo&#34; title=&#34;RWTH AACHEN University&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/p&gt;&lt;/p&gt;
 </description>
     </item>
     
