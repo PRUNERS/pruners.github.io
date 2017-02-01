@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>contact</title>
+      <title>Contact Us</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:55 -0700</pubDate>
       
@@ -45,20 +45,21 @@
       
       <guid>http://localhost:1313/members/</guid>
       <description>&lt;div style=&#34;padding-top: 50px;&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.cs.utah.edu&#34;&gt;&lt;img src=&#34;../img/uofu_logo.png&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; height=&#34;30%&#34; alt=&#34;UofU Logo&#34; title=&#34;University of Utah&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;div style=&#34;padding-top: 50px;&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.llnl.gov&#34;&gt;&lt;img src=&#34;../img/llnl_logo.png&#34; hspace=&#34;70&#34; vspace=&#34;5&#34; height=&#34;30%&#34; alt=&#34;LLNL Logo&#34; title=&#34;Lawrence Livermore National Laboratory&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cs.utah.edu&#34;&gt;&lt;img src=&#34;../img/uofu_logo.svg&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; width=&#34;40%&#34; alt=&#34;UofU Logo&#34; title=&#34;University of Utah&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div style=&#34;padding-top: 50px;&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.rwth-aachen.de&#34;&gt;&lt;img src=&#34;../img/rwthaachen_logo.png&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; height=&#34;70%&#34; alt=&#34;RWTH AACHEN Logo&#34; title=&#34;RWTH AACHEN University&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.llnl.gov&#34;&gt;&lt;img src=&#34;../img/llnl_logo.svg&#34; hspace=&#34;70&#34; vspace=&#34;5&#34; width=&#34;40%&#34; alt=&#34;LLNL Logo&#34; title=&#34;Lawrence Livermore National Laboratory&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&#34;padding-top: 50px;&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.rwth-aachen.de&#34;&gt;&lt;img src=&#34;../img/rwthaachen_logo.svg&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; width=&#34;40%&#34; alt=&#34;RWTH AACHEN Logo&#34; title=&#34;RWTH AACHEN University&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
-      <title>team</title>
+      <title>The PRUNERS Team</title>
       <link>http://localhost:1313/team/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:47 -0700</pubDate>
       
@@ -67,7 +68,7 @@
     </item>
     
     <item>
-      <title>news</title>
+      <title>News</title>
       <link>http://localhost:1313/news/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:43 -0700</pubDate>
       
@@ -76,7 +77,7 @@
     </item>
     
     <item>
-      <title>rempi</title>
+      <title>ReMPI</title>
       <link>http://localhost:1313/rempi/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:40 -0700</pubDate>
       
@@ -85,7 +86,7 @@
     </item>
     
     <item>
-      <title>flit</title>
+      <title>FLiT</title>
       <link>http://localhost:1313/flit/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:37 -0700</pubDate>
       
@@ -94,7 +95,7 @@
     </item>
     
     <item>
-      <title>ninja</title>
+      <title>Ninja</title>
       <link>http://localhost:1313/ninja/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:29 -0700</pubDate>
       
@@ -103,29 +104,11 @@
     </item>
     
     <item>
-      <title>archer</title>
+      <title>ARCHER</title>
       <link>http://localhost:1313/archer/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:26 -0700</pubDate>
       
       <guid>http://localhost:1313/archer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Collaborators</title>
-      <link>http://localhost:1313/collaborators/</link>
-      <pubDate>Fri, 13 Jan 2017 16:45:48 -0700</pubDate>
-      
-      <guid>http://localhost:1313/collaborators/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Support</title>
-      <link>http://localhost:1313/support/</link>
-      <pubDate>Fri, 13 Jan 2017 16:45:48 -0700</pubDate>
-      
-      <guid>http://localhost:1313/support/</guid>
       <description></description>
     </item>
     
