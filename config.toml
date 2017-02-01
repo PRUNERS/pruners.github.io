@@ -2,7 +2,7 @@ MetaDataFormat 	= "toml"
 
 languageCode 	= "en-us"
 title 			= "PRUNERS"
-baseurl 		= "http://localhost:1313/"
+baseurl 		= "http://pruners.github.io/"
 theme 			= "smooth"
 
 [permalinks]
