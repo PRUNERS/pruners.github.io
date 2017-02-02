@@ -1,15 +1,45 @@
-
-@inproceedings{sato_clock_2015,
-	address = {New York, NY, USA},
-	series = {{SC} '15},
-	title = {Clock {Delta} {Compression} for {Scalable} {Order}-replay of {Non}-deterministic {Parallel} {Applications}},
-	isbn = {978-1-4503-3723-6},
-	url = {http://doi.acm.org/10.1145/2807591.2807642},
-	doi = {10.1145/2807591.2807642},
-	booktitle = {Proceedings of the {International} {Conference} for {High} {Performance} {Computing}, {Networking}, {Storage} and {Analysis}},
-	publisher = {ACM},
-	author = {Sato, Kento and Ahn, Dong H. and Laguna, Ignacio and Lee, Gregory L. and Schulz, Martin},
-	year = {2015},
-	keywords = {compression, debugging tools, non-determinism},
-	pages = {62:1--62:12}
-}
+@inproceedings{Sato:2015:CDC:2807591.2807642,
+	Abstract = {The ability to record and replay program execution
+                  helps significantly in debugging non-deterministic
+                  MPI applications by reproducing message-receive
+                  orders. However, the large amount of data that
+                  traditional record-and-reply techniques record
+                  precludes its practical applicability to massively
+                  parallel applications. In this paper, we propose a
+                  new compression algorithm, Clock Delta Compression
+                  (CDC), for scalable record and replay of
+                  non-deterministic MPI applications. CDC defines a
+                  reference order of message receives based on a
+                  totally ordered relation using Lamport clocks, and
+                  only records the differences between this reference
+                  logical-clock order and an observed order. Our
+                  evaluation shows that CDC significantly reduces the
+                  record data size. For example, when we apply CDC to
+                  Monte Carlo particle transport Benchmark (MCB),
+                  which represents common non-deterministic
+                  communication patterns, CDC reduces the record size
+                  by approximately two orders of magnitude compared to
+                  traditional techniques and incurs between 13.1% and
+                  25.5% of runtime overhead.},
+	Acmid = {2807642},
+	Address = {New York, NY, USA},
+	Articleno = {62},
+	Author = {Sato, Kento and Ahn, Dong H. and Laguna, Ignacio and
+                  Lee, Gregory L. and Schulz, Martin},
+	Booktitle = {Proceedings of the International Conference for
+                  High Performance Computing, Networking, Storage and
+                  Analysis},
+	Doi = {10.1145/2807591.2807642},
+	Isbn = {978-1-4503-3723-6},
+	Keywords = {compression, debugging tools, non-determinism},
+	Location = {Austin, Texas},
+	Numpages = {12},
+	Pages = {62:1--62:12},
+	Publisher = {ACM},
+	Series = {SC '15},
+	Title = {Clock Delta Compression for Scalable Order-replay of
+                  Non-deterministic Parallel Applications},
+	Url = {http://doi.acm.org/10.1145/2807591.2807642},
+	Year = {2015},
+	Bdsk-Url-1 = {http://doi.acm.org/10.1145/2807591.2807642},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1145/2807591.2807642}}

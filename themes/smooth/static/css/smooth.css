@@ -1,8 +1,23 @@
+html {
+	/* height:100%; */
+	background-color: darkslategray;
+	/* 	background: -webkit-linear-gradient(darkslategray, lightslategray); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(darkslategray, lightslategray); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(darkslategray, lightslategray); For Firefox 3.6 to 15
+    background: linear-gradient(darkslategray, lightslategray); Standard syntax (must be last)	*/
+	/* background-color: #DCDCDC;
+	background: -webkit-linear-gradient(gainsboro, white); For Safari 5.1 to 6.0
+    background: -o-linear-gradient(gainsboro, white); For Opera 11.1 to 12.0
+    background: -moz-linear-gradient(gainsboro, white); For Firefox 3.6 to 15
+    background: linear-gradient(gainsboro, white); Standard syntax (must be last) */
+}
+
 body {
+	height: 100%;
 	position: relative;
-	background-color: #2F4F4F;
-	/* background-color: -webkit-linear-gradient(red, yellow, green); */
-	color: #FFFFFF;
+	background: rgba(0, 0, 0, 0.0);
+	color: white;
+	/* color: black; */
 	font-weight: 300;
 	font-size: 20px;
 	font-family: Calibri;
@@ -106,7 +121,6 @@ body {
 	font-style: italic;
 	font-size: 21px;
 	font-family: Calibri;
-	color: #FFFFFF;
 }
 
 .smooth-footer {
@@ -129,6 +143,17 @@ body {
 	margin-right: 10px;
 }
 
+.smooth-contact-row{
+	padding-top: 30px;
+}
+
+.smooth-contact-tooltip {
+	font-size: 24px;
+	color: #686868;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 .navbar-nav>li>.dropdown-menu {
 	font-size: 16px;
 	background-color: #D3D3D3;
@@ -143,17 +168,19 @@ body {
 }
 
 a.smooth-link:link {
-    color: #C0C0C0;
+	color: #000000;
+	/* color: #708090; */
 }
 
 a.smooth-link:visited {
-    color: #808080;
+	color: #D3D3D3;
+	/* color: #696969; */
 }
 
 a.smooth-link:hover {
-    color: #FA8072;
+	color: #FA8072;
 }
 
 a.smooth-link:active {
-    color: #FA8072;
+	color: #FA8072;
 }

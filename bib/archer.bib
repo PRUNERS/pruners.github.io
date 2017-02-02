@@ -1,31 +1,93 @@
+@inproceedings{7516001,
+	Abstract = {OpenMP plays a growing role as a portable
+                  programming model to harness on-node parallelism,
+                  yet, existing data race checkers for OpenMP have
+                  high overheads and generate many false positives. In
+                  this paper, we propose the first OpenMP data race
+                  checker, ARCHER, that achieves high accuracy, low
+                  overheads on large applications, and
+                  portability. ARCHER incorporates scalable
+                  happens-before tracking, exploits structured
+                  parallelism via combined static and dynamic
+                  analysis, and modularly interfaces with OpenMP
+                  runtimes. ARCHER significantly outperforms TSan and
+                  Intel{\textregistered} Inspector XE, while providing
+                  the same or better precision. It has helped detect
+                  critical data races in the Hypre library that is
+                  central to many projects at Lawrence Livermore
+                  National Laboratory and elsewhere.},
+	Author = {S. Atzeni and G. Gopalakrishnan and Z. Rakamaric and
+                  D. H. Ahn and I. Laguna and M. Schulz and G. L. Lee
+                  and J. Protze and M. S. M{\"u}ller},
+	Booktitle = {2016 IEEE International Parallel and Distributed
+                  Processing Symposium (IPDPS)},
+	Doi = {10.1109/IPDPS.2016.68},
+	Issn = {1530-2075},
+	Keywords = {application program interfaces;parallel
+                  processing;program diagnostics;ARCHER;HPC;OpenMP
+                  application;data race checker;dynamic analysis;high
+                  performance computing;static analysis;structured
+                  parallelism;Benchmark testing;Instruments;Parallel
+                  processing;Runtime;Scalability;Synchronization;Xenon;OpenMP;data
+                  race detection;dynamic analysis;high performance
+                  computing;static analysis},
+	Month = {May},
+	Pages = {53-62},
+	Title = {ARCHER: Effectively Spotting Data Races in Large
+                  OpenMP Applications},
+	Year = {2016},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1109/IPDPS.2016.68}}
 
-@inproceedings{atzeni_archer:_2016,
-	title = {{ARCHER}: {Effectively} {Spotting} {Data} {Races} in {Large} {OpenMP} {Applications}},
-	shorttitle = {{ARCHER}},
-	doi = {10.1109/IPDPS.2016.68},
-	abstract = {OpenMP plays a growing role as a portable programming model to harness on-node parallelism, yet, existing data race checkers for OpenMP have high overheads and generate many false positives. In this paper, we propose the first OpenMP data race checker, ARCHER, that achieves high accuracy, low overheads on large applications, and portability. ARCHER incorporates scalable happens-before tracking, exploits structured parallelism via combined static and dynamic analysis, and modularly interfaces with OpenMP runtimes. ARCHER significantly outperforms TSan and Intel® Inspector XE, while providing the same or better precision. It has helped detect critical data races in the Hypre library that is central to many projects at Lawrence Livermore National Laboratory and elsewhere.},
-	booktitle = {2016 {IEEE} {International} {Parallel} and {Distributed} {Processing} {Symposium} ({IPDPS})},
-	author = {Atzeni, S. and Gopalakrishnan, G. and Rakamaric, Z. and Ahn, D. H. and Laguna, I. and Schulz, M. and Lee, G. L. and Protze, J. and Müller, M. S.},
-	month = may,
-	year = {2016},
-	keywords = {application program interfaces, ARCHER, benchmark testing, data race checker, data race detection, dynamic analysis, high performance computing, HPC, Instruments, OpenMP, OpenMP application, parallel processing, program diagnostics, runtime, Scalability, static analysis, structured parallelism, Synchronization, Xenon},
-	pages = {53--62},
-	file = {IEEE Xplore Abstract Record:/Users/simone/Library/Application Support/Zotero/Profiles/7pus3gjx.default/zotero/storage/UUHTPDRC/7516001.html:text/html;IEEE Xplore Full Text PDF:/Users/simone/Library/Application Support/Zotero/Profiles/7pus3gjx.default/zotero/storage/F6DXREW3/Atzeni et al. - 2016 - ARCHER Effectively Spotting Data Races in Large O.pdf:application/pdf}
-}
-
-@inproceedings{protze_towards_2014,
-	address = {Piscataway, NJ, USA},
-	series = {{LLVM}-{HPC} '14},
-	title = {Towards {Providing} {Low}-overhead {Data} {Race} {Detection} for {Large} {OpenMP} {Applications}},
-	isbn = {978-1-4799-7023-0},
-	url = {http://dx.doi.org/10.1109/LLVM-HPC.2014.7},
-	doi = {10.1109/LLVM-HPC.2014.7},
-	abstract = {Neither static nor dynamic data race detection methods, by themselves, have proven to be sufficient for large HPC applications, as they often result in high runtime overheads and/or low race-checking accuracy. While combined static and dynamic approaches can fare better, creating such combinations, in practice, requires attention to many details. Specifically, existing state-of-the-art dynamic race detectors are aimed at low-level threading models, and cannot handle high-level models such as OpenMP. Further, they do not provide mechanisms by which static analysis methods can target selected regions of code with sufficient precision. In this paper, we present our solutions to both challenges. Specifically, we identify patterns within OpenMP run-times that tend to mislead existing dynamic race checkers and provide mechanisms that help establish an explicit happens-before relation to prevent such misleading checks. We also implement a fine-grained blacklist mechanism to allow a runtime analyzer to exclude regions of code at line number granularity. We support race checking by adapting ThreadSanitizer, a mature data-race checker developed at Google that is now an integral part of Clang and GCC; and we have implemented our techniques within the state-of-the-art Intel OpenMP Runtime. Our results demonstrate that these techniques can significantly improve runtime analysis accuracy and overhead in the context of data race checking of OpenMP applications.},
-	urldate = {2017-01-10},
-	booktitle = {Proceedings of the 2014 {LLVM} {Compiler} {Infrastructure} in {HPC}},
-	publisher = {IEEE Press},
-	author = {Protze, Joachim and Atzeni, Simone and Ahn, Dong H. and Schulz, Martin and Gopalakrishnan, Ganesh and Müller, Matthias S. and Laguna, Ignacio and Rakamarić, Zvonimir and Lee, Greg L.},
-	year = {2014},
-	pages = {40--47},
-	file = {ACM Full Text PDF:/Users/simone/Library/Application Support/Zotero/Profiles/7pus3gjx.default/zotero/storage/5QJ99KSG/Protze et al. - 2014 - Towards Providing Low-overhead Data Race Detection.pdf:application/pdf}
-}
+@inproceedings{7069300,
+	Abstract = {Neither static nor dynamic data race detection
+                  methods, by themselves, have proven to be sufficient
+                  for large HPC applications, as they often result in
+                  high runtime overheads and/or low race-checking
+                  accuracy. While combined static and dynamic
+                  approaches can fare better, creating such
+                  combinations, in practice, requires attention to
+                  many details. Specifically, existing
+                  state-of-the-art dynamic race detectors are aimed at
+                  low-level threading models, and cannot handle
+                  high-level models such as OpenMP. Further, they do
+                  not provide mechanisms by which static analysis
+                  methods can target selected regions of code with
+                  sufficient precision. In this paper, we present our
+                  solutions to both challenges. Specifically, we
+                  identify patterns within OpenMP runtimes that tend
+                  to mislead existing dynamic race checkers and
+                  provide mechanisms that help establish an explicit
+                  happens-before relation to prevent such misleading
+                  checks. We also implement a fine-grained blacklist
+                  mechanism to allow a runtime analyzer to exclude
+                  regions of code at line number granularity. We
+                  support race checking by adapting ThreadSanitizer, a
+                  mature data-race checker developed at Google that is
+                  now an integral part of Clang and GCC; and we have
+                  implemented our techniques within the
+                  state-of-the-art Intel OpenMP Runtime. Our results
+                  demonstrate that these techniques can significantly
+                  improve runtime analysis accuracy and overhead in
+                  the context of data race checking of OpenMP
+                  applications.},
+	Author = {J. Protze and S. Atzeni and D. H. Ahn and M. Schulz
+                  and G. Gopalakrishnan and M. S. M{\"u}ller and
+                  I. Laguna and Z. Rakamaric and G. L. Lee},
+	Booktitle = {2014 LLVM Compiler Infrastructure in HPC},
+	Doi = {10.1109/LLVM-HPC.2014.7},
+	Keywords = {application program interfaces;message
+                  passing;program diagnostics;HPC
+                  application;OpenMP;ThreadSanitizer;data-race
+                  checker;dynamic data race detection;fine-grained
+                  blacklist mechanism;low-overhead data race
+                  detection;runtime analysis accuracy;static
+                  analysis;static data race
+                  detection;Accuracy;Instruction
+                  sets;Instruments;Message
+                  systems;Programming;Runtime;Synchronization},
+	Month = {Nov},
+	Pages = {40-47},
+	Title = {Towards Providing Low-Overhead Data Race Detection
+                  for Large OpenMP Applications},
+	Year = {2014},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1109/LLVM-HPC.2014.7}}

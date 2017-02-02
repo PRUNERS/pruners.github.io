@@ -1,0 +1,44 @@
+{{ partial "header.html" . }}
+
+
+<div class="container smooth-container">
+	<h1>{{ .Title }}</h1>
+
+	{{ $currentPage := . }} {{ range .Site.Params.Contacts.Organization }}
+	<h2>{{ .name }}</h2>
+	<div class="row" style="padding-bottom: 50px;">
+	{{ $currentContacts := . }} {{ range .contact }}
+	<div class="col-sm-4 smooth-contact-row" >
+    	<div class="pull-left">
+	    	<div class="pull-left">
+	    	{{ if eq .middle_name "" }}
+	    	{{ .first_name }} {{ .last_name }}
+	    	{{ else }}
+	    	{{ .first_name }} {{ .middle_name }} {{ .last_name }}
+	    	{{ end }}
+	    	</div>
+	    	<div style="text-align: right;">
+	    		{{ if ne .email "" }}
+	    			<a title="EMail" data-toggle="tooltip" data-placement="top" href="mailto:{{ .email }}?Subject=[PRUNERS]%20"><i class="fa fa-envelope smooth-contact-tooltip" aria-hidden="true"></i></a>
+	    		{{ end }}
+	    		{{ if ne .website "" }}
+	    			<a title="WebSite" data-toggle="tooltip" data-placement="top" href="{{ .website }}"><i class="fa fa-globe smooth-contact-tooltip" aria-hidden="true"></i></a>
+	    		{{ end }}
+	    		{{ if ne .github "" }}
+	    			<a title="GitHub" data-toggle="tooltip" data-placement="top" href="https://github.com/{{ .github }}"><i class="fa fa-github smooth-contact-tooltip" aria-hidden="true"></i></a>
+	    		{{ end }}
+	      	</div>
+	      	<img src="../img/contacts/{{ .picture }}" alt="{{ .first_name }} {{ .last_name }}" width="300">
+	      	<hr>
+      	</div>
+    </div>
+	{{ end }}
+	</div>
+	{{ end }}
+
+	<div style="font-size: 14px;"><p>
+	{{ .Content }}
+	</p></div>
+</div>
+
+{{ partial "footer.html" . }}
