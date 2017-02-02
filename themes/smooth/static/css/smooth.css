@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/css?family=Quattrocento+Sans);
+
 body {
 	position: relative;
 	background-color: #2F4F4F;
@@ -5,7 +7,7 @@ body {
 	color: #FFFFFF;
 	font-weight: 300;
 	font-size: 20px;
-	font-family: Corbel;
+	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: justify;
 	text-justify: inter-word;
 }
@@ -105,7 +107,7 @@ body {
 	font-weight: 300;
 	font-style: italic;
 	font-size: 21px;
-	font-family: Corbel;
+	font-family: 'Quattrocento Sans', sans-serif;
 	color: #FFFFFF;
 }
 
@@ -118,7 +120,7 @@ body {
 	font-weight: 300;
 	font-style: italic;
 	font-size: 14px;
-	font-family: Corbel;
+	font-family: 'Quattrocento Sans', sans-serif;
 	color: #686868;
 }
 
@@ -142,18 +144,18 @@ body {
 	
 }
 
-a.smooth-pub:link {
+a.smooth-link:link {
     color: #C0C0C0;
 }
 
-a.smooth-pub:visited {
+a.smooth-link:visited {
     color: #808080;
 }
 
-a.smooth-pub:hover {
+a.smooth-link:hover {
     color: #FA8072;
 }
 
-a.smooth-pub:active {
+a.smooth-link:active {
     color: #FA8072;
 }

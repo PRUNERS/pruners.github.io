@@ -12,7 +12,7 @@
 			{{ if eq $key $bib }}
 				<ol>
 				{{ range $item.references }}
-				<li><p><a class="smooth-pub" title="{{ .title }}" href='{{ if ne .DOI "" }} https://doi.org/{{ .DOI }} {{ end }}' target="_blank"><u>{{ .title }}</u></a>.
+				<li><p><a class="smooth-link" title="{{ .title }}" href='{{ if ne .DOI "" }} https://doi.org/{{ .DOI }} {{ end }}' target="_blank"><u>{{ .title }}</u></a>.
 				{{ $len := (len .author) }}
 				{{ range $index, $item2 := .author }}
 				{{ if ne (sub $len 1) $index }}
