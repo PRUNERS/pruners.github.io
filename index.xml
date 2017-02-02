@@ -15,7 +15,13 @@
       <pubDate>Mon, 30 Jan 2017 15:18:39 -0700</pubDate>
       
       <guid>https://pruners.github.io/home/</guid>
-      <description>&lt;p&gt;Reproducibility is highly desirable for parallel applications, but as they are run on increasingly large and heterogeneous platforms, reproducibility of numerical results or code behaviors is becoming less and less obtainable. The same code can produce different results or occasional failures such as a crash on different systems or even across different runs on the same hardware. PRUNERS is a research and development project that aims at innovating scalable techniques to aid applications to obtain the reproducibility. Specifically, our strategy is to accomplish this by developing a multilevel analysis and control toolset called the PRUNERS toolset, which combines static and dynamic analysis techniques to detect, control and eliminate targeted sources of non-determinism, as introduced through parallel programming libraries and APIs.￼&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;
+
+&lt;p&gt;Reproducibility is highly desirable for parallel applications, but as they are run on increasingly large and heterogeneous platforms, reproducibility of numerical results or code behaviors is becoming less and less obtainable. The same code can produce different results or occasional failures such as a crash on different systems or even across different runs on the same hardware. PRUNERS is a research and development project that aims at innovating scalable techniques to aid applications to obtain the reproducibility. Specifically, our strategy is to accomplish this by developing a multilevel analysis and control toolset called the PRUNERS toolset, which combines static and dynamic analysis techniques to detect, control and eliminate targeted sources of non-determinism, as introduced through parallel programming libraries and APIs.￼&lt;/p&gt;
+
+&lt;p&gt;&lt;h1 id=&#34;news&#34;&gt;Latest News&lt;/h2&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -30,12 +36,24 @@
     </item>
     
     <item>
-      <title>Contact Us</title>
-      <link>https://pruners.github.io/contact/</link>
+      <title>Contacts</title>
+      <link>https://pruners.github.io/contacts/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:55 -0700</pubDate>
       
-      <guid>https://pruners.github.io/contact/</guid>
-      <description></description>
+      <guid>https://pruners.github.io/contacts/</guid>
+      <description>&lt;ul&gt;
+    &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS&#34;&gt;GitHub &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;Slack Channel&#34; href=&#34;https://pruners.slack.com&#34;&gt;Slack Channel &lt;i class=&#34;fa fa-slack&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;ul style=&#34;list-style-type:circle&#34;&gt; 
+            &lt;li&gt; For an invitation please write an email to &lt;a class=&#34;smooth-link&#34; href=&#34;mailto:simone@cs.utah.edu?Subject=[archer-slack] Slack Invitation&#34; target=&#34;_top&#34;&gt;Simone Atzeni&lt;/a&gt; with a reason why you want to be part of the PRUNERS Slack Team. &lt;/li&gt; 
+        &lt;/ul&gt;&lt;br&gt;
+    &lt;li&gt;Email Contacts&lt;/li&gt;     
+    &lt;ul style=&#34;list-style-type:circle&#34;&gt;
+    &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;WebMaster&#34; href=&#34;mailto:simone@cs.utah.edu?Subject=[PRUNERS]%20&#34; target=&#34;_top&#34;&gt;Simone Atzeni &lt;i class=&#34;fa fa-envelope&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
