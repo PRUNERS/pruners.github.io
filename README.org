@@ -21,7 +21,9 @@ Only prerequisite is the HUGO engine.
 
 ** Install on Mac OS
 
-brew update && brew install hugo
+   #+BEGIN_SRC bash :exports code
+   brew update && brew install hugo
+   #+END_SRC
 
 For details go [http://gohugo.io/#action][here]].
 

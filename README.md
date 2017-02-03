@@ -2,19 +2,19 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org78b6248">1. Description</a></li>
-<li><a href="#org69554a0">2. Prerequisites</a>
+<li><a href="#orgc1505fa">1. Description</a></li>
+<li><a href="#org4aaf1c1">2. Prerequisites</a>
 <ul>
-<li><a href="#org30f767e">2.1. Install on Mac OS</a></li>
+<li><a href="#org0ba7490">2.1. Install on Mac OS</a></li>
 </ul>
 </li>
-<li><a href="#org5b5f53f">3. How to generate the site</a></li>
+<li><a href="#org1cfa3fd">3. How to generate the site</a></li>
 </ul>
 </div>
 </div>
 
 
-<a id="org78b6248"></a>
+<a id="orgc1505fa"></a>
 
 # Description
 
@@ -24,23 +24,23 @@ It is a static website, all you need to do is fill up a Markdown page
 and re-generate the site.
 
 
-<a id="org69554a0"></a>
+<a id="org4aaf1c1"></a>
 
 # Prerequisites
 
 Only prerequisite is the HUGO engine.
 
 
-<a id="org30f767e"></a>
+<a id="org0ba7490"></a>
 
 ## Install on Mac OS
 
-brew update && brew install hugo
+    brew update && brew install hugo
 
 For details go [<http://gohugo.io/#action][here>]].
 
 
-<a id="org5b5f53f"></a>
+<a id="org1cfa3fd"></a>
 
 # How to generate the site
 
