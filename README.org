@@ -29,7 +29,7 @@ For details go [http://gohugo.io/#action][here]].
 
 - Once you clone the repository, you need to checkout the branch
   /gh-pages/.
-- Modify your Markdown page.
+- Modify your Markdown pages.
 - From the root folder of the web site run:
 
   #+BEGIN_SRC bash :exports code
