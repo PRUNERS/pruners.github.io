@@ -142,7 +142,7 @@ body {
 	margin-right: 10px;
 }
 
-.smooth-contact-row{
+.smooth-contact-row {
 	padding-top: 30px;
 }
 
@@ -189,7 +189,7 @@ a.smooth-link:active {
 	font-style: italic;
 	font-size: 16px;
 	font-family: Calibri;
- 	color: black;
+	color: black;
 }
 
 .smooth-modal-link {
@@ -197,9 +197,28 @@ a.smooth-link:active {
 }
 
 .smooth-modal {
-	top: 50px; 
+	
 }
 
 .smooth-modal-header {
 	padding: 10px 15px 10px 15px
+}
+
+.modal {
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	.modal:before {
+		display: inline-block;
+		vertical-align: middle;
+		content: " ";
+		height: 100%;
+	}
+}
+
+.modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
 }

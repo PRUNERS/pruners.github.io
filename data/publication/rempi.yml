@@ -20,7 +20,7 @@ references:
   containertitle: Proceedings of the International Conference for High Performance
     Computing, Networking, Storage and Analysis
   collectiontitle: SC ’15
-  place: Austin, TX, USA
+  location: Austin, TX, USA
   publisher: ACM
   publisherplace: New York, NY, USA
   page: 62:1-62:12
@@ -42,24 +42,27 @@ references:
   DOI: 10.1145/2807591.2807642
   ISBN: '978-1-4503-3723-6'
   PDF: '28075912807642.pdf'
-  citation: '@inproceedings{Sato:2015:CDC:2807591.2807642,
-  Acmid = {2807642},
-  Address = {New York, NY, USA},
-  Articleno = {62},
-  Author = {Sato, Kento and Ahn, Dong H. and Laguna, Ignacio and
-                  Lee, Gregory L. and Schulz, Martin},
-  Booktitle = {{P}roceedings of the {I}nternational {C}onference for
-                  {H}igh {P}erformance {C}omputing, {N}etworking, {S}torage and
-                  {A}nalysis},
-  Doi = {10.1145/2807591.2807642},
-  Isbn = {978-1-4503-3723-6},
-  Keywords = {compression, debugging tools, non-determinism},
-  Location = {Austin, Texas},
-  Numpages = {12},
-  Pages = {62:1--62:12},
-  Publisher = {ACM},
-  Title = {{C}lock {D}elta {C}ompression for {S}calable {O}rder-replay of
-                  {N}on-deterministic {P}arallel {A}pplications},
-  Url = {http://doi.acm.org/10.1145/2807591.2807642},
-  Year = {2015}'
+  citation: |
+   @inproceedings{Sato:2015:CDC:2807591.2807642,
+                  Acmid = {2807642},
+                  Address = {New York, NY, USA},
+                  Articleno = {62},
+                  Author = {Sato, Kento and Ahn, Dong H. and
+                            Laguna, Ignacio and Lee, Gregory L.
+                            and Schulz, Martin},
+                  Booktitle = {{P}roceedings of the {I}nternational
+                               {C}onference for {H}igh {P}erformance
+                               {C}omputing, {N}etworking, {S}torage and
+                               {A}nalysis},
+                  Doi = {10.1145/2807591.2807642},
+                  Isbn = {978-1-4503-3723-6},
+                  Location = {Austin, Texas},
+                  Numpages = {12},
+                  Pages = {62:1--62:12},
+                  Publisher = {ACM},
+                  Title = {{C}lock {D}elta {C}ompression for {S}calable 
+                           {O}rder-replay of {N}on-deterministic
+                           {P}arallel {A}pplications},
+                  Url = {http://doi.acm.org/10.1145/2807591.2807642},
+                  Year = {2015},}
 ...

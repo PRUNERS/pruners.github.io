@@ -13,6 +13,7 @@ theme 			= "smooth"
 	logo 		= "img/pruners_logo_orange.png"
     custom_css 	= ["css/smooth.css"]
     custom_js 	= ["js/smooth.js"]
+    files 		= "pdf/"
     google_analytics = "UA-67339505-1"
 
     [params.references]
