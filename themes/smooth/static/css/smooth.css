@@ -66,7 +66,7 @@ body {
 	width: auto;
 	border-style: none;
 	vertical-align: top;
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 	box-sizing: border-box;
 }
@@ -84,7 +84,6 @@ body {
 
 .smooth-logo a {
 	display: block;
-	max-width: 100%;
 }
 
 .container-header {
@@ -183,4 +182,24 @@ a.smooth-link:hover {
 
 a.smooth-link:active {
 	color: #FA8072;
+}
+
+.smooth-modal-font {
+	font-weight: 300;
+	font-style: italic;
+	font-size: 16px;
+	font-family: Calibri;
+ 	color: black;
+}
+
+.smooth-modal-link {
+	color: #000000;
+}
+
+.smooth-modal {
+	top: 50px; 
+}
+
+.smooth-modal-header {
+	padding: 10px 15px 10px 15px
 }

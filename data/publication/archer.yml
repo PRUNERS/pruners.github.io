@@ -125,7 +125,7 @@ references:
   URL: http://ieeexplore.ieee.org/document/7069300/
   PDF: '7069300.pdf'
   citation: '@inproceedings{7069300,
-	Author = {J. Protze and S. Atzeni and D. H. Ahn and M. Schulz
+  Author = {J. Protze and S. Atzeni and D. H. Ahn and M. Schulz
                   and G. Gopalakrishnan and M. S. M{\"u}ller and
                   I. Laguna and Z. Rakamaric and G. L. Lee},
 	Booktitle = {2014 {LLVM} {C}ompiler {I}nfrastructure in {HPC}ß},

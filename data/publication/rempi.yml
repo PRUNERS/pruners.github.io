@@ -1,6 +1,6 @@
 ---
 references:
-- id: Sato:2015:CDC:2807591.2807642
+- id: 28075912807642
   type: paper-conference
   author:
   - family: Sato
@@ -36,12 +36,12 @@ references:
     reduces the record data size. For example, when we apply CDC to Monte Carlo particle
     transport Benchmark (MCB), which represents common non-deterministic communication
     patterns, CDC reduces the record size by approximately two orders of magnitude
-    compared to traditional techniques and incurs between 13.1 25.5
+    compared to traditional techniques and incurs between 13.1% and 25.5% of runtime overhead.
   keyword: compression, debugging tools, non-determinism
   URL: http://doi.acm.org/10.1145/2807591.2807642
   DOI: 10.1145/2807591.2807642
   ISBN: '978-1-4503-3723-6'
-  PDF: 'Sato:2015:CDC:2807591.2807642.pdf'
+  PDF: '28075912807642.pdf'
   citation: '@inproceedings{Sato:2015:CDC:2807591.2807642,
   Acmid = {2807642},
   Address = {New York, NY, USA},
