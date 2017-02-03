@@ -54,14 +54,14 @@
 	           		{{ end }}
 					{{ $currentPage := . }} {{ range .Site.Menus.main }}{{ if .HasChildren }}
 					{{ if eq $currentPage.Params.parent .Identifier }}
-						<li class="dropdown active" ><a>{{ .Name }}<span class="caret"></span></a>
+						<li class="dropdown active" ><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
 					{{ else }}
-						<li class="dropdown" ><a>{{ .Name }}<span class="caret"></span></a>
+						<li class="dropdown" ><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
 					{{ end }}
 	           			<ul class="dropdown-menu dropdown-content" style="padding: 0 0 0 0;">
 							{{ $len := (len .Children) }}
 	        	   			{{ range $index, $item := .Children }}
-	               			<li><a href="{{.URL}}">{{ $item.Name }}</a></li>
+	               			<li><a href="{{.URL}}">{{ $item.Name | safeHTML }}</a></li>
 	               			{{ if ne ( sub $len 1) $index }}
 	               			<li role="presentation" class="divider" style="margin: 0 0 0 0;"></li>
 	               			{{ end }}

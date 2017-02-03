@@ -2,10 +2,10 @@
 
 
 <div class="container smooth-container">
-	<h1>{{ .Title }}</h1>
+	<h1>{{ .Title | safeHTML }}</h1>
 
 	{{ $currentPage := . }} {{ range .Site.Params.Contacts.Organization }}
-	<h2>{{ .name }}</h2>
+	<h2>{{ .name | safeHTML }}</h2>
 	<div class="row" style="padding-bottom: 50px;">
 	{{ $currentContacts := . }} {{ range .contact }}
 	<div class="col-sm-4 smooth-contact-row" >
@@ -37,7 +37,7 @@
 	{{ end }}
 
 	<div style="font-size: 14px;"><p>
-	{{ .Content }}
+	{{ .Content | safeHTML }}
 	</p></div>
 </div>
 

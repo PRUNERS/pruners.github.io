@@ -7,7 +7,7 @@
 
 	{{ range .Site.Params.References }}
 		{{ $bib := .bib }}
-		<h3 id="{{ $bib }}">{{ .title }}</h3>
+		<h3 id="{{ $bib }}">{{ .title | safeHTML }}</h3>
 		{{ range $key, $item := $.Site.Data.publication }}
 			{{ if eq $key $bib }}
 				<ol>
@@ -71,7 +71,7 @@
 
 	<br>
 	<div style="font-size: 14px;"><p>
-	{{ .Content }}
+	{{ .Content | safeHTML }}
 	</p></div>
 </div>
 

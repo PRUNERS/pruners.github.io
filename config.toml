@@ -19,7 +19,7 @@ theme 			= "smooth"
     [params.references]
   		[params.references.archer]
     		"bib"  	= "archer"
-    		"title" = "ARCHER"
+    		"title" = "<span style=\"font-variant: small-caps;\">Archer</span>"
 #  		[params.references.flit]
 #    		"bib"  	= "flit"
 #    		"title" = "FLiT"
@@ -167,7 +167,7 @@ theme 			= "smooth"
     identifier 	= "toolset"
     weight 		= -100
 [[menu.main]]
-    name 		= "ARCHER"
+    name 		= "<span style=\"font-variant: small-caps;\">Archer</span>"
     identifier 	= "archer"
     parent 		= "toolset"
     url 		= "/archer/"
