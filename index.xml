@@ -116,7 +116,7 @@
     </item>
     
     <item>
-      <title>ARCHER</title>
+      <title>&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt;</title>
       <link>https://pruners.github.io/archer/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:26 -0700</pubDate>
       
@@ -125,15 +125,15 @@
 
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/archer_logo.png&#34; width=&#34;25%&#34; alt=&#34;ARCHER Logo&#34; title=&#34;ARCHER&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/archer_logo.png&#34; width=&#34;25%&#34; alt=&#34;Archer Logo&#34; title=&#34;Archer&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;ARCHER&lt;/strong&gt; is a data race detector for OpenMP programs.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Archer&lt;/b&gt;&lt;/span&gt; is a data race detector for OpenMP programs.&lt;/p&gt;
 
-&lt;p&gt;ARCHER combines static and dynamic techniques to identify data races in large OpenMP applications, leading to low runtime and memory overheads, while still offering high accuracy and precision. It builds on open-source tools infrastructure such as LLVM, ThreadSanitizer, and OMPT to provide portability.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; combines static and dynamic techniques to identify data races in large OpenMP applications, leading to low runtime and memory overheads, while still offering high accuracy and precision. It builds on open-source tools infrastructure such as LLVM, ThreadSanitizer, and OMPT to provide portability.&lt;/p&gt;
 
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
-&lt;p&gt;ARCHER is an open-source tool and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/ARCHER&#34;&gt;GitHub &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; is an open-source tool and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/ARCHER&#34;&gt;GitHub &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
 </description>
     </item>
     
