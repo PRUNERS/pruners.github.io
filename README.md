@@ -2,19 +2,19 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org0c53ad2">1. Description</a></li>
-<li><a href="#orgfdc6146">2. Prerequisites</a>
+<li><a href="#org78b6248">1. Description</a></li>
+<li><a href="#org69554a0">2. Prerequisites</a>
 <ul>
-<li><a href="#orge7adcdc">2.1. Install on Mac OS</a></li>
+<li><a href="#org30f767e">2.1. Install on Mac OS</a></li>
 </ul>
 </li>
-<li><a href="#orga4c0790">3. How to generate the site</a></li>
+<li><a href="#org5b5f53f">3. How to generate the site</a></li>
 </ul>
 </div>
 </div>
 
 
-<a id="org0c53ad2"></a>
+<a id="org78b6248"></a>
 
 # Description
 
@@ -24,14 +24,14 @@ It is a static website, all you need to do is fill up a Markdown page
 and re-generate the site.
 
 
-<a id="orgfdc6146"></a>
+<a id="org69554a0"></a>
 
 # Prerequisites
 
 Only prerequisite is the HUGO engine.
 
 
-<a id="orge7adcdc"></a>
+<a id="org30f767e"></a>
 
 ## Install on Mac OS
 
@@ -40,11 +40,11 @@ brew update && brew install hugo
 For details go [<http://gohugo.io/#action][here>]].
 
 
-<a id="orga4c0790"></a>
+<a id="org5b5f53f"></a>
 
 # How to generate the site
 
--   Once you clone the repository, you need to checkout the branch
+-   Once you cloned the repository, you need to checkout the branch
     *gh-pages*.
 -   Modify your Markdown pages.
 -   From the root folder of the web site run:

@@ -27,7 +27,7 @@ For details go [http://gohugo.io/#action][here]].
 
 * How to generate the site
 
-- Once you clone the repository, you need to checkout the branch
+- Once you cloned the repository, you need to checkout the branch
   /gh-pages/.
 - Modify your Markdown pages.
 - From the root folder of the web site run:
