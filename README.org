@@ -1,0 +1,50 @@
+#+DESCRIPTION: PRUNERS Website
+#+LANGUAGE: en
+#+OPTIONS: H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS: skip:nil d:nil todo:t pri:nil tags:not-in-toc
+
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:
+#+LINK_HOME:
+#+XSLT:
+
+* Description
+The PRUNERS Website is developed using [[http://gohugo.io][HUGO]], [[http://getbootstrap.com][Bootstrap 3]] and HTML5.
+
+It is a static website, all you need to do is fill up a Markdown page
+and re-generate the site.
+
+* Prerequisites
+
+Only prerequisite is the HUGO engine.
+
+** Install on Mac OS
+
+brew update && brew install hugo
+
+For details go [http://gohugo.io/#action][here]].
+
+* How to generate the site
+
+- Once you clone the repository, you need to checkout the branch
+  /gh-pages/.
+- Modify your Markdown page.
+- From the root folder of the web site run:
+
+  #+BEGIN_SRC bash :exports code
+  hugo --verbose && hugo --verbose serve
+  #+END_SRC
+
+  This will generate the site and run a local server to verify that
+  the new edits are correct.
+- Once the site is ready to be published, from the /gh-pages/ branch,
+  run:
+
+  #+BEGIN_SRC bash :exports code
+  ./scripts/publish_tomaster.sh
+  #+END_SRC
+
+  This command will commit and push the modification on the /master/
+  branch which is the branch that GitHub uses to publish the content
+  of the website.
