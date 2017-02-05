@@ -54,9 +54,9 @@
 	           		{{ end }}
 					{{ $currentPage := . }} {{ range .Site.Menus.main }}{{ if .HasChildren }}
 					{{ if eq $currentPage.Params.parent .Identifier }}
-						<li class="dropdown active" ><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
+						<li class="dropdown active" ole="button" aria-haspopup="true" aria-expanded="false"><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
 					{{ else }}
-						<li class="dropdown" ><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
+						<li class="dropdown" ole="button" aria-haspopup="true" aria-expanded="false"><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
 					{{ end }}
 	           			<ul class="dropdown-menu dropdown-content" style="padding: 0 0 0 0;">
 							{{ $len := (len .Children) }}
