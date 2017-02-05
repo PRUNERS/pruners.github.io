@@ -158,7 +158,12 @@ body {
 	background-color: #D3D3D3;
 }
 
-.dropdown:hover .dropdown:focus .dropdown-content {
+/* .dropdown:focus .dropdown:active */ 
+.smooth-mobile:hover .smooth-mobile:flocus {
+	display: block;
+}
+
+.dropdown:hover .dropdown-content {
 	display: block;
 }
 
