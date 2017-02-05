@@ -276,7 +276,7 @@
         						<button type="button" class="close pull-right" data-dismiss="modal">&times;</button>
         						<h4 class="modal-title"><b>Abstract</b></h4>
       						</div>
-      						<div class="modal-body smooth-citation-modal">
+      						<div class="modal-body smooth-abstract-modal">
         						<p>OpenMP plays a growing role as a portable programming model to harness on-node parallelism, yet, existing data race checkers for OpenMP have high overheads and generate many false positives. In this paper, we propose the first OpenMP data race checker, ARCHER, that achieves high accuracy, low overheads on large applications, and portability. ARCHER incorporates scalable happens-before tracking, exploits structured parallelism via combined static and dynamic analysis, and modularly interfaces with OpenMP runtimes. ARCHER significantly outperforms TSan and Intel Inspector XE, while providing the same or better precision. It has helped detect critical data races in the Hypre library that is central to many projects at Lawrence Livermore National Laboratory and elsewhere.</p>
       						</div>
       						<div class="modal-footer"></div>
@@ -372,7 +372,7 @@
         						<button type="button" class="close pull-right" data-dismiss="modal">&times;</button>
         						<h4 class="modal-title"><b>Abstract</b></h4>
       						</div>
-      						<div class="modal-body smooth-citation-modal">
+      						<div class="modal-body smooth-abstract-modal">
         						<p>Neither static nor dynamic data race detection methods, by themselves, have proven to be sufficient for large HPC applications, as they often result in high runtime overheads and/or low race-checking accuracy. While combined static and dynamic approaches can fare better, creating such combinations, in practice, requires attention to many details. Specifically, existing state-of-the-art dynamic race detectors are aimed at low-level threading models, and cannot handle high-level models such as OpenMP. Further, they do not provide mechanisms by which static analysis methods can target selected regions of code with sufficient precision. In this paper, we present our solutions to both challenges. Specifically, we identify patterns within OpenMP runtimes that tend to mislead existing dynamic race checkers and provide mechanisms that help establish an explicit happens-before relation to prevent such misleading checks. We also implement a fine-grained blacklist mechanism to allow a runtime analyzer to exclude regions of code at line number granularity. We support race checking by adapting ThreadSanitizer, a mature data-race checker developed at Google that is now an integral part of Clang and GCC; and we have implemented our techniques within the state-of-the-art Intel OpenMP Runtime. Our results demonstrate that these techniques can significantly improve runtime analysis accuracy and overhead in the context of data race checking of OpenMP applications.</p>
       						</div>
       						<div class="modal-footer"></div>
@@ -474,7 +474,7 @@
         						<button type="button" class="close pull-right" data-dismiss="modal">&times;</button>
         						<h4 class="modal-title"><b>Abstract</b></h4>
       						</div>
-      						<div class="modal-body smooth-citation-modal">
+      						<div class="modal-body smooth-abstract-modal">
         						<p>The ability to record and replay program execution helps significantly in debugging non-deterministic MPI applications by reproducing message-receive orders. However, the large amount of data that traditional record-and-reply techniques record precludes its practical applicability to massively parallel applications. In this paper, we propose a new compression algorithm, Clock Delta Compression (CDC), for scalable record and replay of non-deterministic MPI applications. CDC defines a reference order of message receives based on a totally ordered relation using Lamport clocks, and only records the differences between this reference logical-clock order and an observed order. Our evaluation shows that CDC significantly reduces the record data size. For example, when we apply CDC to Monte Carlo particle transport Benchmark (MCB), which represents common non-deterministic communication patterns, CDC reduces the record size by approximately two orders of magnitude compared to traditional techniques and incurs between 13.1% and 25.5% of runtime overhead.</p>
       						</div>
       						<div class="modal-footer"></div>
