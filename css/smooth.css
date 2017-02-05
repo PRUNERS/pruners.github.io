@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+
 html {
 	/* height:100%; */
 	background-color: darkslategray;
@@ -20,7 +22,7 @@ body {
 	/* color: black; */
 	font-weight: 300;
 	font-size: 20px;
-	font-family: Calibri;
+	font-family: 'Quattrocento Sans', sans-serif;
 	text-align: justify;
 	text-justify: inter-word;
 }
@@ -118,8 +120,8 @@ body {
 .smooth-header-tagline {
 	font-weight: 300;
 	font-style: italic;
-	font-size: 21px;
-	font-family: Calibri;
+	font-size: 20px;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .smooth-footer {
@@ -131,7 +133,7 @@ body {
 	font-weight: 300;
 	font-style: italic;
 	font-size: 14px;
-	font-family: Calibri;
+	font-family: 'Quattrocento Sans', sans-serif;
 	color: #686868;
 }
 
@@ -189,7 +191,7 @@ a.smooth-link:active {
 	font-weight: 300;
 	font-style: italic;
 	font-size: 16px;
-	font-family: Calibri;
+	font-family: 'Quattrocento Sans', sans-serif;
 	color: black;
 }
 
