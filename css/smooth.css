@@ -159,10 +159,6 @@ body {
 }
 
 /* .dropdown:focus .dropdown:active */ 
-.smooth-mobile:hover .smooth-mobile:flocus {
-	display: block;
-}
-
 .dropdown:hover .dropdown-content {
 	display: block;
 }
