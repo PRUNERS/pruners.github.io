@@ -40,7 +40,7 @@ references:
   URL: http://doi.acm.org/10.1145/3018743.3018767
   DOI: 10.1145/3018743.3018767
   ISBN: '978-1-4503-4493-7'
-  location: Austin, TX, USA,
+  location: Austin, TX, USA
   PDF: '30187433018767.pdf'
   citation: |
    @inproceedings{30187433018767,
