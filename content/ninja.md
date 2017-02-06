@@ -16,4 +16,4 @@ traditional testing approach (i.e., random noise injection).
 
 ## Software
 
-<span style="font-variant: small-caps;">Ninja</span> is open-source software and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/NINJA">GitHub <i class="fa fa-github"></i>.
+<span style="font-variant: small-caps;">Ninja</span> is open-source software and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/NINJA"><u>GitHub</u> <i class="fa fa-github"></i>.

@@ -14,4 +14,4 @@ parent = "toolset"
 
 ## Software
 
-<span style="font-variant: small-caps;">Archer</span> is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/archer">GitHub <i class="fa fa-github"></i>.
+<span style="font-variant: small-caps;">Archer</span> is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/archer"><u>GitHub</u> <i class="fa fa-github"></i>.
