@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://pruners.github.io/home/</loc>
+    <lastmod>2017-01-30T15:18:39-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pruners.github.io/publications/</loc>
+    <lastmod>2017-01-27T22:19:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pruners.github.io/contacts/</loc>
+    <lastmod>2017-01-27T22:16:55-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pruners.github.io/members/</loc>
+    <lastmod>2017-01-27T22:16:50-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pruners.github.io/team/</loc>
+    <lastmod>2017-01-27T22:16:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pruners.github.io/rempi/</loc>
+    <lastmod>2017-01-27T22:16:40-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pruners.github.io/flit/</loc>
+    <lastmod>2017-01-27T22:16:37-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pruners.github.io/ninja/</loc>
+    <lastmod>2017-01-27T22:16:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pruners.github.io/archer/</loc>
+    <lastmod>2017-01-27T22:16:26-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pruners.github.io/</loc>
+    <lastmod>2017-01-30T15:18:39-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
