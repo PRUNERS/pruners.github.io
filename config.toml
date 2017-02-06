@@ -179,7 +179,7 @@ theme 			= "smooth"
     url 		= "/flit/"
     weight 		= -90
 [[menu.main]]
-    name 		= ""<span style=\"font-variant: small-caps;\">Ninja</span>"
+    name 		= "<span style=\"font-variant: small-caps;\">Ninja</span>"
     identifier 	= "ninja"
     parent 		= "toolset"
     url 		= "/ninja/"
