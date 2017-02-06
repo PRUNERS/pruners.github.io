@@ -25,7 +25,7 @@ Only prerequisite is the HUGO engine.
    brew update && brew install hugo
    #+END_SRC
 
-For details go [http://gohugo.io/#action][here]].
+For details go [[http://gohugo.io/#action][here]].
 
 * How to generate the site
 

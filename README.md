@@ -37,7 +37,7 @@ Only prerequisite is the HUGO engine.
 
     brew update && brew install hugo
 
-For details go [<http://gohugo.io/#action][here>]].
+For details go [here](http://gohugo.io/#action).
 
 
 <a id="org1cfa3fd"></a>
