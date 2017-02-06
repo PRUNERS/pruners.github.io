@@ -23,8 +23,8 @@
 
 &lt;p&gt;&lt;h1 id=&#34;news&#34;&gt;Latest News&lt;/h2&gt;
 &lt;ul&gt;
-    &lt;li&gt;&lt;p&gt;&amp;ldquo;Pruning&amp;rdquo; Sources of Nondeterminism in Large-Scale Applications, News Highlights in LLNL Computation and Bits and Bytes, June 2015. &lt;a class=&#34;smooth-link&#34; href=&#34;http://computation.llnl.gov/newsroom/pruning-sources-nondeterminism-large-scale-applications&#34;&gt;Read more&amp;hellip;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;p&gt;Supercomputing Tools Speed Simulations, Research Highlights in LLNL Science and Technology Review (S&amp;amp;TR), July 2014. &lt;a class=&#34;smooth-link&#34; href=&#34;https://str.llnl.gov/july-2014/ahn&#34;&gt;Read more&amp;hellip;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;p&gt;&amp;ldquo;Pruning&amp;rdquo; Sources of Nondeterminism in Large-Scale Applications, News Highlights in LLNL Computation and Bits and Bytes, June 2015. &lt;a class=&#34;smooth-link&#34; href=&#34;http://computation.llnl.gov/newsroom/pruning-sources-nondeterminism-large-scale-applications&#34;&gt;&lt;u&gt;Read more&amp;hellip;&lt;/u&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;p&gt;Supercomputing Tools Speed Simulations, Research Highlights in LLNL Science and Technology Review (S&amp;amp;TR), July 2014. &lt;a class=&#34;smooth-link&#34; href=&#34;https://str.llnl.gov/july-2014/ahn&#34;&gt;&lt;u&gt;Read more&amp;hellip;&lt;/u&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 </description>
     </item>
@@ -46,14 +46,14 @@
       
       <guid>https://pruners.github.io/contacts/</guid>
       <description>&lt;ul&gt;
-    &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS&#34;&gt;GitHub &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;Slack Channel&#34; href=&#34;https://pruners.slack.com&#34;&gt;Slack Channel &lt;i class=&#34;fa fa-slack&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;Slack Channel&#34; href=&#34;https://pruners.slack.com&#34;&gt;&lt;u&gt;Slack Channel&lt;/u&gt; &lt;i class=&#34;fa fa-slack&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
         &lt;ul style=&#34;list-style-type:circle&#34;&gt; 
-            &lt;li&gt; For an invitation please write an email to &lt;a class=&#34;smooth-link&#34; href=&#34;mailto:simone@cs.utah.edu?Subject=[archer-slack] Slack Invitation&#34; target=&#34;_top&#34;&gt;Simone Atzeni&lt;/a&gt; with a reason why you want to be part of the PRUNERS Slack Team. &lt;/li&gt; 
+            &lt;li&gt; For an invitation please write an email to &lt;a class=&#34;smooth-link&#34; href=&#34;mailto:simone@cs.utah.edu?Subject=[archer-slack] Slack Invitation&#34; target=&#34;_top&#34;&gt;&lt;u&gt;Simone Atzeni&lt;/u&gt;&lt;/a&gt; with a reason why you want to be part of the PRUNERS Slack Team. &lt;/li&gt; 
         &lt;/ul&gt;&lt;br&gt;
     &lt;li&gt;Email Contacts&lt;/li&gt;     
     &lt;ul style=&#34;list-style-type:circle&#34;&gt;
-    &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;WebMaster&#34; href=&#34;mailto:simone@cs.utah.edu?Subject=[PRUNERS]%20&#34; target=&#34;_top&#34;&gt;Simone Atzeni &lt;i class=&#34;fa fa-envelope&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;WebMaster&#34; href=&#34;mailto:simone@cs.utah.edu?Subject=[PRUNERS]%20&#34; target=&#34;_top&#34;&gt;&lt;u&gt;Simone Atzeni&lt;/u&gt; &lt;i class=&#34;fa fa-envelope&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
@@ -109,7 +109,7 @@ storage.&lt;/p&gt;
 
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
-&lt;p&gt;ReMPI is open-source software and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/ReMPI&#34;&gt;GitHub &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;ReMPI is open-source software and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/ReMPI&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -142,7 +142,7 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
 
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
-&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt; is open-source software and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/NINJA&#34;&gt;GitHub &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt; is open-source software and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/NINJA&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -164,7 +164,7 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
 
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
-&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; is an open-source tool and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/archer&#34;&gt;GitHub &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; is an open-source tool and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/archer&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
 </description>
     </item>
     
