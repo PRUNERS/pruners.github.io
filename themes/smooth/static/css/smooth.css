@@ -171,7 +171,7 @@ body {
 }
 
 a.smooth-link:link {
-	color: #000000;
+	color: #FAF3E0;
 	/* color: #708090; */
 }
 
@@ -208,7 +208,7 @@ a.smooth-link:active {
 }
 
 .smooth-modal-link {
-	color: #000000;
+	color: #FAF3E0;
 }
 
 .smooth-modal {

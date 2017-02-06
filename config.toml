@@ -23,12 +23,12 @@ theme 			= "smooth"
 #  		[params.references.flit]
 #    		"bib"  	= "flit"
 #    		"title" = "FLiT"
+    	[params.references.ninja]
+    		"bib"  	= "ninja"
+    		"title" = "<span style=\"font-variant: small-caps;\">Ninja</span>"
   		[params.references.rempi]
     		"bib"  	= "rempi"
     		"title" = "ReMPI"
-    	        [params.references.ninja]
-    		"bib"  	= "ninja"
-    		"title" = "<span style=\"font-variant: small-caps;\">Ninja</span>"
 
 	[params.contacts]
 		[[params.contacts.organization]]
