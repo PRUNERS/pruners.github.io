@@ -136,7 +136,7 @@ storage.&lt;/p&gt;
 for quickly exposing unindended MPI message races.
 &lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt; uses innovative newtork noise injection
 techniques to increase the chance for a racy, incorrect MPI message matching within the target
-MPI application. NINJA has been shown to reproduce unsafe message races consistently within
+MPI application. &lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Ninja&lt;/b&gt;&lt;/span&gt; has been shown to reproduce unsafe message races consistently within
 large production applications and can do this up to two orders of magnitude faster than the
 traditional testing approach (i.e., random noise injection).&lt;/p&gt;
 
