@@ -116,8 +116,7 @@ references:
     blacklist mechanism;low-overhead data race detection;runtime analysis accuracy;static
     analysis;static data race detection;Accuracy;Instruction sets;Instruments;Message
     systems;Programming;Runtime;Synchronization
-  DOI: '' # 10.1109/LLVM-HPC.2014.7
-  URL: http://ieeexplore.ieee.org/document/7069300/
+  DOI: 10.1109/LLVM-HPC.2014.7
   PDF: '7069300.pdf'
   citation: |
    @inproceedings{7069300,
