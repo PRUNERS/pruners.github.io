@@ -12,7 +12,7 @@
     	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     	<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     {{ range .Site.Params.custom_js }}
-    	<script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+    	<script async src="{{ $.Site.BaseURL }}{{ . }}"></script>
 	{{ end }}
 	</head>
 
