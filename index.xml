@@ -154,6 +154,8 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
       <guid>https://pruners.github.io/archer/</guid>
       <description>
 
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/archer_logo.png&#34; width=&#34;25%&#34; alt=&#34;Archer Logo&#34; title=&#34;Archer&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;&lt;/p&gt;
@@ -162,9 +164,29 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; combines static and dynamic techniques to identify data races in large OpenMP applications, leading to low runtime and memory overheads, while still offering high accuracy and precision. It builds on open-source tools infrastructure such as LLVM, ThreadSanitizer, and OMPT to provide portability.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
-&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; is an open-source tool and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/archer&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; is an open-source tool and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/archer&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Spack: Recommended for curious users&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Archer maintains an up-to-date package in the Spack develop branch, which builds all dependencies and Archer itself from the current head of the master branch:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ git clone https://github.com/LLNL/spack
+$ spack/bin/spack install archer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you already have Spack, you can omit the first line.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Manual: Recommended for developers and contributors&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Please refer to the instructions in &lt;a class=&#34;smooth-link&#34; title=&#34;README&#34; href=&#34;https://github.com/PRUNERS/archer/blob/master/README.md&#34;&gt;README.md&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
