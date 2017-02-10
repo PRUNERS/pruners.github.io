@@ -7,14 +7,27 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    	<link rel="stylesheet" href="https://pruners.github.io/css/smooth.min.css">
-	
     	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     	<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
     	<script async src="https://pruners.github.io/js/smooth.min.js"></script>
 	
+	<script type="text/javascript">
+    $(document).ready(function(){
+     if($("#container").size()>0){
+            if (document.createStyleSheet){
+            	
+                document.createStyleSheet("https:\/\/pruners.github.io\/css\/smooth.min.css");
+        		
+            }
+            else {
+            	
+                $("head").append($('<link rel="stylesheet" href="https:\/\/pruners.github.io\/css\/smooth.min.css">'));
+        		
+            }
+        }
+    });
+</script>
 	</head>
 
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
