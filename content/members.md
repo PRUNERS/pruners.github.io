@@ -4,6 +4,8 @@ title = "Members"
 parent = "about"
 +++
 
+<h1>Members</h1>
+
 <div style="padding-top: 0px;">
 <p><a href="https://www.cs.utah.edu"><img src="../img/uofu_logo.svg" hspace="15" vspace="5" width="40%" alt="UofU Logo" title="University of Utah" style="display: block; margin: 0 auto;"/></a></p>
 </div>

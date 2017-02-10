@@ -4,6 +4,8 @@ title = "Contacts"
 parent = "about"
 +++
 
+<h1>Contacts</h1>
+
 <ul>
 	<li><a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS"><u>GitHub</u> <i class="fa fa-github"></i></a></li>
 	<li><a class="smooth-link" title="Slack Channel" href="https://pruners.slack.com"><u>Slack Channel</u> <i class="fa fa-slack"></i></a></li>
