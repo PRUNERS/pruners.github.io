@@ -96,6 +96,8 @@
       <guid>https://pruners.github.io/rempi/</guid>
       <description>
 
+&lt;h1&gt;ReMPI&lt;/h1&gt;
+
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/rempi_logo1.png&#34; width=&#34;15%&#34; alt=&#34;ReMPI Logo&#34; title=&#34;ReMPI&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;&lt;/p&gt;
@@ -119,16 +121,19 @@ storage.&lt;/p&gt;
       <pubDate>Fri, 27 Jan 2017 22:16:37 -0700</pubDate>
       
       <guid>https://pruners.github.io/flit/</guid>
-      <description></description>
+      <description>&lt;h1&gt;FLiT&lt;/h1&gt;
+</description>
     </item>
     
     <item>
-      <title>&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt;</title>
+      <title>Ninja</title>
       <link>https://pruners.github.io/ninja/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:29 -0700</pubDate>
       
       <guid>https://pruners.github.io/ninja/</guid>
       <description>
+
+&lt;h1&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt;&lt;/h1&gt;
 
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
@@ -147,7 +152,7 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
     </item>
     
     <item>
-      <title>&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt;</title>
+      <title>Archer</title>
       <link>https://pruners.github.io/archer/</link>
       <pubDate>Fri, 27 Jan 2017 22:16:26 -0700</pubDate>
       
@@ -155,6 +160,8 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
       <description>
 
 &lt;hr /&gt;
+
+&lt;h1&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt;&lt;/h1&gt;
 
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
