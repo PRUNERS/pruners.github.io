@@ -9,11 +9,6 @@
     {{ range .Site.Params.custom_css }}
     	<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
 	{{ end }}
-    	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    	<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    {{ range .Site.Params.custom_js }}
-    	<script async src="{{ $.Site.BaseURL }}{{ . }}"></script>
-	{{ end }}
 	</head>
 
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
