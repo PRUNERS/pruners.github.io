@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>publications</title>
+      <title>Publications</title>
       <link>https://pruners.github.io/publications/</link>
       <pubDate>Fri, 27 Jan 2017 22:19:19 -0700</pubDate>
       
@@ -45,7 +45,9 @@
       <pubDate>Fri, 27 Jan 2017 22:16:55 -0700</pubDate>
       
       <guid>https://pruners.github.io/contacts/</guid>
-      <description>&lt;ul&gt;
+      <description>&lt;h1&gt;Contacts&lt;/h1&gt;
+
+&lt;ul&gt;
     &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a class=&#34;smooth-link&#34; title=&#34;Slack Channel&#34; href=&#34;https://pruners.slack.com&#34;&gt;&lt;u&gt;Slack Channel&lt;/u&gt; &lt;i class=&#34;fa fa-slack&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
         &lt;ul style=&#34;list-style-type:circle&#34;&gt; 
@@ -66,7 +68,9 @@
       <pubDate>Fri, 27 Jan 2017 22:16:50 -0700</pubDate>
       
       <guid>https://pruners.github.io/members/</guid>
-      <description>&lt;div style=&#34;padding-top: 0px;&#34;&gt;
+      <description>&lt;h1&gt;Members&lt;/h1&gt;
+
+&lt;div style=&#34;padding-top: 0px;&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.cs.utah.edu&#34;&gt;&lt;img src=&#34;../img/uofu_logo.svg&#34; hspace=&#34;15&#34; vspace=&#34;5&#34; width=&#34;40%&#34; alt=&#34;UofU Logo&#34; title=&#34;University of Utah&#34; style=&#34;display: block; margin: 0 auto;&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 
@@ -85,7 +89,8 @@
       <pubDate>Fri, 27 Jan 2017 22:16:47 -0700</pubDate>
       
       <guid>https://pruners.github.io/team/</guid>
-      <description></description>
+      <description>&lt;h1&gt;The PRUNERS Team&lt;/h1&gt;
+</description>
     </item>
     
     <item>
