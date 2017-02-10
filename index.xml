@@ -176,7 +176,7 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Spack: Recommended for curious users&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Archer maintains an up-to-date package in the Spack develop branch, which builds all dependencies and Archer itself from the current head of the master branch:&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Archer&lt;/b&gt;&lt;/span&gt; maintains an up-to-date package in the Spack develop branch, which builds all dependencies and &lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Archer&lt;/b&gt;&lt;/span&gt; itself from the current head of the master branch:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ git clone https://github.com/LLNL/spack
 $ spack/bin/spack install archer
@@ -186,7 +186,7 @@ $ spack/bin/spack install archer
 
 &lt;p&gt;&lt;strong&gt;Manual: Recommended for developers and contributors&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Please refer to the instructions in &lt;a class=&#34;smooth-link&#34; title=&#34;README&#34; href=&#34;https://github.com/PRUNERS/archer/blob/master/README.md&#34;&gt;README.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please refer to the instructions in &lt;a class=&#34;smooth-link&#34; title=&#34;README&#34; href=&#34;https://github.com/PRUNERS/archer/blob/master/README.md&#34; target=&#34;_blank&#34;&gt;README.md&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
