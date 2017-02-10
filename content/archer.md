@@ -26,7 +26,7 @@ parent = "toolset"
 
 **Spack: Recommended for curious users**
 
-Archer maintains an up-to-date package in the Spack develop branch, which builds all dependencies and Archer itself from the current head of the master branch:
+<span style="font-variant: small-caps;"><b>Archer</b></span> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <span style="font-variant: small-caps;"><b>Archer</b></span> itself from the current head of the master branch:
 
 ```console
 $ git clone https://github.com/LLNL/spack
@@ -38,6 +38,4 @@ If you already have Spack, you can omit the first line.
 
 **Manual: Recommended for developers and contributors**
 
-Please refer to the instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/archer/blob/master/README.md">README.md</a>. 
-
-
+Please refer to the instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/archer/blob/master/README.md" target="_blank">README.md</a>. 
