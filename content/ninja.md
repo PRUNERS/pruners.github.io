@@ -1,8 +1,10 @@
 +++
 date = "2017-01-27T22:16:29-07:00"
-title = "<span style=\"font-variant: small-caps;\">Ninja</span>"
+title = "Ninja"
 parent = "toolset"
 +++
+
+<h1><span style="font-variant: small-caps;">Ninja</span></h1>
 
 ## Description
 
