@@ -8,7 +8,7 @@ parent = "toolset"
 
 ## Description
 
-<img src="../img/rempi_logo1.png" width="15%" alt="ReMPI Logo" title="ReMPI" align="right" style="margin-left: 20px; margin-right: 20px;"/>
+<img src="../img/rempi_logo1.svg" width="15%" alt="ReMPI Logo" title="ReMPI" align="right" style="margin-left: 20px; margin-right: 20px;"/>
 
 ReMPI is a highly scalable scalable record-and-replay tool for MPI applications.
 ReMPI records the order of MPI message matching in one run and can deterministically

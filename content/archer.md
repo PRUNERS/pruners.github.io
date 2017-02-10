@@ -10,7 +10,7 @@ parent = "toolset"
 
 ## Description
 
-<img src="../img/archer_logo.png" width="25%" alt="Archer Logo" title="Archer" align="right" style="margin-left: 20px; margin-right: 20px;"/>
+<img src="../img/archer_logo.svg" width="25%" alt="Archer Logo" title="Archer" align="right" style="margin-left: 20px; margin-right: 20px;"/>
 
 <span style="font-variant: small-caps;"><b>Archer</b></span> is a data race detector for OpenMP programs.
 

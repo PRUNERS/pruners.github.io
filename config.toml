@@ -10,7 +10,7 @@ theme 			= "smooth"
     about 		= "/:filename/"
 
 [params]
-	logo 		= "img/pruners_logo_orange.png"
+	logo 		= "img/pruners_logo_orange.svg"
     custom_css 	= ["css/smooth.css"]
     custom_js 	= ["js/smooth.js"]
     files 		= "pdf/"
