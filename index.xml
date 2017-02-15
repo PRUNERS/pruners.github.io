@@ -104,7 +104,7 @@
 
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/rempi_logo1.svg&#34; width=&#34;15%&#34; alt=&#34;ReMPI Logo&#34; title=&#34;ReMPI&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/rempi_logo.svg&#34; width=&#34;15%&#34; alt=&#34;ReMPI Logo&#34; title=&#34;ReMPI&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;ReMPI is a highly scalable scalable record-and-replay tool for MPI applications.
 ReMPI records the order of MPI message matching in one run and can deterministically
