@@ -9,23 +9,8 @@
     {{ range .Site.Params.custom_css }}
     	<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
 	{{ end }}
-	<script>
-	function downloadJSAtOnload() {
-		var element1 = document.createElement("script");
-		element1.src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js";
-		document.body.appendChild(element1);
-		
-		var element2 = document.createElement("script");
-		element2.src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js";
-		document.body.appendChild(element2);
-	}
-	if (window.addEventListener)
-		window.addEventListener("load", downloadJSAtOnload, false);
-	else if (window.attachEvent)
-		window.attachEvent("onload", downloadJSAtOnload);
-	else
-		window.onload = downloadJSAtOnload;
-	</script>
+    	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    	<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     {{ range .Site.Params.custom_js }}
     	<script async src="{{ $.Site.BaseURL }}{{ . }}"></script>
 	{{ end }}
