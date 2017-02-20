@@ -8,7 +8,7 @@ parent = "toolset"
 
 ---
 
-## Description
+### Description
 
 Floating-point Litmus Tests is a test infrastructure for detecting varibility in floating-point code caused by variations in compiler code generation, hardware and execution environments.
 
@@ -27,6 +27,6 @@ It consists of the following components:
 
 ---
 
-## Software
+### Software
 
 FLiT is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/FLiT"><u>GitHub</u> <i class="fa fa-github"></i></a>.

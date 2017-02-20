@@ -8,7 +8,7 @@ parent = "toolset"
 
 ---
 
-## Description
+### Description
 
 <span style="font-variant: small-caps;"><b>Ninja</b></span> is a smart network noise injector
 for quickly exposing unindended MPI message races.
@@ -20,6 +20,6 @@ traditional testing approach (i.e., random noise injection).
 
 ---
 
-## Software
+### Software
 
 <span style="font-variant: small-caps;">Ninja</span> is open-source software and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/NINJA"><u>GitHub</u> <i class="fa fa-github"></i>.

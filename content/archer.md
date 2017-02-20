@@ -8,7 +8,7 @@ parent = "toolset"
 
 ---
 
-## Description
+### Description
 
 <img src="../img/archer_logo.svg" width="25%" alt="Archer Logo" title="Archer" align="right" style="margin-left: 20px; margin-right: 20px;"/>
 
@@ -18,26 +18,26 @@ parent = "toolset"
 
 ---
 
-## Software
+### Software
 
 <span style="font-variant: small-caps;">Archer</span> is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/archer"><u>GitHub</u> <i class="fa fa-github"></i></a>.
 
 ---
 
-## Quick Start
+### Quick Start
 
-**Spack: Recommended for curious users**
+* **Spack: Recommended for curious users**
 
-<span style="font-variant: small-caps;"><b>Archer</b></span> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <span style="font-variant: small-caps;"><b>Archer</b></span> itself from the current head of the master branch:
+	<span style="font-variant: small-caps;"><b>Archer</b></span> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <span style="font-variant: small-caps;"><b>Archer</b></span> itself from the current head of the master branch:
 
-```console
-$ git clone https://github.com/LLNL/spack
-$ spack/bin/spack install archer
-```
+	```console
+	$ git clone https://github.com/LLNL/spack
+	$ spack/bin/spack install archer
+	```
 
-If you already have Spack, you can omit the first line.
+	If you already have Spack, you can omit the first line.
 
 
-**Manual: Recommended for developers and contributors**
+* **Manual: Recommended for developers and contributors**
 
-Please refer to the instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/archer/blob/master/README.md" target="_blank">README.md</a>. 
+	Please refer to the instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/archer/blob/master/README.md" target="_blank">README.md</a>. 
