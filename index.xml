@@ -102,6 +102,8 @@
 
 &lt;h1&gt;ReMPI&lt;/h1&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/rempi_logo.svg&#34; width=&#34;15%&#34; alt=&#34;ReMPI Logo&#34; title=&#34;ReMPI&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;&lt;/p&gt;
@@ -112,6 +114,8 @@ replay it during subsequent runs. One of the supported modes uses Clock Delta
 Compression (CDC) for extreme scale support. CDC can reduce the record size down
 to a bare minimum, which then help scale ReMPI by keeping the record to node-local
 storage.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
@@ -128,6 +132,8 @@ storage.&lt;/p&gt;
       <description>
 
 &lt;h1&gt;FLiT&lt;/h1&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
@@ -166,6 +172,8 @@ storage.&lt;/p&gt;
 
 &lt;h1&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt;&lt;/h1&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Ninja&lt;/b&gt;&lt;/span&gt; is a smart network noise injector
@@ -175,6 +183,8 @@ techniques to increase the chance for a racy, incorrect MPI message matching wit
 MPI application. &lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Ninja&lt;/b&gt;&lt;/span&gt; has been shown to reproduce unsafe message races consistently within
 large production applications and can do this up to two orders of magnitude faster than the
 traditional testing approach (i.e., random noise injection).&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
@@ -190,9 +200,9 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
       <guid>https://pruners.github.io/archer/</guid>
       <description>
 
-&lt;hr /&gt;
-
 &lt;h1&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
