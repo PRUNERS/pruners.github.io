@@ -135,7 +135,7 @@ storage.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
 
 &lt;p&gt;Floating-point Litmus Tests is a test infrastructure for detecting varibility in floating-point code caused by variations in compiler code generation, hardware and execution environments.&lt;/p&gt;
 
@@ -156,7 +156,7 @@ storage.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
 
 &lt;p&gt;FLiT is an open-source tool and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/FLiT&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -174,7 +174,7 @@ storage.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Ninja&lt;/b&gt;&lt;/span&gt; is a smart network noise injector
 for quickly exposing unindended MPI message races.
@@ -186,7 +186,7 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt; is open-source software and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/NINJA&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
 </description>
@@ -204,7 +204,7 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/archer_logo.svg&#34; width=&#34;25%&#34; alt=&#34;Archer Logo&#34; title=&#34;Archer&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;&lt;/p&gt;
 
@@ -214,15 +214,16 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; is an open-source tool and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/archer&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Spack: Recommended for curious users&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Spack: Recommended for curious users&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Archer&lt;/b&gt;&lt;/span&gt; maintains an up-to-date package in the Spack develop branch, which builds all dependencies and &lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Archer&lt;/b&gt;&lt;/span&gt; itself from the current head of the master branch:&lt;/p&gt;
 
@@ -230,11 +231,12 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
 $ spack/bin/spack install archer
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you already have Spack, you can omit the first line.&lt;/p&gt;
+&lt;p&gt;If you already have Spack, you can omit the first line.&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;&lt;strong&gt;Manual: Recommended for developers and contributors&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Manual: Recommended for developers and contributors&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Please refer to the instructions in &lt;a class=&#34;smooth-link&#34; title=&#34;README&#34; href=&#34;https://github.com/PRUNERS/archer/blob/master/README.md&#34; target=&#34;_blank&#34;&gt;README.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please refer to the instructions in &lt;a class=&#34;smooth-link&#34; title=&#34;README&#34; href=&#34;https://github.com/PRUNERS/archer/blob/master/README.md&#34; target=&#34;_blank&#34;&gt;README.md&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
