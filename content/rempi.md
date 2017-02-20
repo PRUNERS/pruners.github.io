@@ -8,7 +8,7 @@ parent = "toolset"
 
 ---
 
-## Description
+### Description
 
 <img src="../img/rempi_logo.svg" width="15%" alt="ReMPI Logo" title="ReMPI" align="right" style="margin-left: 20px; margin-right: 20px;"/>
 
@@ -21,7 +21,7 @@ storage.
 
 ---
 
-## Software
+### Software
 
 ReMPI is open-source software and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/ReMPI"><u>GitHub</u> <i class="fa fa-github"></i>.
 
