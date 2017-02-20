@@ -104,7 +104,7 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/rempi_logo.svg&#34; width=&#34;15%&#34; alt=&#34;ReMPI Logo&#34; title=&#34;ReMPI&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;&lt;/p&gt;
 
@@ -117,7 +117,7 @@ storage.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
 
 &lt;p&gt;ReMPI is open-source software and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/ReMPI&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;.&lt;/p&gt;
 </description>
