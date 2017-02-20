@@ -6,6 +6,8 @@ parent = "toolset"
 
 <h1><span style="font-variant: small-caps;">Ninja</span></h1>
 
+---
+
 ## Description
 
 <span style="font-variant: small-caps;"><b>Ninja</b></span> is a smart network noise injector
@@ -15,6 +17,8 @@ techniques to increase the chance for a racy, incorrect MPI message matching wit
 MPI application. <span style="font-variant: small-caps;"><b>Ninja</b></span> has been shown to reproduce unsafe message races consistently within
 large production applications and can do this up to two orders of magnitude faster than the
 traditional testing approach (i.e., random noise injection).
+
+---
 
 ## Software
 

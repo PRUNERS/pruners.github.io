@@ -6,6 +6,8 @@ parent = "toolset"
 
 <h1>ReMPI</h1>
 
+---
+
 ## Description
 
 <img src="../img/rempi_logo.svg" width="15%" alt="ReMPI Logo" title="ReMPI" align="right" style="margin-left: 20px; margin-right: 20px;"/>
@@ -16,6 +18,8 @@ replay it during subsequent runs. One of the supported modes uses Clock Delta
 Compression (CDC) for extreme scale support. CDC can reduce the record size down
 to a bare minimum, which then help scale ReMPI by keeping the record to node-local
 storage.
+
+---
 
 ## Software
 

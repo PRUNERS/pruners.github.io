@@ -4,9 +4,9 @@ title = "Archer"
 parent = "toolset"
 +++
 
----
-
 <h1><span style="font-variant: small-caps;">Archer</span></h1>
+
+---
 
 ## Description
 
