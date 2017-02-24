@@ -10,6 +10,8 @@ parent = "toolset"
 
 ### Description
 
+<img src="../img/flit_logo.svg" width="20%" alt="FLiT Logo" title="FLiT" align="right" style="margin-left: 20px; margin-right: 20px;"/>
+
 Floating-point Litmus Tests is a test infrastructure for detecting varibility in floating-point code caused by variations in compiler code generation, hardware and execution environments.
 
 FLiT works by building many versions of the test suite, using multiple C++ compilers, floating-point related settings (i.e. flags) and optimization levels. These tests are then executed on target platforms, where a representative 'score' is collected into a database, along with the other parameters relevant to the execution, such as host, compiler configuration and compiler vendor. In addition to the user-configured test output, we collect counts of each assembly opcode executed (currently, this works with Intel architectures only, using their PIN dynamic binary instrumentation tool).
