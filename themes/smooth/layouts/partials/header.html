@@ -55,9 +55,9 @@
 	           		<!-- Desktop -->
 					{{ $currentPage := . }} {{ range .Site.Menus.main }}{{ if .HasChildren }}
 						{{ if eq $currentPage.Params.parent .Identifier }}
-							<li class="dropdown active hidden-sm hidden-xs"><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
+							<li class="dropdown active hidden-xs"><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
 						{{ else }}
-							<li class="dropdown hidden-sm hidden-xs"><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
+							<li class="dropdown hidden-xs"><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
 						{{ end }}
 		           			<ul class="dropdown-menu dropdown-content" style="padding: 0 0 0 0;">
 								{{ $len := (len .Children) }}
@@ -70,9 +70,9 @@
 		           			</ul>
 	         		{{else}}
 	         		{{ if eq $currentPage.Title .Identifier }}
-	           			<li class="active hidden-sm hidden-xs"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
+	           			<li class="active hidden-xs"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
 	           		{{ else }}
-	           			<li class="hidden-sm hidden-xs"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
+	           			<li class="hidden-xs"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
 	           		{{ end }}
 	        		{{ end }}
 	        		</li>
@@ -81,9 +81,9 @@
 	          		<!-- Mobile -->
 	          		{{ $currentPage := . }} {{ range .Site.Menus.main }}{{ if .HasChildren }}
 						{{ if eq $currentPage.Params.parent .Identifier }}
-							<li class="dropdown active visible-xs visible-sm"><a class="dropdown-toggle visible-xs visible-xs" data-toggle="dropdown" href="#">{{ .Name | safeHTML }}<span class="caret"></span></a>
+							<li class="dropdown active visible-xs"><a class="dropdown-toggle visible-xs visible-xs" data-toggle="dropdown" href="#">{{ .Name | safeHTML }}<span class="caret"></span></a>
 						{{ else }}
-							<li class="dropdown visible-xs visible-sm"><a class="dropdown-toggle visible-xs visible-xs" data-toggle="dropdown" href="#">{{ .Name | safeHTML }}<span class="caret"></span></a>
+							<li class="dropdown visible-xs"><a class="dropdown-toggle visible-xs visible-xs" data-toggle="dropdown" href="#">{{ .Name | safeHTML }}<span class="caret"></span></a>
 						{{ end }}
 		           			<ul class="dropdown-menu" style="padding: 0 0 0 0;">
 								{{ $len := (len .Children) }}
@@ -96,9 +96,9 @@
 		           			</ul>
 	         		{{else}}
 	         		{{ if eq $currentPage.Title .Identifier }}
-	           			<li class="active visible-xs visible-sm"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
+	           			<li class="active visible-xs"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
 	           		{{ else }}
-	           			<li class="visible-xs visible-sm"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
+	           			<li class="visible-xs"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
 	           		{{ end }}
 	        		{{ end }}
 	        		</li>
