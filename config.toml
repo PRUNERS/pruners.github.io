@@ -33,7 +33,7 @@ theme 			= "smooth"
 	[params.contacts]
 		[[params.contacts.organization]]
 			name = "University of Utah"
-			
+
 			[[params.contacts.organization.contact]]
 				first_name 	= "Simone"
 				middle_name = ""
@@ -42,7 +42,7 @@ theme 			= "smooth"
 				email		= "simone@cs.utah.edu"
 				website		= "http://simoneatzeni.net"
 				github		= "simoatze"
-				 
+
 			[[params.contacts.organization.contact]]
 				first_name 	= "Geof"
 				middle_name = ""
@@ -60,7 +60,7 @@ theme 			= "smooth"
 				email		= "mikebentley15@gmail.com"
 				website		= ""
 				github		= "mikebentley15"
-			
+
 			[[params.contacts.organization.contact]]
 				first_name 	= "Zvonimir"
 				middle_name = ""
@@ -69,7 +69,7 @@ theme 			= "smooth"
 				email		= "zvonimir@cs.utah.edu"
 				website		= "http://zvonimir.info"
 				github		= "zvonimir"
-				 
+
 			[[params.contacts.organization.contact]]
 				first_name 	= "Ganesh"
 				middle_name = ""
@@ -78,10 +78,10 @@ theme 			= "smooth"
 				email		= "ganesh@cs.utah.edu"
 				website		= "https://www.cs.utah.edu/~ganesh/"
 				github		= "ganeshutah"
-				
+
 		[[params.contacts.organization]]
 			name = "Lawrence Livermore National Laboratory"
-			
+
 			[[params.contacts.organization.contact]]
 				first_name 	= "Dong"
 				middle_name = "H."
@@ -90,7 +90,16 @@ theme 			= "smooth"
 				email		= "ahn1@llnl.gov"
 				website		= ""
 				github		= "dongahn"
-				 
+
+			[[params.contacts.organization.contact]]
+				first_name 	= "Kento"
+				middle_name = ""
+				last_name 	= "Sato"
+				picture		= "KentoSato.jpg"
+				email		= "kento@llnl.gov"
+				website		= ""
+				github		= "kento"
+
 			[[params.contacts.organization.contact]]
 				first_name 	= "Ignacio"
 				middle_name = ""
@@ -99,7 +108,7 @@ theme 			= "smooth"
 				email		= "lagunaperalt1@llnl.gov"
 				website		= ""
 				github		= "ilagunap"
-				
+
 			[[params.contacts.organization.contact]]
 				first_name 	= "Gregory"
 				middle_name = ""
@@ -117,7 +126,7 @@ theme 			= "smooth"
 				email		= "schulz6@llnl.gov"
 				website		= ""
 				github		= "schulzm"
-				
+
 			[[params.contacts.organization.contact]]
 				first_name 	= "Chris"
 				middle_name = ""
@@ -126,10 +135,10 @@ theme 			= "smooth"
 				email		= "chambreau1@llnl.gov"
 				website		= ""
 				github		= "cchambreau"
-			
+
 		[[params.contacts.organization]]
 			name = "RWTH Aachen University"
-			
+
 			[[params.contacts.organization.contact]]
 				first_name 	= "Joachim"
 				middle_name = ""
