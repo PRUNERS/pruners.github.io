@@ -7,10 +7,9 @@ parent = "toolset"
 <h1>ReMPI</h1>
 
 ---
+## Description
 
-### Description
-
-<img src="../img/rempi_logo.svg" width="15%" alt="ReMPI Logo" title="ReMPI" align="right" style="margin-left: 20px; margin-right: 20px;"/>
+<img src="../img/rempi_logo.png" width="40%" alt="ReMPI Logo" title="ReMPI" align="right" style="margin-left: 20px; margin-right: 20px;"/>
 
 ReMPI is a highly scalable scalable record-and-replay tool for MPI applications.
 ReMPI records the order of MPI message matching in one run and can deterministically
@@ -20,9 +19,27 @@ to a bare minimum, which then help scale ReMPI by keeping the record to node-loc
 storage.
 
 ---
+## Software
 
-### Software
+ReMPI is open-source software and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/ReMPI"><u>GitHub</u></a> <i class="fa fa-github"></i>.
 
-ReMPI is open-source software and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/ReMPI"><u>GitHub</u> <i class="fa fa-github"></i>.
+---
+## Quick Start
+
+### 1. Spack: Recommended for curious users
+
+<b>ReMPI</b> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <b>ReMPI</b> itself from the current head of the master branch:
+
+```console
+$ git clone https://github.com/LLNL/spack
+$ spack/bin/spack install rempi
+```
+
+If you already have Spack, you can omit the first line.
+
+
+### 2. Manual: Recommended for developers and contributors
+
+Please refer to the instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/ReMPI/blob/master/README.md" target="_blank">README.md</a>.
 
 

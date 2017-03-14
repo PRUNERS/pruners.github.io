@@ -6,10 +6,10 @@ parent = "toolset"
 
 <h1><span style="font-variant: small-caps;">Ninja</span></h1>
 
+
 ---
-
-### Description
-
+## Description
+<img src="../img/NINJA_logo.png" width="40%" alt="NINJA Logo" title="ReMPI" align="right" style="margin-left: 20px; margin-right: 20px;"/>
 <span style="font-variant: small-caps;"><b>Ninja</b></span> is a smart network noise injector
 for quickly exposing unindended MPI message races.
 <span style="font-variant: small-caps;">Ninja</span> uses innovative newtork noise injection
@@ -19,7 +19,27 @@ large production applications and can do this up to two orders of magnitude fast
 traditional testing approach (i.e., random noise injection).
 
 ---
+## Software
 
-### Software
+<span style="font-variant: small-caps;">Ninja</span> is open-source software and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/NINJA"><u>GitHub</u></a> <i class="fa fa-github"></i>.
 
-<span style="font-variant: small-caps;">Ninja</span> is open-source software and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/NINJA"><u>GitHub</u> <i class="fa fa-github"></i>.
+---
+## Quick Start
+
+### 1. Spack: Recommended for curious users
+
+<b><span style="font-variant: small-caps;">Ninja</span></b> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <b><span style="font-variant: small-caps;">Ninja</span></b> itself from the current head of the master branch:
+
+```console
+$ git clone https://github.com/LLNL/spack
+$ spack/bin/spack install pruners-ninja
+```
+
+If you already have Spack, you can omit the first line.
+
+
+### 2. Manual: Recommended for developers and contributors
+
+Please refer to the instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/NINJA/blob/master/README.md" target="_blank">README.md</a>.
+
+
