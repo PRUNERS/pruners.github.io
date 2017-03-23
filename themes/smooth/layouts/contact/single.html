@@ -22,10 +22,10 @@
 	    			<a title="EMail" data-toggle="tooltip" data-placement="top" href="mailto:{{ .email }}?Subject=[PRUNERS]%20"><i class="fa fa-envelope smooth-contact-tooltip" aria-hidden="true"></i></a>
 	    		{{ end }}
 	    		{{ if ne .website "" }}
-	    			<a title="WebSite" data-toggle="tooltip" data-placement="top" href="{{ .website }}"><i class="fa fa-globe smooth-contact-tooltip" aria-hidden="true"></i></a>
+	    			<a title="WebSite" data-toggle="tooltip" data-placement="top" href="{{ .website }}" target="_blank"><i class="fa fa-globe smooth-contact-tooltip" aria-hidden="true"></i></a>
 	    		{{ end }}
 	    		{{ if ne .github "" }}
-	    			<a title="GitHub" data-toggle="tooltip" data-placement="top" href="https://github.com/{{ .github }}"><i class="fa fa-github smooth-contact-tooltip" aria-hidden="true"></i></a>
+	    			<a title="GitHub" data-toggle="tooltip" data-placement="top" href="https://github.com/{{ .github }}" target="_blank"><i class="fa fa-github smooth-contact-tooltip" aria-hidden="true"></i></a>
 	    		{{ end }}
 	      	</div>
 	      	<img src="../img/contacts/{{ .picture }}" alt="{{ .first_name }} {{ .last_name }}" width="300" max-age=31536000>

@@ -31,8 +31,13 @@
 				{{ end }}
 				{{ .location }}.
 				<br>
-				<a data-toggle="modal" data-target="#abstract_modal_{{ .id }}" class="smooth-link smooth-modal-link">[Abstract]</a>
-				<a data-toggle="modal" data-target="#bibtex_modal_{{ .id }}" class="smooth-link smooth-modal-link">[BibTex]</a>
+				<script>
+					$(function () {
+    					$('[data-toggle="tooltip"]').tooltip()
+					})
+				</script>
+				<a class="smooth-link smooth-modal-link" data-toggle="modal" data-target="#abstract_modal_{{ .id }}" href="">[Abstract]</a>
+				<a class="smooth-link smooth-modal-link" data-toggle="modal" data-target="#bibtex_modal_{{ .id }}" href="">[BibTex]</a>
 				<a class="smooth-link" target="_blank" href="{{ $.Site.BaseURL }}{{ $.Site.Params.Files }}{{ .PDF }}">[PDF]</a>
 				<div id="bibtex_modal_{{ .id }}" class="modal fade smooth-modal vertical-align-center" role="dialog" style="padding: 0 0 0 0;">
 					<div class="modal-dialog smooth-modal-font">

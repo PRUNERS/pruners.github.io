@@ -21,7 +21,7 @@ storage.
 ---
 ## Software
 
-ReMPI is open-source software and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/ReMPI"><u>GitHub</u></a> <i class="fa fa-github"></i>.
+ReMPI is open-source software and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/ReMPI" target="_blank"><u>GitHub</u></a> <i class="fa fa-github"></i>.
 
 ---
 ## Quick Start

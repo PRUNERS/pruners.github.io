@@ -77,7 +77,7 @@ theme 			= "smooth"
 				picture		= "GaneshGopalakrishnan.jpg"
 				email		= "ganesh@cs.utah.edu"
 				website		= "https://www.cs.utah.edu/~ganesh/"
-				github		= "ganeshutah"
+				github		= ""
 
 		[[params.contacts.organization]]
 			name = "Lawrence Livermore National Laboratory"

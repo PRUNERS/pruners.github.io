@@ -20,7 +20,7 @@ parent = "toolset"
 
 ### Software
 
-<span style="font-variant: small-caps;">Archer</span> is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/archer"><u>GitHub</u> <i class="fa fa-github"></i></a>.
+<span style="font-variant: small-caps;">Archer</span> is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/archer" target="_blank"><u>GitHub</u> <i class="fa fa-github"></i></a>.
 
 ---
 
