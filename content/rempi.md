@@ -14,9 +14,9 @@ parent = "toolset"
 ReMPI is a highly scalable scalable record-and-replay tool for MPI applications.
 ReMPI records the order of MPI message matching in one run and can deterministically
 replay it during subsequent runs. One of the supported modes uses Clock Delta
-Compression (CDC) for extreme scale support. CDC can reduce the record size down
-to a bare minimum, which then help scale ReMPI by keeping the record to node-local
-storage.
+Compression (CDC) for running at extreme-scale. CDC can reduce the record size down
+to the bare minimum, which allows ReMPI to keep record data on node-local
+storage, and drastically improve scalability versus writing to a shared file system.
 
 ---
 ## Software
@@ -26,20 +26,22 @@ ReMPI is open-source software and can be obtained on <a class="smooth-link" titl
 ---
 ## Quick Start
 
-### 1. Spack: Recommended for curious users
+### Installation
 
-<b>ReMPI</b> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <b>ReMPI</b> itself from the current head of the master branch:
+1. **Spack: Recommended for curious users**
 
-```console
-$ git clone https://github.com/LLNL/spack
-$ spack/bin/spack install rempi
-```
+	<b>ReMPI</b> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <b>ReMPI</b> itself. To install via Spack run:
 
-If you already have Spack, you can omit the first line.
+	```console
+	$ git clone https://github.com/LLNL/spack
+	$ spack/bin/spack install rempi
+	```
+
+	If you already have Spack, you can omit the first line.
 
 
-### 2. Manual: Recommended for developers and contributors
+2. **Manual: Recommended for developers and contributors**
 
-Please refer to the instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/ReMPI/blob/master/README.md" target="_blank">README.md</a>.
+	Please refer to the installation instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/ReMPI/blob/master/README.md" target="_blank">README.md</a>.
 
 

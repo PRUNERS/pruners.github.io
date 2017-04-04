@@ -10,10 +10,10 @@ parent = "toolset"
 ---
 ## Description
 <img src="../img/NINJA_logo.png" width="40%" alt="NINJA Logo" title="ReMPI" align="right" style="margin-left: 20px; margin-right: 20px;"/>
-<span style="font-variant: small-caps;"><b>Ninja</b></span> is a smart network noise injector
+<span style="font-variant: small-caps;"><b>Ninja</b></span> (Noise INJection Agent) is a smart network noise injector
 for quickly exposing unindended MPI message races.
-<span style="font-variant: small-caps;">Ninja</span> uses innovative newtork noise injection
-techniques to increase the chance for a racy, incorrect MPI message matching within the target
+<span style="font-variant: small-caps;">Ninja</span> uses innovative network noise injection
+techniques to increase the chances of racy, incorrect MPI message matching within the target
 MPI application. <span style="font-variant: small-caps;"><b>Ninja</b></span> has been shown to reproduce unsafe message races consistently within
 large production applications and can do this up to two orders of magnitude faster than the
 traditional testing approach (i.e., random noise injection).
@@ -26,20 +26,22 @@ traditional testing approach (i.e., random noise injection).
 ---
 ## Quick Start
 
-### 1. Spack: Recommended for curious users
+### Installation
 
-<b><span style="font-variant: small-caps;">Ninja</span></b> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <b><span style="font-variant: small-caps;">Ninja</span></b> itself from the current head of the master branch:
+1. **Spack: Recommended for curious users**
 
-```console
-$ git clone https://github.com/LLNL/spack
-$ spack/bin/spack install pruners-ninja
-```
+	<b><span style="font-variant: small-caps;">Ninja</span></b> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <b><span style="font-variant: small-caps;">Ninja</span></b> itself. To install via Spack run:
 
-If you already have Spack, you can omit the first line.
+	```console
+	$ git clone https://github.com/LLNL/spack
+	$ spack/bin/spack install pruners-ninja
+	```
+
+	If you already have Spack, you can omit the first line.
 
 
-### 2. Manual: Recommended for developers and contributors
+2. **Manual: Recommended for developers and contributors**
 
-Please refer to the instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/NINJA/blob/master/README.md" target="_blank">README.md</a>.
+	Please refer to the installation instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/NINJA/blob/master/README.md" target="_blank">README.md</a>.
 
 

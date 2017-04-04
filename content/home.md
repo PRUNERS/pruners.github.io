@@ -9,6 +9,7 @@ Reproducibility is highly desirable for parallel applications, but as they are r
 
 <h1 id="news">Latest News</h2>
 <ul>
-	<li><p>"Pruning" Sources of Nondeterminism in Large-Scale Applications, News Highlights in LLNL Computation and Bits and Bytes, June 2015. <a class="smooth-link" href="http://computation.llnl.gov/newsroom/pruning-sources-nondeterminism-large-scale-applications" target="_blank"><u>Read more...</u></i></a></p></li>
-	<li><p>Supercomputing Tools Speed Simulations, Research Highlights in LLNL Science and Technology Review (S&TR), July 2014. <a class="smooth-link" href="https://str.llnl.gov/july-2014/ahn" target="_blank"><u>Read more...</u></i></a></p></li>
+	<li><p>April 2017: Archer, ReMPI, and NINJA have been made available and easily depolyable via the <a class="smooth-link" href="https://github.com/LLNL/spack" target="_blank"><u>Spack package management tool</u></a>.</p></li>
+	<li><p>June 2015: "Pruning" Sources of Nondeterminism in Large-Scale Applications, News Highlights in LLNL Computation and Bits and Bytes, June 2015. <a class="smooth-link" href="http://computation.llnl.gov/newsroom/pruning-sources-nondeterminism-large-scale-applications" target="_blank"><u>Read more...</u></a></p></li>
+	<li><p>July 2014: Supercomputing Tools Speed Simulations, Research Highlights in LLNL Science and Technology Review (S&TR), July 2014. <a class="smooth-link" href="https://str.llnl.gov/july-2014/ahn" target="_blank"><u>Read more...</u></a></p></li>
 </ul>
