@@ -23,8 +23,9 @@
 
 &lt;p&gt;&lt;h1 id=&#34;news&#34;&gt;Latest News&lt;/h2&gt;
 &lt;ul&gt;
-    &lt;li&gt;&lt;p&gt;&amp;ldquo;Pruning&amp;rdquo; Sources of Nondeterminism in Large-Scale Applications, News Highlights in LLNL Computation and Bits and Bytes, June 2015. &lt;a class=&#34;smooth-link&#34; href=&#34;http://computation.llnl.gov/newsroom/pruning-sources-nondeterminism-large-scale-applications&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;Read more&amp;hellip;&lt;/u&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;p&gt;Supercomputing Tools Speed Simulations, Research Highlights in LLNL Science and Technology Review (S&amp;amp;TR), July 2014. &lt;a class=&#34;smooth-link&#34; href=&#34;https://str.llnl.gov/july-2014/ahn&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;Read more&amp;hellip;&lt;/u&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;p&gt;April 2017: Archer, ReMPI, and NINJA have been made available and easily depolyable via the &lt;a class=&#34;smooth-link&#34; href=&#34;https://github.com/LLNL/spack&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;Spack package management tool&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;p&gt;June 2015: &amp;ldquo;Pruning&amp;rdquo; Sources of Nondeterminism in Large-Scale Applications, News Highlights in LLNL Computation and Bits and Bytes, June 2015. &lt;a class=&#34;smooth-link&#34; href=&#34;http://computation.llnl.gov/newsroom/pruning-sources-nondeterminism-large-scale-applications&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;Read more&amp;hellip;&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;p&gt;July 2014: Supercomputing Tools Speed Simulations, Research Highlights in LLNL Science and Technology Review (S&amp;amp;TR), July 2014. &lt;a class=&#34;smooth-link&#34; href=&#34;https://str.llnl.gov/july-2014/ahn&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;Read more&amp;hellip;&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 </description>
     </item>
@@ -111,9 +112,9 @@
 &lt;p&gt;ReMPI is a highly scalable scalable record-and-replay tool for MPI applications.
 ReMPI records the order of MPI message matching in one run and can deterministically
 replay it during subsequent runs. One of the supported modes uses Clock Delta
-Compression (CDC) for extreme scale support. CDC can reduce the record size down
-to a bare minimum, which then help scale ReMPI by keeping the record to node-local
-storage.&lt;/p&gt;
+Compression (CDC) for running at extreme-scale. CDC can reduce the record size down
+to the bare minimum, which allows ReMPI to keep record data on node-local
+storage, and drastically improve scalability versus writing to a shared file system.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -125,19 +126,31 @@ storage.&lt;/p&gt;
 
 &lt;h2 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h2&gt;
 
-&lt;h3 id=&#34;1-spack-recommended-for-curious-users&#34;&gt;1. Spack: Recommended for curious users&lt;/h3&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
 
-&lt;p&gt;&lt;b&gt;ReMPI&lt;/b&gt; maintains an up-to-date package in the Spack develop branch, which builds all dependencies and &lt;b&gt;ReMPI&lt;/b&gt; itself from the current head of the master branch:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Spack: Recommended for curious users&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;ReMPI&lt;/b&gt; maintains an up-to-date package in the Spack develop branch, which builds all dependencies and &lt;b&gt;ReMPI&lt;/b&gt; itself. To install via Spack run:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ git clone https://github.com/LLNL/spack
 $ spack/bin/spack install rempi
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you already have Spack, you can omit the first line.&lt;/p&gt;
+&lt;p&gt;If you already have Spack, you can omit the first line.&lt;/p&gt;&lt;/li&gt;
 
-&lt;h3 id=&#34;2-manual-recommended-for-developers-and-contributors&#34;&gt;2. Manual: Recommended for developers and contributors&lt;/h3&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Manual: Recommended for developers and contributors&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Please refer to the instructions in &lt;a class=&#34;smooth-link&#34; title=&#34;README&#34; href=&#34;https://github.com/PRUNERS/ReMPI/blob/master/README.md&#34; target=&#34;_blank&#34;&gt;README.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please refer to the installation instructions in &lt;a class=&#34;smooth-link&#34; title=&#34;README&#34; href=&#34;https://github.com/PRUNERS/ReMPI/blob/master/README.md&#34; target=&#34;_blank&#34;&gt;README.md&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Kento Sato, Dong H. Ahn, Ignacio Laguna, Gregory L. Lee and Martin Schulz, &amp;ldquo;Clock Delta Compression for Scalable Order-Replay of Non-Deterministic Parallel Applications&amp;rdquo;, In Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis 2015 (SC15), Austin, USA, Nov, 2015.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -197,10 +210,10 @@ $ spack/bin/spack install rempi
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/NINJA_logo.png&#34; width=&#34;40%&#34; alt=&#34;NINJA Logo&#34; title=&#34;ReMPI&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;
-&lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Ninja&lt;/b&gt;&lt;/span&gt; is a smart network noise injector
+&lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Ninja&lt;/b&gt;&lt;/span&gt; (Noise INJection Agent) is a smart network noise injector
 for quickly exposing unindended MPI message races.
-&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt; uses innovative newtork noise injection
-techniques to increase the chance for a racy, incorrect MPI message matching within the target
+&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt; uses innovative network noise injection
+techniques to increase the chances of racy, incorrect MPI message matching within the target
 MPI application. &lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Ninja&lt;/b&gt;&lt;/span&gt; has been shown to reproduce unsafe message races consistently within
 large production applications and can do this up to two orders of magnitude faster than the
 traditional testing approach (i.e., random noise injection).&lt;/p&gt;
@@ -215,19 +228,31 @@ traditional testing approach (i.e., random noise injection).&lt;/p&gt;
 
 &lt;h2 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h2&gt;
 
-&lt;h3 id=&#34;1-spack-recommended-for-curious-users&#34;&gt;1. Spack: Recommended for curious users&lt;/h3&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
 
-&lt;p&gt;&lt;b&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt;&lt;/b&gt; maintains an up-to-date package in the Spack develop branch, which builds all dependencies and &lt;b&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt;&lt;/b&gt; itself from the current head of the master branch:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Spack: Recommended for curious users&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt;&lt;/b&gt; maintains an up-to-date package in the Spack develop branch, which builds all dependencies and &lt;b&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Ninja&lt;/span&gt;&lt;/b&gt; itself. To install via Spack run:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ git clone https://github.com/LLNL/spack
 $ spack/bin/spack install pruners-ninja
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you already have Spack, you can omit the first line.&lt;/p&gt;
+&lt;p&gt;If you already have Spack, you can omit the first line.&lt;/p&gt;&lt;/li&gt;
 
-&lt;h3 id=&#34;2-manual-recommended-for-developers-and-contributors&#34;&gt;2. Manual: Recommended for developers and contributors&lt;/h3&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Manual: Recommended for developers and contributors&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Please refer to the instructions in &lt;a class=&#34;smooth-link&#34; title=&#34;README&#34; href=&#34;https://github.com/PRUNERS/NINJA/blob/master/README.md&#34; target=&#34;_blank&#34;&gt;README.md&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please refer to the installation instructions in &lt;a class=&#34;smooth-link&#34; title=&#34;README&#34; href=&#34;https://github.com/PRUNERS/NINJA/blob/master/README.md&#34; target=&#34;_blank&#34;&gt;README.md&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Kento Sato, Dong H. Ahn, Ignacio Laguna, Gregory L. Lee, Martin Schulz and Christopher M. Chambreau, &amp;ldquo;Noise Injection Techniques for Reproducing Subtle and Unintended Message Races&amp;rdquo;, Proceedings of the 20th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP17), Austin, USA, Feb, 2017.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -243,28 +268,30 @@ $ spack/bin/spack install pruners-ninja
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;../img/archer_logo.svg&#34; width=&#34;25%&#34; alt=&#34;Archer Logo&#34; title=&#34;Archer&#34; align=&#34;right&#34; style=&#34;margin-left: 20px; margin-right: 20px;&#34;/&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Archer&lt;/b&gt;&lt;/span&gt; is a data race detector for OpenMP programs.&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; combines static and dynamic techniques to identify data races in large OpenMP applications, leading to low runtime and memory overheads, while still offering high accuracy and precision. It builds on open-source tools infrastructure such as LLVM, ThreadSanitizer, and OMPT to provide portability.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; combines static and dynamic techniques to identify data races in large OpenMP applications, leading to low runtime and memory overheads, while still offering high accuracy and precision. It builds on an open-source tools infrastructure including LLVM, ThreadSanitizer, and OMPT to provide portability.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
 
 &lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;Archer&lt;/span&gt; is an open-source tool and can be obtained on &lt;a class=&#34;smooth-link&#34; title=&#34;GitHub&#34; href=&#34;https://github.com/PRUNERS/archer&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;GitHub&lt;/u&gt; &lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h3&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h2&gt;
 
-&lt;ul&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+
+&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Spack: Recommended for curious users&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Archer&lt;/b&gt;&lt;/span&gt; maintains an up-to-date package in the Spack develop branch, which builds all dependencies and &lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Archer&lt;/b&gt;&lt;/span&gt; itself from the current head of the master branch:&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Archer&lt;/b&gt;&lt;/span&gt; maintains an up-to-date package in the Spack develop branch, which builds all dependencies and &lt;span style=&#34;font-variant: small-caps;&#34;&gt;&lt;b&gt;Archer&lt;/b&gt;&lt;/span&gt; itself. To install via Spack run:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-console&#34;&gt;$ git clone https://github.com/LLNL/spack
 $ spack/bin/spack install archer
@@ -275,7 +302,7 @@ $ spack/bin/spack install archer
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Manual: Recommended for developers and contributors&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Please refer to the instructions in &lt;a class=&#34;smooth-link&#34; title=&#34;README&#34; href=&#34;https://github.com/PRUNERS/archer/blob/master/README.md&#34; target=&#34;_blank&#34;&gt;README.md&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
