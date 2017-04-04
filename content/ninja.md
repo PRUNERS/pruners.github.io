@@ -44,4 +44,7 @@ traditional testing approach (i.e., random noise injection).
 
 	Please refer to the installation instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/NINJA/blob/master/README.md" target="_blank">README.md</a>.
 
+---
+## Reference
+- Kento Sato, Dong H. Ahn, Ignacio Laguna, Gregory L. Lee, Martin Schulz and Christopher M. Chambreau, "Noise Injection Techniques for Reproducing Subtle and Unintended Message Races", Proceedings of the 20th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP17), Austin, USA, Feb, 2017.
 

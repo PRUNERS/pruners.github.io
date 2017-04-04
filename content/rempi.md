@@ -44,4 +44,6 @@ ReMPI is open-source software and can be obtained on <a class="smooth-link" titl
 
 	Please refer to the installation instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/ReMPI/blob/master/README.md" target="_blank">README.md</a>.
 
-
+---
+## Reference
+- Kento Sato, Dong H. Ahn, Ignacio Laguna, Gregory L. Lee and Martin Schulz, "Clock Delta Compression for Scalable Order-Replay of Non-Deterministic Parallel Applications", In Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis 2015 (SC15), Austin, USA, Nov, 2015.
