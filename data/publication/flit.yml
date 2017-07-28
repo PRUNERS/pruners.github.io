@@ -19,7 +19,7 @@ references:
   title-short: FLiT
   container-title: IEEE international symposium on workload characterization
   publisher-place: Seattle
-  abstract: 'Result reproducibility in societally important simulations faces the
+  abstract: "Result reproducibility in societally important simulations faces the
     grave risk of becoming voided when code is ported across hardware platforms or
     optimized using different compiler flags. There are currently no available tools
     that can help a programmer assess the extent of such non-portability through systematic
@@ -32,21 +32,22 @@ references:
     framework, allowing the tool to grow in versatility as more tests are contributed
     and support for newer compilers is added. Our results span three architectures
     (including GPUs), four popular compilers, and dozens of compiler optimization
-    flags. We demonstrate the power of FLiT’s test automation and result analysis/visualization
-    support. For the first time, for example, FLiT’s systematic exploration was able
-    to discover the following results: (1) when seeking higher performance through
-    flags, compilers may apply unsafe algebraic simplifications, yielding up *six*
-    or more different answers in some test cases; (2) compilers are inconsistent in
-    the number of answer variants; in this ranking, Intel’s icpc comes first, followed
-    by GCC, then Clang, and finally NVCC.'
-  PDF: 'sawaya_flit_2017.pdf'
+    flags. We demonstrate the power of FLiT's test automation and result analysis/visualization
+    support. For the first time, for example, FLiT's systematic exploration was able
+    to discover the following results: (1) when seeking higher performance through
+    flags, compilers may apply unsafe algebraic simplifications, yielding up six
+    or more different answers in some test cases; (2) compilers are inconsistent in
+    the number of answer variants; in this ranking, Intel's icpc comes first, followed
+    by GCC, then Clang, and finally NVCC."
+  PDF: 'sawaya_flit_2017.pdf_'
   citation: |
    @inproceedings{sawaya_flit_2017,
-	Author = {G. Sawaya and M. Bentley and I. Briggs and
-                  G. Gopalakrishnan and D. H. Ahn},
-        Booktitle = {IEEE International Symposium on Workload Characterization},
-        Location = {Seattle},
-	Title = {FLiT: Cross-Platform Floating-Point Result-Consistency Tester
-              and Workload},
-	Year = {2017},}
+                  Author = {G. Sawaya and M. Bentley and I. Briggs and
+                            G. Gopalakrishnan and D. H. Ahn},
+                  Booktitle = {IEEE International Symposium on Workload
+                               Characterization},
+                  Location = {Seattle},
+                  Title = {FLiT: Cross-Platform Floating-Point
+                           Result-Consistency Tester and Workload},
+                  Year = {2017},}
 ...
