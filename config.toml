@@ -17,12 +17,12 @@ theme 			= "smooth"
     google_analytics = "UA-67339505-1"
 
     [params.references]
-  		[params.references.archer]
+        [params.references.archer]
     		"bib"  	= "archer"
     		"title" = "<span style=\"font-variant: small-caps;\">Archer</span>"
-#  		[params.references.flit]
-#    		"bib"  	= "flit"
-#    		"title" = "FLiT"
+        [params.references.flit]
+   		"bib"  	= "flit"
+   		"title" = "FLiT"
     	[params.references.ninja]
     		"bib"  	= "ninja"
     		"title" = "<span style=\"font-variant: small-caps;\">Ninja</span>"
