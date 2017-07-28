@@ -39,4 +39,20 @@ references:
     or more different answers in some test cases; (2) compilers are inconsistent in
     the number of answer variants; in this ranking, Intel’s icpc comes first, followed
     by GCC, then Clang, and finally NVCC.'
+  PDF: 'sawaya_flit_2017.pdf'
+  citation: |
+   @inproceedings{7069300,
+                  Author = {J. Protze and S. Atzeni and D. H. Ahn and
+                            M. Schulz and G. Gopalakrishnan and M. S.
+                            M{\"u}ller and I. Laguna and
+                            Z. Rakamari{\'c} and G. L. Lee},
+                  Booktitle = {2014 {LLVM} {C}ompiler {I}nfrastructure
+                               in {HPC}},
+                  Doi = {10.1109/LLVM-HPC.2014.7},
+                  Month = {Nov},
+                  Pages = {40-47},
+                  Title = {{T}owards {P}roviding {L}ow-{O}verhead {D}ata
+                           {R}ace {D}etection for {L}arge {O}penMP
+                           {A}pplications},
+                  Year = {2014},}
 ...
