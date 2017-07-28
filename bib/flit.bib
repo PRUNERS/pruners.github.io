@@ -1,0 +1,41 @@
+@inproceedings{sawaya_flit_2017,
+	Abstract = {Result reproducibility in societally important
+                  simulations faces the grave risk of becoming voided
+                  when code is ported across hardware platforms or
+                  optimized using different compiler flags.  There are
+                  currently no available tools that can help a
+                  programmer assess the extent of such non-portability
+                  through systematic testing.  In this work, we offer
+                  a novel testing framework called FLiT that comes
+                  with a large collection of predesigned tests, and
+                  also test automation facilities, including Makefile
+                  generation, distribution of the tests to CPU/GPU
+                  platforms, and result amalgamation/query supported
+                  through SQL queries.  We also develop an intuitive
+                  2D ``heat-map'' style visualization of how much a
+                  given compiler and its flag(s) can affect a given
+                  program.  FLiT is an easy-to-use and community
+                  extensible framework, allowing the tool to grow in
+                  versatility as more tests are contributed and
+                  support for newer compilers is added.  Our results
+                  span three architectures (including GPUs), four
+                  popular compilers, and dozens of compiler
+                  optimization flags.  We demonstrate the power of
+                  FLiT's test automation and result
+                  analysis/visualization support. For the first time,
+                  for example, FLiT's systematic exploration was able
+                  to discover the following results: (1)~when seeking
+                  higher performance through flags, compilers may
+                  apply unsafe algebraic simplifications, yielding up
+                  {\em six} or more different answers in some test
+                  cases; (2)~compilers are inconsistent in the number
+                  of answer variants; in this ranking, Intel's {\tt
+                  icpc} comes first, followed by GCC, then Clang, and
+                  finally NVCC.},
+	Author = {G. Sawaya and M. Bentley and I. Briggs and
+                  G. Gopalakrishnan and D. H. Ahn},
+        Booktitle = {IEEE International Symposium on Workload Characterization},
+        Location = {Seattle},
+	Title = {FLiT: Cross-Platform Floating-Point Result-Consistency Tester
+              and Workload},
+	Year = {2017}}
