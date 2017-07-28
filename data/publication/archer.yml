@@ -119,12 +119,18 @@ references:
   DOI: 10.1109/LLVM-HPC.2014.7
   PDF: '7069300.pdf'
   citation: |
-   @inproceedings{sawaya_flit_2017,
-	Author = {G. Sawaya and M. Bentley and I. Briggs and
-                  G. Gopalakrishnan and D. H. Ahn},
-        Booktitle = {IEEE International Symposium on Workload Characterization},
-        Location = {Seattle},
-	Title = {FLiT: Cross-Platform Floating-Point Result-Consistency Tester
-              and Workload},
-	Year = {2017},}
+   @inproceedings{7069300,
+                  Author = {J. Protze and S. Atzeni and D. H. Ahn and
+                            M. Schulz and G. Gopalakrishnan and M. S.
+                            M{\"u}ller and I. Laguna and
+                            Z. Rakamari{\'c} and G. L. Lee},
+                  Booktitle = {2014 {LLVM} {C}ompiler {I}nfrastructure
+                               in {HPC}},
+                  Doi = {10.1109/LLVM-HPC.2014.7},
+                  Month = {Nov},
+                  Pages = {40-47},
+                  Title = {{T}owards {P}roviding {L}ow-{O}verhead {D}ata
+                           {R}ace {D}etection for {L}arge {O}penMP
+                           {A}pplications},
+                  Year = {2014},}
 ...
