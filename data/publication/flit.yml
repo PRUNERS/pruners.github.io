@@ -44,9 +44,10 @@ references:
    @inproceedings{sawaya_flit_2017,
                   Author = {G. Sawaya and M. Bentley and I. Briggs and
                             G. Gopalakrishnan and D. H. Ahn},
-                  Booktitle = {IEEE International Symposium on Workload
-                               Characterization},
+                  Pages = {To appear in IEEE International Symposium on
+                            Workload Characterization},
                   Location = {Seattle},
+                  Month = {Oct},
                   Title = {FLiT: Cross-Platform Floating-Point
                            Result-Consistency Tester and Workload},
                   Year = {2017},}
