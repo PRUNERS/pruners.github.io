@@ -17,7 +17,7 @@
       <pubDate>Mon, 30 Jan 2017 15:18:39 -0700</pubDate>
       
       <guid>https://pruners.github.io/home/</guid>
-      <description>Description Reproducibility is highly desirable for parallel applications, but as they are run on increasingly large and heterogeneous platforms, reproducibility of numerical results or code behaviors is becoming less and less obtainable. The same code can produce different results or occasional failures such as a crash on different systems or even across different runs on the same hardware. PRUNERS is a research and development project that aims at innovating scalable tools and techniques to aid applications in obtaining reproducibility.</description>
+      <description>Description  Reproducibility is highly desirable for parallel applications, but as they are run on increasingly large and heterogeneous platforms, reproducibility of numerical results or code behaviors is becoming less and less obtainable. The same code can produce different results or occasional failures such as a crash on different systems or even across different runs on the same hardware. PRUNERS is a research and development project that aims at innovating scalable tools and techniques to aid applications in obtaining reproducibility.</description>
     </item>
     
     <item>
