@@ -1,6 +1,6 @@
 ---
 references:
-- id: sawaya_flit_2017
+- id: iiswc2017-final43
   type: paper-conference
   author:
   - family: Sawaya
@@ -17,8 +17,11 @@ references:
   - year: '2017'
   title: 'FLiT: Cross-platform floating-point result-consistency tester and workload'
   title-short: FLiT
-  container-title: IEEE international symposium on workload characterization
-  publisher-place: Seattle
+  containertitle: IEEE international symposium on workload characterization
+  collectiontitle: IISWC 2017
+  location: Seattle, WA, USA
+  publisher: IEEE
+  publisher-place: Seattle, WA, USA
   abstract: "Result reproducibility in societally important simulations faces the
     grave risk of becoming voided when code is ported across hardware platforms or
     optimized using different compiler flags. There are currently no available tools
@@ -39,16 +42,16 @@ references:
     or more different answers in some test cases; (2) compilers are inconsistent in
     the number of answer variants; in this ranking, Intel's icpc comes first, followed
     by GCC, then Clang, and finally NVCC."
-  PDF: 'sawaya_flit_2017.pdf_'
+  PDF: 'iiswc2017-final43.pdf'
   citation: |
-   @inproceedings{sawaya_flit_2017,
+   @inproceedings{iiswc2017-final43,
                   Author = {G. Sawaya and M. Bentley and I. Briggs and
                             G. Gopalakrishnan and D. H. Ahn},
-                  Pages = {To appear in IEEE International Symposium on
-                            Workload Characterization},
-                  Location = {Seattle},
+                  Pooktitle = {{P}roceedings of the {I}{E}{E}{E} {I}nternational {S}ymposium on
+                            {W}orkload {C}haracterization},
+                  Location = {Seattle, Washington},
                   Month = {Oct},
-                  Title = {FLiT: Cross-Platform Floating-Point
-                           Result-Consistency Tester and Workload},
+                  Title = {{F}{L}i{T}: {C}ross-{P}latform {F}loating-{P}oint
+                           {R}esult-{C}onsistency {T}ester and {W}orkload},
                   Year = {2017},}
 ...
