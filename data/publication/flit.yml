@@ -22,7 +22,7 @@ references:
   location: Seattle, WA, USA
   publisher: IEEE
   publisher-place: Seattle, WA, USA
-  abstract: Understanding the extent to which computational results
+  abstract: "Understanding the extent to which computational results
   can change across platforms, compilers, and compiler flags can go a
   long way toward supporting reproducible experiments. In this work,
   we offer the first automated testing aid called FLiT (Floating-point
@@ -46,7 +46,7 @@ references:
   well as best practices, thus extending the floating-point
   result-consistency workload we contribute. This is the first such
   workload and result-consistency tester underlying floating-point
-  reproducibility of which we are aware.
+  reproducibility of which we are aware."
   PDF: 'iiswc2017-final43.pdf'
   citation: |
    @inproceedings{iiswc2017-final43,
