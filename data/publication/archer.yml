@@ -1,5 +1,51 @@
 ---
 references:
+-id: 'IWOMP_2017_paper_21'
+  type: paper-conference
+  author:
+  - family: Protze
+    given: J.
+  - family: Hahnfeld
+    given: J.
+  - family: Ahn
+    given: D. H.
+  - family: Schulz
+    given: M.
+  - family: Müller
+    given: M. S.
+  issued:
+  - year: '2017'
+    month: '9'
+  title: 'OpenMP Tools Interface: Synchronization Information for Data Race Detection'
+  titleshort: OMPT
+  location: Stony Brook, NY, USA
+  containertitle: 13th International Workshop on OpenMP, IWOMP 2017
+  page: '249-265'
+  abstract: When it comes to data race detection, complete information
+    about synchronization, concurrency and memory accesses is needed.
+    This information might be gathered at various levels of abstraction.
+    For best results regarding accuracy this information should be
+    collected at the abstraction level of the parallel programming paradigm.
+    With the latest preview of the OpenMP specification, a tools interface (OMPT)
+    was added to OpenMP. In this paper we discuss whether the synchronization
+    information provided by OMPT is sufficient to apply accurate data race
+    analysis for OpenMP applications. We also present some implementation
+    details for our data race detection tool called Archer which derives
+    the synchronization information from OMPT.
+  DOI: 10.1007/978-3-319-65578-9_17
+  ISBN: '978-3-319-65577-2'
+  PDF: 'IWOMP_2017_paper_21.pdf'
+  citation: |
+   @inproceedings{IWOMP_2017_paper_21,
+                  Author = {J. Protze J. Hahnfeld, D. Ahn M. Schulz M. S. Muller},
+                  Booktitle = {13th {I}nternational {W}orkshop on {O}penMP, {IWOMP} 2017},
+                  Doi = {10.1007/978-3-319-65578-9_17},
+                  Isbn = {978-3-319-65577-2},
+                  Month = {September},
+                  Pages = {249-265},
+                  Title = {OpenMP Tools Interface: Synchronization Information for Data Race Detection},
+                  Year = {2017},}
+
 - id: '7516001'
   type: paper-conference
   author:
