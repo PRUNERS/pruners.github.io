@@ -1,6 +1,6 @@
 ---
 references:
--id: 'IWOMP_2017_paper_21'
+- id: 'IWOMP_2017_paper_21'
   type: paper-conference
   author:
   - family: Protze
