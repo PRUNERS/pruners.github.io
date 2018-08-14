@@ -11,7 +11,7 @@ parent = "toolset"
 ## Description
 <img src="../img/NINJA_logo.png" width="40%" alt="NINJA Logo" title="ReMPI" align="right" style="margin-left: 20px; margin-right: 20px;"/>
 <span style="font-variant: small-caps;"><b>Ninja</b></span> (Noise INJection Agent) is a smart network noise injector
-for quickly exposing unindended MPI message races.
+for quickly exposing unintended MPI message races.
 <span style="font-variant: small-caps;">Ninja</span> uses innovative network noise injection
 techniques to increase the chances of racy, incorrect MPI message matching within the target
 MPI application. <span style="font-variant: small-caps;"><b>Ninja</b></span> has been shown to reproduce unsafe message races consistently within
