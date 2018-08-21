@@ -35,6 +35,7 @@ references:
     accurately with only small additional analysis overheads.
   DOI: 10.1145/3208040.3208056
   ISBN: 978-1-4503-5785-2
+  PDF: '3208056.pdf'
   citation: |
     @inproceedings{3208056,
                    author = {Protze, Joachim and Schulz, Martin and Ahn, Dong H. and M\"{u}ller, Matthias S.},
@@ -94,6 +95,7 @@ references:
     while remaining efficient in execution time.
   DOI: 10.1109/IPDPS.2018.00094
   ISBN: 978-1-5386-4368-6
+  PDF: '08425238.pdf'
   citation: |
     @INPROCEEDINGS{8425238,
                    author={S. Atzeni and G. Gopalakrishnan and Z. Rakamaric and I. Laguna and G. L. Lee and D. H. Ahn},
