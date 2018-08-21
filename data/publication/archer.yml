@@ -1,5 +1,114 @@
 ---
 references:
+- id: '3208056'
+  type: paper-conference
+  author:
+  - family: Protze
+    given: J.
+  - family: Schulz
+    given: M.
+  - family: Ahn
+    given: D. H.
+  - family: Müller
+    given: M. S.
+  issued:
+  - year: '2018'
+    month: '6'
+  title: 'Thread-local Concurrency: A Technique to Handle Data Race Detection at Programming Model Abstraction'
+  titleshort: TLC
+  location: Tempe, Arizona, USA
+  containertitle: 27th International Symposium on High-Performance Parallel and Distributed Computing (HPDC)
+  page: '144-155'
+  abstract: With greater adoption of various high-level parallel programming models
+    to harness on-node parallelism, accurate data race detection has become more crucial than ever.
+    However, existing tools have great difficulty spotting data races through these high-level models,
+    as they primarily target low-level concurrent execution models (e.g., concurrency expressed
+    at the level of POSIX threads). In this paper, we propose a novel technique to accurately detect
+    those data races that can occur at higher levels of concurrent execution. The core idea
+    of our technique is to introduce the general concept of Thread-Local Concurrency (TLC)
+    as a new way to translate the concurrency expressed by a high-level programming paradigm
+    into the low execution level understood by the existing tools. Specifically, we extend
+    the definition of vector clocks to allow the existing state-of-the-art race detectors
+    to recognize those races that occur at the higher level of concurrency with minor
+    modifications to these tools. Our evaluation with our prototype implemented within
+    ThreadSanitizer shows that TLC can allow the existing tool to detect these races
+    accurately with only small additional analysis overheads.
+  DOI: 10.1145/3208040.3208056
+  ISBN: 978-1-4503-5785-2
+  PDF: '3208056.pdf'
+  citation: |
+    @inproceedings{3208056,
+                   author = {Protze, Joachim and Schulz, Martin and Ahn, Dong H. and M\"{u}ller, Matthias S.},
+                   title = {Thread-local Concurrency: A Technique to Handle Data Race Detection at Programming Model Abstraction},
+                   booktitle = {Proceedings of the 27th International Symposium on High-Performance Parallel and Distributed Computing},
+                   series = {HPDC 18},
+                   year = {2018},
+                   isbn = {978-1-4503-5785-2},
+                   location = {Tempe, Arizona},
+                   pages = {144--155},
+                   numpages = {12},
+                   url = {http://doi.acm.org/10.1145/3208040.3208056},
+                   doi = {10.1145/3208040.3208056},
+                   acmid = {3208056},
+                   publisher = {ACM},
+                   address = {New York, NY, USA}, }
+
+
+- id: '08425238'
+  type: paper-conference
+  author:
+  - family: Atzeni
+    given: S.
+  - family: Gopalakrishnan
+    given: G.
+  - family: Rakamaric
+    given: Z.
+  - family: Laguna
+    given: I.
+  - family: Lee
+    given: G. L.
+  issued:
+  - year: '2018'
+    month: '5'
+  title: 'SWORD: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs'
+  titleshort: SWORD
+  location: Vancouver, British Columbia, CANADA
+  containertitle: 32nd IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+  page: '845-854'
+  abstract: The detection and elimination of data races in large-scale OpenMP programs
+    is of critical importance. Unfortunately, today's state-of-the-art OpenMP race
+    checkers suffer from high memory overheads and/or miss races. In this paper,
+    we present SWORD, a data race detector that significantly improves upon these limitations.
+    SWORD limits the application slowdown and memory usage by utilizing only a bounded,
+    user-adjustable memory buffer to collect targeted memory accesses.
+    When the buffer fills up, the accesses are compressed and flushed to a file system
+    for later offline analysis. SWORD builds on an operational semantics that formally
+    captures the notion of concurrent accesses within OpenMP regions.
+    An offline race checker that is driven by these semantic rules allows
+    SWORD to improve upon happens-before techniques that are known to mask races.
+    To make its offline analysis highly efficient and scalable, SWORD employs
+    effective self-balancing interval-tree-based algorithms. Our experimental
+    results demonstrate that SWORD is capable of detecting races even within
+    programs that use over 90% of the memory on each compute node.
+    Further, our evaluation shows that it matches or exceeds the best
+    available dynamic OpenMP race checker in detection capability
+    while remaining efficient in execution time.
+  DOI: 10.1109/IPDPS.2018.00094
+  ISBN: 978-1-5386-4368-6
+  PDF: '08425238.pdf'
+  citation: |
+    @INPROCEEDINGS{8425238,
+                   author={S. Atzeni and G. Gopalakrishnan and Z. Rakamaric and I. Laguna and G. L. Lee and D. H. Ahn},
+                   booktitle={2018 IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
+                   title={SWORD: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs},
+                   year={2018},
+                   volume={},
+                   number={},
+                   pages={845-854},
+                   doi={10.1109/IPDPS.2018.00094},
+                   ISSN={1530-2075},
+                   month={May},}
+
 - id: 'IWOMP_2017_paper_21'
   type: paper-conference
   author:
