@@ -74,8 +74,8 @@ Email Contacts Simone Atzeni     </description>
       <pubDate>Fri, 27 Jan 2017 22:16:37 -0700</pubDate>
       
       <guid>https://pruners.github.io/flit/</guid>
-      <description>FLiT Description FLiT (originally named Floating-point Litmus Tester, but is more than that now) is a test infrastructure for detecting and locating varibility in floating-point code caused by variations in compiler code generation, hardware and execution environments. Tests can range from unit tests of functions, to full executbles.
-FLiT works by building many versions of the test suite, using multiple C++ compilers, floating-point related settings (i.e. flags) and optimization levels.</description>
+      <description>FLiT Description FLiT Workfow overview, more detail on the bisection step is in our paper FLiT (originally named Floating-point Litmus Tester, but is more than that now) is a test infrastructure for detecting and locating varibility in floating-point code caused by variations in compiler code generation, hardware and execution environments. Tests can range from unit tests of functions, to full executbles.
+FLiT works by building many versions of the test suite, using multiple C++ compilers, floating-point related settings (i.</description>
     </item>
     
     <item>
