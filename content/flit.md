@@ -38,6 +38,8 @@ It consists of the following components:
 * a SQL database for collecting results
 * a bisection tool which can determine where in code the optimizations changed your results
 
+<img src="../img/2019-06-hpdc-flit-poster.png" style="width:100%">
+
 Most recent publication describing the new functionality:
 [HPDC'19](https://doi.org/10.1145/3307681.3325960),
 [arXiv](https://arxiv.org/abs/1811.05618)
