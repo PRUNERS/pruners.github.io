@@ -10,6 +10,10 @@ parent = "toolset"
 
 ## Description
 
+<img src="../img/workflow.svg" style="width:100%">
+#### FLiT Workfow overview, more detail on the bisection step is in [our paper](https://doi.org/10.1145/3307681.3325960)
+
+
 <img src="../img/flit_logo.svg" width="20%" alt="FLiT Logo" title="FLiT" align="right" style="margin-left: 20px; margin-right: 20px;"/>
 
 FLiT (originally named Floating-point Litmus Tester, but is more than that now) is a test infrastructure for detecting and locating varibility in floating-point code caused by variations in compiler code generation, hardware and execution environments. Tests can range from unit tests of functions, to full executbles.
@@ -25,8 +29,6 @@ After executing the suite and collecting the data, it is easy to see how results
 
 
 
-
-
 Once the value-changing optimizations are found, FLiT bisect is able to determine
 what source file was optimized that induced the value change, and is often able norrow this down to the function level.
 
@@ -38,12 +40,13 @@ It consists of the following components:
 * a SQL database for collecting results
 * a bisection tool which can determine where in code the optimizations changed your results
 
-<img src="../img/2019-06-hpdc-flit-poster.png" style="width:100%">
-
 Most recent publication describing the new functionality:
 [HPDC'19](https://doi.org/10.1145/3307681.3325960),
 [arXiv](https://arxiv.org/abs/1811.05618)
 
+<a href="../img/2019-06-hpdc-flit-poster.pdf"><img src="../img/2019-06-hpdc-flit-poster.png" style="width:40%"></a>
+
+[HPDC'19 Poster](../img/2019-06-hpdc-flit-poster.pdf)
 
 
 
