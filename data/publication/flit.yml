@@ -1,6 +1,6 @@
 ---
 references:
-- id: iiswc2017-final43
+- id: sawaya_flit_2017
   type: paper-conference
   author:
   - family: Sawaya
@@ -14,49 +14,61 @@ references:
   - family: Ahn
     given: D. H.
   issued:
-  - year: '2017'
+  - year: 2017
+    month: 10
   title: 'FLiT: Cross-platform floating-point result-consistency tester and workload'
   title-short: FLiT
-  containertitle: IEEE international symposium on workload characterization
-  collectiontitle: IISWC 2017
-  location: Seattle, WA, USA
-  publisher: IEEE
-  publisher-place: Seattle, WA, USA
-  abstract: "Understanding the extent to which computational results
-  can change across platforms, compilers, and compiler flags can go a
-  long way toward supporting reproducible experiments. In this work,
-  we offer the first automated testing aid called FLiT (Floating-point
-  Litmus Tester) that can show how much these results can vary for any
-  user-given collection of computational kernels. Our approach is to
-  take a collection of these kernels, disperse them across a
-  collection of compute nodes (each with a different architecture),
-  have them compiled and run, and bring the results to a central SQL
-  database for deeper analysis. Properly conducting these activities
-  requires a careful selection (or design) of these kernels, input
-  generation methods for them, and the ability to interpret the
-  results in meaningful ways. The results in this paper are meant to
-  inform two different communities: (a) those interested in seeking
-  higher performance by considering IEEE unsafe optimizations, but
-  then want to understand how much result variability to expect, and
-  (b) those interested in standardizing compiler flags and their
-  meanings, so that one may safely port code across generations of
-  compilers and architectures. By releasing FLiT, we have also opened
-  up the possibility of all HPC developers using it as a common
-  resource as well as contributing back interesting test kernels as
-  well as best practices, thus extending the floating-point
-  result-consistency workload we contribute. This is the first such
-  workload and result-consistency tester underlying floating-point
-  reproducibility of which we are aware."
-  PDF: 'iiswc2017-final43.pdf'
-  citation: |
-   @inproceedings{iiswc2017-final43,
-                  Author = {G. Sawaya and M. Bentley and I. Briggs and
-                            G. Gopalakrishnan and D. H. Ahn},
-                  Pooktitle = {{P}roceedings of the {I}{E}{E}{E} {I}nternational {S}ymposium on
-                            {W}orkload {C}haracterization},
-                  Location = {Seattle, Washington},
-                  Month = {Oct},
-                  Title = {{F}{L}i{T}: {C}ross-{P}latform {F}loating-{P}oint
-                           {R}esult-{C}onsistency {T}ester and {W}orkload},
-                  Year = {2017},}
+  publisher-place: Seattle
+  page: To appear in IEEE International Symposium on Workload Characterization
+  abstract: 'Result reproducibility in societally important simulations faces the
+    grave risk of becoming voided when code is ported across hardware platforms or
+    optimized using different compiler flags. There are currently no available tools
+    that can help a programmer assess the extent of such non-portability through systematic
+    testing. In this work, we offer a novel testing framework called FLiT that comes
+    with a large collection of predesigned tests, and also test automation facilities,
+    including Makefile generation, distribution of the tests to CPU/GPU platforms,
+    and result amalgamation/query supported through SQL queries. We also develop an
+    intuitive 2D “heat-map” style visualization of how much a given compiler and its
+    flag(s) can affect a given program. FLiT is an easy-to-use and community extensible
+    framework, allowing the tool to grow in versatility as more tests are contributed
+    and support for newer compilers is added. Our results span three architectures
+    (including GPUs), four popular compilers, and dozens of compiler optimization
+    flags. We demonstrate the power of FLiT’s test automation and result analysis/visualization
+    support. For the first time, for example, FLiT’s systematic exploration was able
+    to discover the following results: (1) when seeking higher performance through
+    flags, compilers may apply unsafe algebraic simplifications, yielding up *six*
+    or more different answers in some test cases; (2) compilers are inconsistent in
+    the number of answer variants; in this ranking, Intel’s icpc comes first, followed
+    by GCC, then Clang, and finally NVCC.'
+
+- id: Bentley_flit_2019
+  type: paper-conference
+  author:
+  - family: Bentley
+    given: Michael
+  - family: Briggs
+    given: Ian
+  - family: Gopalakrishnan
+    given: Ganesh
+  - family: Ahn
+    given: Dong H.
+  - family: Laguna
+    given: Ignacio
+  - family: Lee
+    given: Gregory L.
+  - family: Jones
+    given: Holger E.
+  issued:
+  - year: 2019
+  title: Multi-level analysis of compiler-induced variability and performance tradeoffs
+  container-title: Proceedings of the 28th international symposium on high-performance
+    parallel and distributed computing
+  collection-title: HPDC ’19
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  page: 61-72
+  keyword: code optimization, compilers, debugging, performance tuning, reproducibility
+  URL: http://doi.acm.org/10.1145/3307681.3325960
+  DOI: 10.1145/3307681.3325960
+  ISBN: 978-1-4503-6670-0
 ...
