@@ -16,6 +16,10 @@ body {
   text-justify: inter-word;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, body h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 .affix {
   top: 0;
   width: 100%;

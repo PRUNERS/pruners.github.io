@@ -26,9 +26,7 @@ parent = "toolset"
 
 ## Quick Start
 
-### Installation
-
-1. **Spack: Recommended for curious users**
+### 1. Spack Installation: Recommended for curious users
 
 <span style="font-variant: small-caps;"><b>Archer</b></span> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <span style="font-variant: small-caps;"><b>Archer</b></span> itself. To install via Spack run:
 
@@ -39,7 +37,7 @@ $ spack/bin/spack install archer
 
 If you already have Spack, you can omit the first line.
 
+### 2. Manual Installation: Recommended for developers and contributors
 
-2. **Manual: Recommended for developers and contributors**
-
-Please refer to the instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/archer/blob/master/README.md" target="_blank">README.md</a>. 
+Please refer to the instructions in the
+<a class="smooth-link" title="README" href="https://github.com/PRUNERS/archer/blob/master/README.md" target="_blank">README.md</a>. 
