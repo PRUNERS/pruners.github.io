@@ -1,209 +1,292 @@
 @inproceedings{7516001,
-	Abstract = {OpenMP plays a growing role as a portable
-                  programming model to harness on-node parallelism,
-                  yet, existing data race checkers for OpenMP have
-                  high overheads and generate many false positives. In
-                  this paper, we propose the first OpenMP data race
-                  checker, ARCHER, that achieves high accuracy, low
-                  overheads on large applications, and
-                  portability. ARCHER incorporates scalable
-                  happens-before tracking, exploits structured
-                  parallelism via combined static and dynamic
-                  analysis, and modularly interfaces with OpenMP
-                  runtimes. ARCHER significantly outperforms TSan and
-                  Intel{\textregistered} Inspector XE, while providing
-                  the same or better precision. It has helped detect
-                  critical data races in the Hypre library that is
-                  central to many projects at Lawrence Livermore
-                  National Laboratory and elsewhere.},
-	Author = {S. Atzeni and G. Gopalakrishnan and Z. Rakamaric and
-                  D. H. Ahn and I. Laguna and M. Schulz and G. L. Lee
-                  and J. Protze and M. S. M{\"u}ller},
-	Booktitle = {2016 IEEE International Parallel and Distributed
-                  Processing Symposium (IPDPS)},
-	Doi = {10.1109/IPDPS.2016.68},
-	Issn = {1530-2075},
-	Keywords = {application program interfaces;parallel
-                  processing;program diagnostics;ARCHER;HPC;OpenMP
-                  application;data race checker;dynamic analysis;high
-                  performance computing;static analysis;structured
-                  parallelism;Benchmark testing;Instruments;Parallel
-                  processing;Runtime;Scalability;Synchronization;Xenon;OpenMP;data
-                  race detection;dynamic analysis;high performance
-                  computing;static analysis},
-	Month = {May},
-	Pages = {53-62},
-	Title = {ARCHER: Effectively Spotting Data Races in Large
-                  OpenMP Applications},
-	Year = {2016},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/IPDPS.2016.68}}
+  Abstract   = {OpenMP plays a growing role as a portable programming model to
+                harness on-node parallelism, yet, existing data race checkers
+                for OpenMP have high overheads and generate many false
+                positives.  In this paper, we propose the first OpenMP data
+                race checker, ARCHER, that achieves high accuracy, low
+                overheads on large applications, and portability. ARCHER
+                incorporates scalable happens-before tracking, exploits
+                structured parallelism via combined static and dynamic
+                analysis, and modularly interfaces with OpenMP runtimes. ARCHER
+                significantly outperforms TSan and Intel{\textregistered}
+                Inspector XE, while providing the same or better precision. It
+                has helped detect critical data races in the Hypre library that
+                is central to many projects at Lawrence Livermore National
+                Laboratory and elsewhere.},
+  Author     = {S. Atzeni and
+                G. Gopalakrishnan and
+                Z. Rakamaric and
+                D. H. Ahn and
+                I. Laguna and
+                M. Schulz and
+                G. L. Lee and
+                J. Protze and
+                M. S. M{\"u}ller},
+  Booktitle  = {2016 IEEE International Parallel and Distributed Processing
+                Symposium (IPDPS)},
+  Doi        = {10.1109/IPDPS.2016.68},
+  Issn       = {1530-2075},
+  Keywords   = {application program interfaces;
+                parallel processing;
+                program diagnostics;
+                ARCHER;
+                HPC;
+                OpenMP application;
+                data race checker;
+                dynamic analysis;
+                high performance computing;
+                static analysis;
+                structured parallelism;
+                Benchmark testing;
+                Instruments;
+                Parallel processing;
+                Runtime;
+                Scalability;
+                Synchronization;
+                Xenon;
+                OpenMP;
+                data race detection;
+                dynamic analysis;
+                high performance computing;
+                static analysis},
+  Month      = {May},
+  Pages      = {53-62},
+  Title      = {ARCHER: Effectively Spotting Data Races in Large OpenMP
+                Applications},
+  Year       = {2016},
+  Bdsk-Url-1 = {http://dx.doi.org/10.1109/IPDPS.2016.68}}
 
 @INPROCEEDINGS{8425238,
-    Abstract = {The detection and elimination of data races in large-scale OpenMP programs
-                  is of critical importance. Unfortunately, today's state-of-the-art OpenMP race
-                  checkers suffer from high memory overheads and/or miss races. In this paper,
-                  we present SWORD, a data race detector that significantly improves upon these limitations.
-                  SWORD limits the application slowdown and memory usage by utilizing only a bounded,
-                  user-adjustable memory buffer to collect targeted memory accesses.
-                  When the buffer fills up, the accesses are compressed and flushed to a file system
-                  for later offline analysis. SWORD builds on an operational semantics that formally
-                  captures the notion of concurrent accesses within OpenMP regions.
-                  An offline race checker that is driven by these semantic rules allows
-                  SWORD to improve upon happens-before techniques that are known to mask races.
-                  To make its offline analysis highly efficient and scalable, SWORD employs
-                  effective self-balancing interval-tree-based algorithms. Our experimental
-                  results demonstrate that SWORD is capable of detecting races even within
-                  programs that use over 90\% of the memory on each compute node.
-                  Further, our evaluation shows that it matches or exceeds the best
-                  available dynamic OpenMP race checker in detection capability
-                  while remaining efficient in execution time.},
-    author={S. Atzeni and G. Gopalakrishnan and Z. Rakamaric and I. Laguna and G. L. Lee and D. H. Ahn},
-    booktitle={2018 IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
-    title={SWORD: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs},
-    year={2018},
-    volume={},
-    number={},
-    pages={845-854},
-    keywords={data structures;parallel programming;program diagnostics;storage management;largescale OpenMP programs;data race detector;targeted memory accesses;OpenMP regions;offline race checker;bounded memory-overhead detector;OpenMP data races;memory overheads;memory buffer;OpenMP race checkers;dynamic OpenMP race checker;SWORD detector;Instruction sets;Tools;Synchronization;Concurrent computing;Semantics;Detectors;Parallel processing;Dynamic Data Race Detection;Concurrency Bugs;Data Races;OpenMP;High Performance Computing;HPC;Offline Analysis},
-    doi={10.1109/IPDPS.2018.00094},
-    ISSN={1530-2075},
-    month={May},
+  Abstract   = {The detection and elimination of data races in large-scale
+                OpenMP programs is of critical importance. Unfortunately,
+                today's state-of-the-art OpenMP race checkers suffer from high
+                memory overheads and/or miss races. In this paper, we present
+                SWORD, a data race detector that significantly improves upon
+                these limitations.  SWORD limits the application slowdown and
+                memory usage by utilizing only a bounded, user-adjustable
+                memory buffer to collect targeted memory accesses.  When the
+                buffer fills up, the accesses are compressed and flushed to a
+                file system for later offline analysis. SWORD builds on an
+                operational semantics that formally captures the notion of
+                concurrent accesses within OpenMP regions.  An offline race
+                checker that is driven by these semantic rules allows SWORD to
+                improve upon happens-before techniques that are known to mask
+                races.  To make its offline analysis highly efficient and
+                scalable, SWORD employs effective self-balancing
+                interval-tree-based algorithms. Our experimental results
+                demonstrate that SWORD is capable of detecting races even
+                within programs that use over 90\% of the memory on each
+                compute node.  Further, our evaluation shows that it matches or
+                exceeds the best available dynamic OpenMP race checker in
+                detection capability while remaining efficient in execution
+                time.},
+  author     = {S. Atzeni and
+                G. Gopalakrishnan and
+                Z. Rakamaric and
+                I. Laguna and
+                G. L. Lee and
+                D. H. Ahn},
+  booktitle  = {2018 IEEE International Parallel and Distributed Processing
+                Symposium (IPDPS)},
+  title      = {SWORD: A Bounded Memory-Overhead Detector of OpenMP Data Races
+                in Production Runs},
+  year       = {2018},
+  volume     = {},
+  number     = {},
+  pages      = {845-854},
+  keywords   = {data structures;
+                parallel programming;
+                program diagnostics;
+                storage management;
+                largescale OpenMP programs;
+                data race detector;
+                targeted memory accesses;
+                OpenMP regions;
+                offline race checker;
+                bounded memory-overhead detector;
+                OpenMP data races;
+                memory overheads;
+                memory buffer;
+                OpenMP race checkers;
+                dynamic OpenMP race checker;
+                SWORD detector;
+                Instruction sets;
+                Tools;
+                Synchronization;
+                Concurrent computing;
+                Semantics;
+                Detectors;
+                Parallel processing;
+                Dynamic Data Race Detection;
+                Concurrency Bugs;
+                Data Races;
+                OpenMP;
+                High Performance Computing;
+                HPC;
+                Offline Analysis},
+  doi        = {10.1109/IPDPS.2018.00094},
+  ISSN       = {1530-2075},
+  month      = {May},
 }
 
 @inproceedings{3208056,
-    Abstract = {With greater adoption of various high-level parallel programming models
-                  to harness on-node parallelism, accurate data race detection has become more crucial than ever.
-                  However, existing tools have great difficulty spotting data races through these high-level models,
-                  as they primarily target low-level concurrent execution models (e.g., concurrency expressed
-                  at the level of POSIX threads). In this paper, we propose a novel technique to accurately detect
-                  those data races that can occur at higher levels of concurrent execution. The core idea
-                  of our technique is to introduce the general concept of Thread-Local Concurrency (TLC)
-                  as a new way to translate the concurrency expressed by a high-level programming paradigm
-                  into the low execution level understood by the existing tools. Specifically, we extend
-                  the definition of vector clocks to allow the existing state-of-the-art race detectors
-                  to recognize those races that occur at the higher level of concurrency with minor
-                  modifications to these tools. Our evaluation with our prototype implemented within
-                  ThreadSanitizer shows that TLC can allow the existing tool to detect these races
-                  accurately with only small additional analysis overheads.},
-    author = {Protze, Joachim and Schulz, Martin and Ahn, Dong H. and M\"{u}ller, Matthias S.},
-    title = {Thread-local Concurrency: A Technique to Handle Data Race Detection at Programming Model Abstraction},
-    booktitle = {Proceedings of the 27th International Symposium on High-Performance Parallel and Distributed Computing},
-    series = {HPDC '18},
-    year = {2018},
-    isbn = {978-1-4503-5785-2},
-    location = {Tempe, Arizona},
-    pages = {144--155},
-    numpages = {12},
-    url = {http://doi.acm.org/10.1145/3208040.3208056},
-    doi = {10.1145/3208040.3208056},
-    acmid = {3208056},
-    publisher = {ACM},
-    address = {New York, NY, USA},
+  Abstract   = {With greater adoption of various high-level parallel
+                programming models to harness on-node parallelism, accurate
+                data race detection has become more crucial than ever.
+                However, existing tools have great difficulty spotting data
+                races through these high-level models, as they primarily target
+                low-level concurrent execution models (e.g., concurrency
+                expressed at the level of POSIX threads). In this paper, we
+                propose a novel technique to accurately detect those data races
+                that can occur at higher levels of concurrent execution. The
+                core idea of our technique is to introduce the general concept
+                of Thread-Local Concurrency (TLC) as a new way to translate the
+                concurrency expressed by a high-level programming paradigm into
+                the low execution level understood by the existing tools.
+                Specifically, we extend the definition of vector clocks to
+                allow the existing state-of-the-art race detectors to recognize
+                those races that occur at the higher level of concurrency with
+                minor modifications to these tools. Our evaluation with our
+                prototype implemented within ThreadSanitizer shows that TLC can
+                allow the existing tool to detect these races accurately with
+                only small additional analysis overheads.},
+  author     = {Joachim Protze and
+                Martin Schulz and
+                Dong H. Ahn and
+                Matthias S. M\"{u}ller},
+  title      = {Thread-local Concurrency: A Technique to Handle Data Race
+                Detection at Programming Model Abstraction},
+  booktitle  = {Proceedings of the 27th International Symposium on
+                High-Performance Parallel and Distributed Computing},
+  series     = {HPDC '18},
+  year       = {2018},
+  isbn       = {978-1-4503-5785-2},
+  location   = {Tempe, Arizona},
+  pages      = {144--155},
+  numpages   = {12},
+  url        = {http://doi.acm.org/10.1145/3208040.3208056},
+  doi        = {10.1145/3208040.3208056},
+  acmid      = {3208056},
+  publisher  = {ACM},
+  address    = {New York, NY, USA},
 }
 
 @inproceedings{DBLP:conf/iwomp/ProtzeHASM17,
-  Abstract = {When it comes to data race detection, complete information
-              about synchronization, concurrency and memory accesses is needed.
-              This information might be gathered at various levels of abstraction.
-              For best results regarding accuracy this information should be
-              collected at the abstraction level of the parallel programming paradigm.
-              With the latest preview of the OpenMP specification, a tools interface (OMPT)
-              was added to OpenMP. In this paper we discuss whether the synchronization
-              information provided by OMPT is sufficient to apply accurate data race
-              analysis for OpenMP applications. We also present some implementation
-              details for our data race detection tool called Archer which derives
-              the synchronization information from OMPT.},
-  author    = {Joachim Protze and
-               Jonas Hahnfeld and
-               Dong H. Ahn and
-               Martin Schulz and
-               Matthias S. M{\"{u}}ller},
-  title     = {OpenMP Tools Interface: Synchronization Information for Data Race
-               Detection},
-  booktitle = {Scaling OpenMP for Exascale Performance and Portability - 13th International
-               Workshop on OpenMP, {IWOMP} 2017, Stony Brook, NY, USA, September
-               20-22, 2017, Proceedings},
-  pages     = {249--265},
-  year      = {2017},
-  crossref  = {DBLP:conf/iwomp/2017},
-  url       = {https://doi.org/10.1007/978-3-319-65578-9_17},
-  doi       = {10.1007/978-3-319-65578-9_17},
-  timestamp = {Wed, 30 Aug 2017 15:47:55 +0200},
-  biburl    = {https://dblp.org/rec/bib/conf/iwomp/ProtzeHASM17},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  Abstract   = {When it comes to data race detection, complete information
+                about synchronization, concurrency and memory accesses is
+                needed.  This information might be gathered at various levels
+                of abstraction.  For best results regarding accuracy this
+                information should be collected at the abstraction level of the
+                parallel programming paradigm.  With the latest preview of the
+                OpenMP specification, a tools interface (OMPT) was added to
+                OpenMP. In this paper we discuss whether the synchronization
+                information provided by OMPT is sufficient to apply accurate
+                data race analysis for OpenMP applications. We also present
+                some implementation details for our data race detection tool
+                called Archer which derives the synchronization information
+                from OMPT.},
+  author     = {Joachim Protze and
+                Jonas Hahnfeld and
+                Dong H. Ahn and
+                Martin Schulz and
+                Matthias S. M{\"{u}}ller},
+  title      = {OpenMP Tools Interface: Synchronization Information for Data Race
+                Detection},
+  booktitle  = {Scaling OpenMP for Exascale Performance and Portability - 13th
+                International Workshop on OpenMP, {IWOMP} 2017, Stony Brook,
+                NY, USA, September 20-22, 2017, Proceedings},
+  pages      = {249--265},
+  year       = {2017},
+  crossref   = {DBLP:conf/iwomp/2017},
+  url        = {https://doi.org/10.1007/978-3-319-65578-9_17},
+  doi        = {10.1007/978-3-319-65578-9_17},
+  timestamp  = {Wed, 30 Aug 2017 15:47:55 +0200},
+  biburl     = {https://dblp.org/rec/bib/conf/iwomp/ProtzeHASM17},
+  bibsource  = {dblp computer science bibliography, https://dblp.org}
 }
 
 @proceedings{DBLP:conf/iwomp/2017,
-  editor    = {Bronis R. de Supinski and
-               Stephen L. Olivier and
-               Christian Terboven and
-               Barbara M. Chapman and
-               Matthias S. M{\"{u}}ller},
-  title     = {Scaling OpenMP for Exascale Performance and Portability - 13th International
-               Workshop on OpenMP, {IWOMP} 2017, Stony Brook, NY, USA, September
-               20-22, 2017, Proceedings},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {10468},
-  publisher = {Springer},
-  year      = {2017},
-  url       = {https://doi.org/10.1007/978-3-319-65578-9},
-  doi       = {10.1007/978-3-319-65578-9},
-  isbn      = {978-3-319-65577-2},
-  timestamp = {Wed, 30 Aug 2017 15:47:55 +0200},
-  biburl    = {https://dblp.org/rec/bib/conf/iwomp/2017},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  editor     = {Bronis R. de Supinski and
+                Stephen L. Olivier and
+                Christian Terboven and
+                Barbara M. Chapman and
+                Matthias S. M{\"{u}}ller},
+  title      = {Scaling OpenMP for Exascale Performance and Portability - 13th
+                International Workshop on OpenMP, {IWOMP} 2017, Stony Brook,
+                NY, USA, September 20-22, 2017, Proceedings},
+  series     = {Lecture Notes in Computer Science},
+  volume     = {10468},
+  publisher  = {Springer},
+  year       = {2017},
+  url        = {https://doi.org/10.1007/978-3-319-65578-9},
+  doi        = {10.1007/978-3-319-65578-9},
+  isbn       = {978-3-319-65577-2},
+  timestamp  = {Wed, 30 Aug 2017 15:47:55 +0200},
+  biburl     = {https://dblp.org/rec/bib/conf/iwomp/2017},
+  bibsource  = {dblp computer science bibliography, https://dblp.org}
 }
 
 @inproceedings{7069300,
-	Abstract = {Neither static nor dynamic data race detection
-                  methods, by themselves, have proven to be sufficient
-                  for large HPC applications, as they often result in
-                  high runtime overheads and/or low race-checking
-                  accuracy. While combined static and dynamic
-                  approaches can fare better, creating such
-                  combinations, in practice, requires attention to
-                  many details. Specifically, existing
-                  state-of-the-art dynamic race detectors are aimed at
-                  low-level threading models, and cannot handle
-                  high-level models such as OpenMP. Further, they do
-                  not provide mechanisms by which static analysis
-                  methods can target selected regions of code with
-                  sufficient precision. In this paper, we present our
-                  solutions to both challenges. Specifically, we
-                  identify patterns within OpenMP runtimes that tend
-                  to mislead existing dynamic race checkers and
-                  provide mechanisms that help establish an explicit
-                  happens-before relation to prevent such misleading
-                  checks. We also implement a fine-grained blacklist
-                  mechanism to allow a runtime analyzer to exclude
-                  regions of code at line number granularity. We
-                  support race checking by adapting ThreadSanitizer, a
-                  mature data-race checker developed at Google that is
-                  now an integral part of Clang and GCC; and we have
-                  implemented our techniques within the
-                  state-of-the-art Intel OpenMP Runtime. Our results
-                  demonstrate that these techniques can significantly
-                  improve runtime analysis accuracy and overhead in
-                  the context of data race checking of OpenMP
-                  applications.},
-	Author = {J. Protze and S. Atzeni and D. H. Ahn and M. Schulz
-                  and G. Gopalakrishnan and M. S. M{\"u}ller and
-                  I. Laguna and Z. Rakamaric and G. L. Lee},
-	Booktitle = {2014 LLVM Compiler Infrastructure in HPC},
-	Doi = {10.1109/LLVM-HPC.2014.7},
-	Keywords = {application program interfaces;message
-                  passing;program diagnostics;HPC
-                  application;OpenMP;ThreadSanitizer;data-race
-                  checker;dynamic data race detection;fine-grained
-                  blacklist mechanism;low-overhead data race
-                  detection;runtime analysis accuracy;static
-                  analysis;static data race
-                  detection;Accuracy;Instruction
-                  sets;Instruments;Message
-                  systems;Programming;Runtime;Synchronization},
-	Month = {Nov},
-	Pages = {40-47},
-	Title = {Towards Providing Low-Overhead Data Race Detection
-                  for Large OpenMP Applications},
-	Year = {2014},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/LLVM-HPC.2014.7}}
+  Abstract   = {Neither static nor dynamic data race detection methods, by
+                themselves, have proven to be sufficient for large HPC
+                applications, as they often result in high runtime overheads
+                and/or low race-checking accuracy. While combined static and
+                dynamic approaches can fare better, creating such combinations,
+                in practice, requires attention to many details. Specifically,
+                existing state-of-the-art dynamic race detectors are aimed at
+                low-level threading models, and cannot handle high-level models
+                such as OpenMP. Further, they do not provide mechanisms by
+                which static analysis methods can target selected regions of
+                code with sufficient precision. In this paper, we present our
+                solutions to both challenges.  Specifically, we identify
+                patterns within OpenMP runtimes that tend to mislead existing
+                dynamic race checkers and provide mechanisms that help
+                establish an explicit happens-before relation to prevent such
+                misleading checks. We also implement a fine-grained blacklist
+                mechanism to allow a runtime analyzer to exclude regions of
+                code at line number granularity. We support race checking by
+                adapting ThreadSanitizer, a mature data-race checker developed
+                at Google that is now an integral part of Clang and GCC; and we
+                have implemented our techniques within the state-of-the-art
+                Intel OpenMP Runtime. Our results demonstrate that these
+                techniques can significantly improve runtime analysis accuracy
+                and overhead in the context of data race checking of OpenMP
+                applications.},
+  Author     = {J. Protze and
+                S. Atzeni and
+                D. H. Ahn and
+                M. Schulz and
+                G. Gopalakrishnan and
+                M. S. M{\"u}ller and
+                I. Laguna and
+                Z. Rakamaric and
+                G. L. Lee},
+  Booktitle  = {2014 LLVM Compiler Infrastructure in HPC},
+  Doi        = {10.1109/LLVM-HPC.2014.7},
+  Keywords   = {application program interfaces;
+                message passing;
+                program diagnostics;
+                HPC application;
+                OpenMP;
+                ThreadSanitizer;
+                data-race checker;
+                dynamic data race detection;
+                fine-grained blacklist mechanism;
+                low-overhead data race detection;
+                runtime analysis accuracy;
+                static analysis;
+                static data race detection;
+                Accuracy;
+                Instruction sets;
+                Instruments;
+                Message systems;
+                Programming;
+                Runtime;
+                Synchronization},
+  Month      = {Nov},
+  Pages      = {40-47},
+  Title      = {Towards Providing Low-Overhead Data Race Detection for Large
+                OpenMP Applications},
+  Year       = {2014},
+  Bdsk-Url-1 = {http://dx.doi.org/10.1109/LLVM-HPC.2014.7}
+}

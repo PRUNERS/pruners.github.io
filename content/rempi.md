@@ -30,19 +30,19 @@ ReMPI is open-source software and can be obtained on <a class="smooth-link" titl
 
 1. **Spack: Recommended for curious users**
 
-	<b>ReMPI</b> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <b>ReMPI</b> itself. To install via Spack run:
+<b>ReMPI</b> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <b>ReMPI</b> itself. To install via Spack run:
 
-	```console
-	$ git clone https://github.com/LLNL/spack
-	$ spack/bin/spack install rempi
-	```
+```console
+$ git clone https://github.com/LLNL/spack
+$ spack/bin/spack install rempi
+```
 
-	If you already have Spack, you can omit the first line.
+If you already have Spack, you can omit the first line.
 
 
 2. **Manual: Recommended for developers and contributors**
 
-	Please refer to the installation instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/ReMPI/blob/master/README.md" target="_blank">README.md</a>.
+Please refer to the installation instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/ReMPI/blob/master/README.md" target="_blank">README.md</a>.
 
 ---
 ## Reference

@@ -1,227 +1,227 @@
 @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
 
 html {
-	background-color: white;
+  background-color: white;
 }
 
 body {
-	height: 100%;
-	position: relative;
-	background: rgba(0, 0, 0, 0.0);
-	color: black;
-	font-weight: 300;
-	font-size: 22px;
-	font-family: 'Quattrocento Sans', sans-serif;
-	text-align: justify;
-	text-justify: inter-word;
+  height: 100%;
+  position: relative;
+  background: rgba(0, 0, 0, 0.0);
+  color: black;
+  font-weight: 300;
+  font-size: 22px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .affix {
-	top: 0;
-	width: 100%;
-	z-index: 9999 !important;
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
 }
 
 .navbar {
-	margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .affix ~ .container {
-	position: relative;
-	top: 50px;
+  position: relative;
+  top: 50px;
 }
 
 .smooth-header {
-	padding-top: 0;
-	padding-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 20px;
 }
 
 .smooth-container {
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 100px;
 }
 
 .smooth-foot-container {
-	padding-left: 30px;
-	padding-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .smooth-logo .smooth-logo-link {
-	float: none;
-	width: auto;
-	height: auto;
+  float: none;
+  width: auto;
+  height: auto;
 }
 
 .smooth-logo img {
-	width: auto;
-	border-style: none;
-	vertical-align: top;
-	width: 100%;
-	height: auto;
-	box-sizing: border-box;
+  width: auto;
+  border-style: none;
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
 }
 
 .smooth-col-logo {
-	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	margin: 55px 0px 0 0;
-	/*     padding-left: 0px;
-	padding-right: 0px; */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 55px 0px 0 0;
+  /*     padding-left: 0px;
+  padding-right: 0px; */
 }
 
 .smooth-logo a {
-	display: block;
+  display: block;
 }
 
 .container-header {
-	
+  
 }
 
 .navbar-collapse {
-	
+  
 }
 
 .row-header {
-	position: relative;
-	margin-left: 0px;
-	margin-right: 0px;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .smooth-header-content {
-	width: auto;
-	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	margin: 75px 0px 0 0;
+  width: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 75px 0px 0 0;
 }
 
 .smooth-col-tagline {
-	padding-left: 0px;
-	padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .smooth-header-tagline {
-	font-weight: 300;
-	font-style: italic;
-	font-size: 20px;
-	font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .smooth-footer {
-	padding-top: 30px;
-	padding-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
 .smooth-copyright {
-	font-weight: 300;
-	font-style: italic;
-	font-size: 14px;
-	font-family: 'Quattrocento Sans', sans-serif;
-	color: #686868;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #686868;
 }
 
 .smooth-tooltip {
-	font-size: 24px;
-	color: #686868;
-	margin-left: 10px;
-	margin-right: 10px;
+  font-size: 24px;
+  color: #686868;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .smooth-contact-row {
-	padding-top: 30px;
+  padding-top: 30px;
 }
 
 .smooth-contact-tooltip {
-	font-size: 24px;
-	color: #686868;
-	margin-left: 5px;
-	margin-right: 5px;
+  font-size: 24px;
+  color: #686868;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .navbar-nav>li>.dropdown-menu {
-	font-size: 16px;
-	background-color: #D3D3D3;
+  font-size: 16px;
+  background-color: #D3D3D3;
 }
 
 /* .dropdown:focus .dropdown:active */
 .dropdown:hover .dropdown-content {
-	display: block;
+  display: block;
 }
 
 .navbar-nav .dropdown-menu>li>a:hover {
-	
+  
 }
 
 a.smooth-link:link {
-	color: dimgray;
-	/* color: #708090; */
+  color: dimgray;
+  /* color: #708090; */
 }
 
 a.smooth-link:visited {
-	color: darkslategray;
-	/* color: #696969; */
+  color: darkslategray;
+  /* color: #696969; */
 }
 
 a.smooth-link:hover {
-	color: #FA8072;
+  color: #FA8072;
 }
 
 a.smooth-link:active {
-	color: #FA8072;
+  color: #FA8072;
 }
 
 .smooth-modal-font {
-	font-weight: 300;
-	font-style: italic;
-	font-size: 18px;
-	font-family: 'Quattrocento Sans', sans-serif;
-	color: black;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: black;
 }
 
 .smooth-citation-modal {
-	
+  
 }
 
 .smooth-abstract-modal {
-	text-align: justify;
-	text-justify: inter-word;
-	padding-left: 25px;
-	padding-right: 25px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .smooth-modal-link {
-	color: gray;
+  color: gray;
 }
 
 .smooth-modal {
-	
+  
 }
 
 .smooth-modal-header {
-	padding: 10px 15px 10px 15px
+  padding: 10px 15px 10px 15px
 }
 
 .modal {
-	text-align: center;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-	.modal:before {
-		display: inline-block;
-		vertical-align: middle;
-		content: " ";
-		height: 100%;
-	}
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
 }
 
 .modal-dialog {
-	display: inline-block;
-	text-align: left;
-	vertical-align: middle;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }

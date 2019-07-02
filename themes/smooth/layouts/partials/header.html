@@ -1,111 +1,135 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    	<title>{{ .Title | safeHTML }} {{ if ne .Title .Site.Title }} - {{ .Site.Title | safeHTML }} {{ end }}</title>
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<link id="favicon" rel="shortcut icon" href="{{ $.Site.BaseURL }}img/favicon.ico" type="image/ico"/>
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    {{ range .Site.Params.custom_css }}
-    	<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
-	{{ end }}
-    	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    	<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    {{ range .Site.Params.custom_js }}
-    	<script async src="{{ $.Site.BaseURL }}{{ . }}"></script>
-	{{ end }}
-	</head>
+<head>
+ <title>{{ .Title | safeHTML }} {{ if ne .Title .Site.Title }} - {{ .Site.Title | safeHTML }} {{ end }}</title>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <link id="favicon" rel="shortcut icon"
+       href="{{ $.Site.BaseURL }}img/favicon.ico" type="image/ico" />
+ <link rel="stylesheet"
+       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+ <link rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+ {{ range .Site.Params.custom_css }}
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}" />
+ {{ end }}
+ <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ {{ range .Site.Params.custom_js }}
+  <script async src="{{ $.Site.BaseURL }}{{ . }}"></script>
+ {{ end }}
+</head>
 
-	<body data-spy="scroll" data-target=".navbar" data-offset="50">
-		<div class="container container-header" style="height:170px;">
-			<div class="smooth-header">
-	  			<div class="row row-header">
-					<div class="smooth-logo" data-margin-top="31px" data-margin-bottom="0px" data-margin-left="0px" data-margin-right="0px">
-						<div class="col-md-6 smooth-col-logo" style="width:322px; height:62px;">
-						<a class="smooth-logo-link" href="{{ $.Site.BaseURL }}">
-							<img src="{{ $.Site.BaseURL }}{{ .Site.Params.logo }}" width="322" height="62" alt="PRUNERS">
-						</a>
-						</div>
-						<div class="smooth-header-content col-md-6 smooth-col-tagline hidden-xs hidden-sm hidden-md">
-							<h3 class="smooth-header-tagline" data-fontsize="22" data-lineheight="33">
-								Providing Reproducibility for Uncovering Non-deterministic Errors in Runs on Supercomputers
-							</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> 
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+ <div class="container container-header" style="height:170px;">
+  <div class="smooth-header">
+   <div class="row row-header">
+    <div class="smooth-logo" data-margin-top="31px" data-margin-bottom="0px"
+         data-margin-left="0px" data-margin-right="0px">
+     <div class="col-md-6 smooth-col-logo" style="width:322px; height:62px;">
+      <a class="smooth-logo-link" href="{{ $.Site.BaseURL }}">
+       <img src="{{ $.Site.BaseURL }}{{ .Site.Params.logo }}" width="322"
+            height="62" alt="PRUNERS" />
+      </a>
+     </div>
+     <div class="smooth-header-content col-md-6 smooth-col-tagline hidden-xs hidden-sm hidden-md">
+      <h3 class="smooth-header-tagline" data-fontsize="22" data-lineheight="33">
+       Providing Reproducibility for Uncovering Non-deterministic Errors in
+       Runs on Supercomputers
+      </h3>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div> 
   
-  		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="167">
-		  <div class="container container-header">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#smooth-navbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse" id="smooth-navbar">
-				<ul class="nav navbar-nav">
-					{{ if .IsHome }}
-	           			<li class="active"><a href="{{ $.Site.BaseURL }}">Home</a></li>
-	           		{{ else }}
-	           			<li ><a href="{{ $.Site.BaseURL }}">Home</a></li>
-	           		{{ end }}
-	           		<!-- Desktop -->
-					{{ $currentPage := . }} {{ range .Site.Menus.main }}{{ if .HasChildren }}
-						{{ if eq $currentPage.Params.parent .Identifier }}
-							<li class="dropdown active hidden-xs"><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
-						{{ else }}
-							<li class="dropdown hidden-xs"><a>{{ .Name | safeHTML }}<span class="caret"></span></a>
-						{{ end }}
-		           			<ul class="dropdown-menu dropdown-content" style="padding: 0 0 0 0;">
-								{{ $len := (len .Children) }}
-		        	   			{{ range $index, $item := .Children }}
-		               			<li><a href="{{.URL}}">{{ $item.Name | safeHTML }}</a></li>
-		               			{{ if ne ( sub $len 1) $index }}
-		               			<li role="presentation" class="divider" style="margin: 0 0 0 0;"></li>
-		               			{{ end }}
-		           				{{ end }}
-		           			</ul>
-	         		{{else}}
-	         		{{ if eq $currentPage.Title .Identifier }}
-	           			<li class="active hidden-xs"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
-	           		{{ else }}
-	           			<li class="hidden-xs"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
-	           		{{ end }}
-	        		{{ end }}
-	        		</li>
-	          		{{ end }}
-	          		<!-- Desktop -->
-	          		<!-- Mobile -->
-	          		{{ $currentPage := . }} {{ range .Site.Menus.main }}{{ if .HasChildren }}
-						{{ if eq $currentPage.Params.parent .Identifier }}
-							<li class="dropdown active visible-xs"><a class="dropdown-toggle visible-xs visible-xs" data-toggle="dropdown" href="#">{{ .Name | safeHTML }}<span class="caret"></span></a>
-						{{ else }}
-							<li class="dropdown visible-xs"><a class="dropdown-toggle visible-xs visible-xs" data-toggle="dropdown" href="#">{{ .Name | safeHTML }}<span class="caret"></span></a>
-						{{ end }}
-		           			<ul class="dropdown-menu" style="padding: 0 0 0 0;">
-								{{ $len := (len .Children) }}
-		        	   			{{ range $index, $item := .Children }}
-		               			<li><a href="{{.URL}}">{{ $item.Name | safeHTML }}</a></li>
-		               			{{ if ne ( sub $len 1) $index }}
-		               			<li role="presentation" class="divider" style="margin: 0 0 0 0;"></li>
-		               			{{ end }}
-		           				{{ end }}
-		           			</ul>
-	         		{{else}}
-	         		{{ if eq $currentPage.Title .Identifier }}
-	           			<li class="active visible-xs"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
-	           		{{ else }}
-	           			<li class="visible-xs"><a href="{{.URL}}"><span>{{ .Name }}</span></a>
-	           		{{ end }}
-	        		{{ end }}
-	        		</li>
-	          		{{ end }}
-					<!-- Mobile -->
-				</ul>
-			</div>
-		</div>
-	</nav>
+ <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="167">
+  <div class="container container-header">
+   <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target="#smooth-navbar">
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+    </button>
+   </div>
+   <div class="collapse navbar-collapse" id="smooth-navbar">
+    <ul class="nav navbar-nav">
+     {{ if .IsHome }}
+      <li class="active"><a href="{{ $.Site.BaseURL }}">Home</a></li>
+     {{ else }}
+      <li ><a href="{{ $.Site.BaseURL }}">Home</a></li>
+     {{ end }}
+     <!-- Desktop -->
+     {{ $currentPage := . }} {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+       {{ if eq $currentPage.Params.parent .Identifier }}
+        <li class="dropdown active hidden-xs">
+         <a>{{ .Name | safeHTML }}<span class="caret"></span></a>
+       {{ else }}
+        <li class="dropdown hidden-xs">
+         <a>{{ .Name | safeHTML }}<span class="caret"></span></a>
+       {{ end }}
+       <ul class="dropdown-menu dropdown-content" style="padding: 0 0 0 0;">
+        {{ $len := (len .Children) }}
+        {{ range $index, $item := .Children }}
+         <li><a href="{{.URL}}">{{ $item.Name | safeHTML }}</a></li>
+         {{ if ne ( sub $len 1) $index }}
+          <li role="presentation" class="divider" style="margin: 0 0 0 0;"></li>
+         {{ end }}
+        {{ end }}
+       </ul>
+      {{else}}
+       {{ if eq $currentPage.Title .Identifier }}
+        <li class="active hidden-xs">
+         <a href="{{.URL}}"><span>{{ .Name }}</span></a>
+       {{ else }}
+        <li class="hidden-xs">
+         <a href="{{.URL}}"><span>{{ .Name }}</span></a>
+       {{ end }}
+      {{ end }}
+      </li>
+     {{ end }}
+     <!-- Desktop -->
+     <!-- Mobile -->
+     {{ $currentPage := . }} {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+       {{ if eq $currentPage.Params.parent .Identifier }}
+        <li class="dropdown active visible-xs">
+         <a class="dropdown-toggle visible-xs visible-xs"
+            data-toggle="dropdown"
+            href="#">{{ .Name | safeHTML }}<span class="caret"></span></a>
+        </li>
+       {{ else }}
+        <li class="dropdown visible-xs">
+         <a class="dropdown-toggle visible-xs visible-xs"
+            data-toggle="dropdown"
+            href="#">{{ .Name | safeHTML }}<span class="caret"></span></a>
+        </li>
+       {{ end }}
+       <ul class="dropdown-menu" style="padding: 0 0 0 0;">
+        {{ $len := (len .Children) }}
+        {{ range $index, $item := .Children }}
+         <li><a href="{{.URL}}">{{ $item.Name | safeHTML }}</a></li>
+         {{ if ne ( sub $len 1) $index }}
+          <li role="presentation" class="divider" style="margin: 0 0 0 0;"></li>
+         {{ end }}
+        {{ end }}
+       </ul>
+      {{else}}
+       {{ if eq $currentPage.Title .Identifier }}
+        <li class="active visible-xs">
+         <a href="{{.URL}}"><span>{{ .Name }}</span></a>
+        </li>
+       {{ else }}
+        <li class="visible-xs">
+         <a href="{{.URL}}"><span>{{ .Name }}</span></a>
+        </li>
+       {{ end }}
+      {{ end }}
+     {{ end }}
+     <!-- Mobile -->
+    </ul>
+   </div>
+  </div>
+ </nav>

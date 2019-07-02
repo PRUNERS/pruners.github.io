@@ -30,19 +30,19 @@ traditional testing approach (i.e., random noise injection).
 
 1. **Spack: Recommended for curious users**
 
-	<b><span style="font-variant: small-caps;">Ninja</span></b> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <b><span style="font-variant: small-caps;">Ninja</span></b> itself. To install via Spack run:
+<b><span style="font-variant: small-caps;">Ninja</span></b> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <b><span style="font-variant: small-caps;">Ninja</span></b> itself. To install via Spack run:
 
-	```console
-	$ git clone https://github.com/LLNL/spack
-	$ spack/bin/spack install pruners-ninja
-	```
+```console
+$ git clone https://github.com/LLNL/spack
+$ spack/bin/spack install pruners-ninja
+```
 
-	If you already have Spack, you can omit the first line.
+If you already have Spack, you can omit the first line.
 
 
 2. **Manual: Recommended for developers and contributors**
 
-	Please refer to the installation instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/NINJA/blob/master/README.md" target="_blank">README.md</a>.
+Please refer to the installation instructions in <a class="smooth-link" title="README" href="https://github.com/PRUNERS/NINJA/blob/master/README.md" target="_blank">README.md</a>.
 
 ---
 ## Reference
