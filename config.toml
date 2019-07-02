@@ -1,234 +1,235 @@
-MetaDataFormat 	= "toml"
+MetaDataFormat      = "toml"
 
-languageCode 	= "en-us"
-title 			= "PRUNERS"
-baseurl 		= "https://pruners.github.io/"
-theme 			= "smooth"
+languageCode        = "en-us"
+title               = "PRUNERS"
+baseurl             = "https://pruners.github.io/"
+theme               = "smooth"
 
 [permalinks]
-    page 		= "/:title/"
-    about 		= "/:filename/"
+  page              = "/:title/"
+  about             = "/:filename/"
 
 [params]
-	logo 		= "img/pruners_logo_orange.svg"
-    custom_css 	= ["css/smooth.min.css"]
-    custom_js 	= ["js/smooth.min.js"]
-    files 		= "pdf/"
-    google_analytics = "UA-67339505-1"
+  logo              = "img/pruners_logo_orange.svg"
+  custom_css        = ["css/smooth.min.css"]
+  custom_js         = ["js/smooth.min.js"]
+  files             = "pdf/"
+  google_analytics  = "UA-67339505-1"
 
-    [params.references]
-        [params.references.archer]
-    		"bib"  	= "archer"
-    		"title" = "<span style=\"font-variant: small-caps;\">Archer</span>"
-        [params.references.flit]
-   		"bib"  	= "flit"
-   		"title" = "FLiT"
-    	[params.references.ninja]
-    		"bib"  	= "ninja"
-    		"title" = "<span style=\"font-variant: small-caps;\">Ninja</span>"
-  		[params.references.rempi]
-    		"bib"  	= "rempi"
-    		"title" = "ReMPI"
+  [params.references]
+    [params.references.archer]
+      bib           = "archer"
+      title         = "<span style=\"font-variant: small-caps;\">Archer</span>"
+    [params.references.flit]
+      bib           = "flit"
+      title         = "FLiT"
+    [params.references.ninja]
+      bib           = "ninja"
+      title         = "<span style=\"font-variant: small-caps;\">Ninja</span>"
+    [params.references.rempi]
+      bib           = "rempi"
+      title         = "ReMPI"
 
-	[params.contacts]
-		[[params.contacts.organization]]
-			name = "University of Utah"
+  [params.contacts]
+    [[params.contacts.organization]]
+      name          = "University of Utah"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Simone"
-				middle_name = ""
-				last_name 	= "Atzeni"
-				picture		= "SimoneAtzeni.jpg"
-				email		= "simone@cs.utah.edu"
-				website		= "http://simoneatzeni.net"
-				github		= "simoatze"
+      [[params.contacts.organization.contact]]
+        first_name  = "Simone"
+        middle_name = ""
+        last_name   = "Atzeni"
+        picture     = "SimoneAtzeni.jpg"
+        email       = "simone@cs.utah.edu"
+        website     = "http://simoneatzeni.net"
+        github      = "simoatze"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Geof"
-				middle_name = ""
-				last_name 	= "Sawaya"
-				picture		= "GeofSawaya.jpg"
-				email		= "fredericflintstone@gmail.com"
-				website		= ""
-				github		= "geof23"
+      [[params.contacts.organization.contact]]
+        first_name  = "Geof"
+        middle_name = ""
+        last_name   = "Sawaya"
+        picture     = "GeofSawaya.jpg"
+        email       = "fredericflintstone@gmail.com"
+        website     = ""
+        github      = "geof23"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Michael"
-				middle_name = ""
-				last_name 	= "Bentley"
-				picture		= "MichaelBentley.jpg"
-				email		= "mikebentley15@gmail.com"
-				website		= ""
-				github		= "mikebentley15"
+      [[params.contacts.organization.contact]]
+        first_name  = "Michael"
+        middle_name = ""
+        last_name   = "Bentley"
+        picture     = "MichaelBentley.jpg"
+        email       = "mikebentley15@gmail.com"
+        website     = ""
+        github      = "mikebentley15"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Zvonimir"
-				middle_name = ""
-				last_name 	= "Rakamarić"
-				picture		= "ZvonimirRakamaric.jpg"
-				email		= "zvonimir@cs.utah.edu"
-				website		= "http://zvonimir.info"
-				github		= "zvonimir"
+      [[params.contacts.organization.contact]]
+        first_name  = "Zvonimir"
+        middle_name = ""
+        last_name   = "Rakamarić"
+        picture     = "ZvonimirRakamaric.jpg"
+        email       = "zvonimir@cs.utah.edu"
+        website     = "http://zvonimir.info"
+        github      = "zvonimir"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Ganesh"
-				middle_name = ""
-				last_name 	= "Gopalakrishnan"
-				picture		= "GaneshGopalakrishnan.jpg"
-				email		= "ganesh@cs.utah.edu"
-				website		= "https://www.cs.utah.edu/~ganesh/"
-				github		= ""
+      [[params.contacts.organization.contact]]
+        first_name  = "Ganesh"
+        middle_name = ""
+        last_name   = "Gopalakrishnan"
+        picture     = "GaneshGopalakrishnan.jpg"
+        email       = "ganesh@cs.utah.edu"
+        website     = "https://www.cs.utah.edu/~ganesh/"
+        github      = ""
 
-		[[params.contacts.organization]]
-			name = "Lawrence Livermore National Laboratory"
+    [[params.contacts.organization]]
+      name          = "Lawrence Livermore National Laboratory"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Dong"
-				middle_name = "H."
-				last_name 	= "Ahn"
-				picture		= "DongAhn.jpg"
-				email		= "ahn1@llnl.gov"
-				website		= ""
-				github		= "dongahn"
+      [[params.contacts.organization.contact]]
+        first_name  = "Dong"
+        middle_name = "H."
+        last_name   = "Ahn"
+        picture     = "DongAhn.jpg"
+        email       = "ahn1@llnl.gov"
+        website     = ""
+        github      = "dongahn"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Kento"
-				middle_name = ""
-				last_name 	= "Sato"
-				picture		= "KentoSato.jpg"
-				email		= "kento@llnl.gov"
-				website		= ""
-				github		= "kento"
+      [[params.contacts.organization.contact]]
+        first_name  = "Kento"
+        middle_name = ""
+        last_name   = "Sato"
+        picture     = "KentoSato.jpg"
+        email       = "kento@llnl.gov"
+        website     = ""
+        github      = "kento"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Ignacio"
-				middle_name = ""
-				last_name 	= "Laguna"
-				picture		= "IgnacioLaguna.jpg"
-				email		= "lagunaperalt1@llnl.gov"
-				website		= ""
-				github		= "ilagunap"
+      [[params.contacts.organization.contact]]
+        first_name  = "Ignacio"
+        middle_name = ""
+        last_name   = "Laguna"
+        picture     = "IgnacioLaguna.jpg"
+        email       = "lagunaperalt1@llnl.gov"
+        website     = ""
+        github      = "ilagunap"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Gregory"
-				middle_name = ""
-				last_name 	= "Lee"
-				picture		= "GregoryLee.jpg"
-				email		= "lee218@llnl.gov"
-				website		= ""
-				github		= "lee218llnl"
+      [[params.contacts.organization.contact]]
+        first_name  = "Gregory"
+        middle_name = ""
+        last_name   = "Lee"
+        picture     = "GregoryLee.jpg"
+        email       = "lee218@llnl.gov"
+        website     = ""
+        github      = "lee218llnl"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Martin"
-				middle_name = ""
-				last_name 	= "Schulz"
-				picture		= "MartinSchulz.jpg"
-				email		= "schulz6@llnl.gov"
-				website		= ""
-				github		= "schulzm"
+      [[params.contacts.organization.contact]]
+        first_name  = "Martin"
+        middle_name = ""
+        last_name   = "Schulz"
+        picture     = "MartinSchulz.jpg"
+        email       = "schulz6@llnl.gov"
+        website     = ""
+        github      = "schulzm"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Chris"
-				middle_name = ""
-				last_name 	= "Chambreau"
-				picture		= "ChrisChambreau.jpg"
-				email		= "chambreau1@llnl.gov"
-				website		= ""
-				github		= "cchambreau"
+      [[params.contacts.organization.contact]]
+        first_name  = "Chris"
+        middle_name = ""
+        last_name   = "Chambreau"
+        picture     = "ChrisChambreau.jpg"
+        email       = "chambreau1@llnl.gov"
+        website     = ""
+        github      = "cchambreau"
 
-		[[params.contacts.organization]]
-			name = "RWTH Aachen University"
+    [[params.contacts.organization]]
+      name          = "RWTH Aachen University"
 
-			[[params.contacts.organization.contact]]
-				first_name 	= "Joachim"
-				middle_name = ""
-				last_name 	= "Protze"
-				picture		= "JoachimProtze.jpg"
-				email		= "protze@itc.rwth-aachen.de"
-				website		= ""
-				github		= "jprotze"
+      [[params.contacts.organization.contact]]
+        first_name  = "Joachim"
+        middle_name = ""
+        last_name   = "Protze"
+        picture     = "JoachimProtze.jpg"
+        email       = "protze@itc.rwth-aachen.de"
+        website     = ""
+        github      = "jprotze"
 
-    [params.footer]
-    	copyright = "Copyright \u00A9 2017. All Rights Reserved."
+  [params.footer]
+    copyright       = "Copyright \u00A9 2017. All Rights Reserved."
 
-    	[params.footer.social]
-    	    # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-            # for more icons. The icons are represented by their corresponding
-            # CSS class.
-            [[params.footer.social.networks]]
-            	description = "GitHub"
-                icon 		= "fa-github"
-                url	 		= "https://github.com/PRUNERS"
+    [params.footer.social]
+    # All icons using Fontawesome's icon font. Look at
+    #   https://fortawesome.github.io/Font-Awesome/icons/
+    # for more icons. The icons are represented by their corresponding CSS
+    # class.
+      [[params.footer.social.networks]]
+        description = "GitHub"
+        icon        = "fa-github"
+        url         = "https://github.com/PRUNERS"
 
-            [[params.footer.social.networks]]
-            	description = "Slack"
-                icon 		= "fa-slack"
-                url	 		= "https://pruners.slack.com"
+      [[params.footer.social.networks]]
+        description = "Slack"
+        icon        = "fa-slack"
+        url         = "https://pruners.slack.com"
 
-            [[params.footer.social.networks]]
-            	description = "WebMaster"
-                icon 		= "fa-envelope"
-                url	 		= "mailto:simone@cs.utah.edu?Subject=[PRUNERS]%20"
+      [[params.footer.social.networks]]
+        description = "WebMaster"
+        icon        = "fa-envelope"
+        url         = "mailto:simone@cs.utah.edu?Subject=[PRUNERS]%20"
 
 # Menu
 [[menu.main]]
-    name 		= "Toolset"
-    identifier 	= "toolset"
-    weight 		= -100
+  name              = "Toolset"
+  identifier        = "toolset"
+  weight            = -100
 [[menu.main]]
-    name 		= "<span style=\"font-variant: small-caps;\">Archer</span>"
-    identifier 	= "archer"
-    parent 		= "toolset"
-    url 		= "/archer/"
-    weight 		= -100
+  name              = "<span style=\"font-variant: small-caps;\">Archer</span>"
+  identifier        = "archer"
+  parent            = "toolset"
+  url               = "/archer/"
+  weight            = -100
 [[menu.main]]
-    name 		= "FLiT"
-    identifier 	= "flit"
-    parent 		= "toolset"
-    url 		= "/flit/"
-    weight 		= -90
+  name              = "FLiT"
+  identifier        = "flit"
+  parent            = "toolset"
+  url               = "/flit/"
+  weight            = -90
 [[menu.main]]
-    name 		= "<span style=\"font-variant: small-caps;\">Ninja</span>"
-    identifier 	= "ninja"
-    parent 		= "toolset"
-    url 		= "/ninja/"
-    weight 		= -80
+  name              = "<span style=\"font-variant: small-caps;\">Ninja</span>"
+  identifier        = "ninja"
+  parent            = "toolset"
+  url               = "/ninja/"
+  weight            = -80
 [[menu.main]]
-    name 		= "ReMPI"
-    identifier 	= "rempi"
-    parent 		= "toolset"
-    url 		= "/rempi/"
-    weight 		= -70
+  name              = "ReMPI"
+  identifier        = "rempi"
+  parent            = "toolset"
+  url               = "/rempi/"
+  weight            = -70
 [[menu.main]]
-    name 		= "Publications"
-    identifier 	= "publications"
-    url 		= "/publications/"
-    weight 		= -80
-# [[menu.main]]
-#    name 		= "News"
-#    identifier 	= "news"
-#    url 		= "#news"
-#    weight 		= -70
+  name              = "Publications"
+  identifier        = "publications"
+  url               = "/publications/"
+  weight            = -80
+#[[menu.main]]
+#  name              = "News"
+#  identifier        = "news"
+#  url               = "#news"
+#  weight            = -70
 [[menu.main]]
-    name 		= "About"
-    identifier 	= "about"
-    weight 		= -60
+  name              = "About"
+  identifier        = "about"
+  weight            = -60
 [[menu.main]]
-    name 		= "Contacts"
-    identifier 	= "contacts"
-    parent 		= "about"
-    url 		= "/contacts/"
-    weight 		= -100
+  name              = "Contacts"
+  identifier        = "contacts"
+  parent            = "about"
+  url               = "/contacts/"
+  weight            = -100
 [[menu.main]]
-    name 		= "Members"
-    identifier 	= "members"
-    parent 		= "about"
-    url 		= "/members/"
-    weight 		= -90
+  name              = "Members"
+  identifier        = "members"
+  parent            = "about"
+  url               = "/members/"
+  weight            = -90
 [[menu.main]]
-    name 		= "The PRUNERS Team"
-    identifier 	= "team"
-    parent 		= "about"
-    url 		= "/team/"
-    weight 		= -80
+  name              = "The PRUNERS Team"
+  identifier        = "team"
+  parent            = "about"
+  url               = "/team/"
+  weight            = -80
 # Menu
