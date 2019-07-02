@@ -87,7 +87,7 @@ FLiT works by building many versions of the test suite, using multiple C++ compi
       <description>Archer Description Archer is a data race detector for OpenMP programs.
 Archer combines static and dynamic techniques to identify data races in large OpenMP applications, leading to low runtime and memory overheads, while still offering high accuracy and precision. It builds on an open-source tools infrastructure including LLVM, ThreadSanitizer, and OMPT to provide portability.
 Software Archer is an open-source tool and can be obtained on GitHub .
-Quick Start Installation  Spack: Recommended for curious users  Archer maintains an up-to-date package in the Spack develop branch, which builds all dependencies and Archer itself.</description>
+Quick Start 1.</description>
     </item>
     
   </channel>
