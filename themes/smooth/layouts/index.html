@@ -3,6 +3,7 @@
 <div class="container smooth-container" >
 	<!-- <h1>Description</h1> -->
 	<p  style="margin-bottom:20px;">
+    {{ .Content }}
 		{{ range where .Site.Pages "Source.Path" "home.md" }}
     		{{ .Content }}
 		{{ end }}
