@@ -12,12 +12,14 @@
  <link rel="stylesheet"
        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
  
-  <link rel="stylesheet" href="https://pruners.github.io/css/smooth.min.css" />
+  <link rel="stylesheet" href="https://pruners.github.io/css/smooth.css" />
+ 
+  <link rel="stylesheet" href="https://pruners.github.io/css/extras.css" />
  
  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
  <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
  
-  <script async src="https://pruners.github.io/js/smooth.min.js"></script>
+  <script async src="https://pruners.github.io/js/smooth.js"></script>
  
 </head>
 
@@ -216,23 +218,23 @@
        <p>
         <a class="smooth-link" title="Thread-local Concurrency: A Technique to Handle Data Race Detection at Programming Model Abstraction"
            href=' https://doi.org/10.1145/3208040.3208056 '
-           target="_blank"><u>Thread-local Concurrency: A Technique to Handle Data Race Detection at Programming Model Abstraction</u></a>.
+           target="_blank">Thread-local Concurrency: A Technique to Handle Data Race Detection at Programming Model Abstraction</a>.
         
         
          
-          J. Protze,
+          Joachim Protze,
          
         
          
-          M. Schulz,
+          Martin Schulz,
          
         
          
-          D. H. Ahn,
+          Dong H. Ahn,
          
         
          
-          and M. S. Müller,
+          and Matthias S. Müller,
          
         
         
@@ -268,20 +270,24 @@
            </div>
            <div class="modal-body smooth-citation-modal">
             <pre>@inproceedings{3208056,
-               author = {Protze, Joachim and Schulz, Martin and Ahn, Dong H. and M\&#34;{u}ller, Matthias S.},
-               title = {Thread-local Concurrency: A Technique to Handle Data Race Detection at Programming Model Abstraction},
-               booktitle = {Proceedings of the 27th International Symposium on High-Performance Parallel and Distributed Computing},
-               series = {HPDC 18},
-               year = {2018},
-               isbn = {978-1-4503-5785-2},
-               location = {Tempe, Arizona},
-               pages = {144--155},
-               numpages = {12},
-               url = {http://doi.acm.org/10.1145/3208040.3208056},
-               doi = {10.1145/3208040.3208056},
-               acmid = {3208056},
-               publisher = {ACM},
-               address = {New York, NY, USA}, }
+  author    = {Joachim Protze and Martin Schulz and Dong H. Ahn and
+               Matthias S. M\&#34;{u}ller},
+  title     = {{Thread-local Concurrency: A Technique to Handle Data Race
+                Detection at Programming Model Abstraction}},
+  booktitle = {Proceedings of the 27th International Symposium on
+               High-Performance Parallel and Distributed Computing},
+  series    = {HPDC 18},
+  year      = {2018},
+  isbn      = {978-1-4503-5785-2},
+  location  = {Tempe, Arizona},
+  pages     = {144--155},
+  numpages  = {12},
+  url       = {http://doi.acm.org/10.1145/3208040.3208056},
+  doi       = {10.1145/3208040.3208056},
+  acmid     = {3208056},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+}
 </pre>
            </div>
            <div class="modal-footer"></div>
@@ -298,7 +304,7 @@
             <h4 class="modal-title"><b>Abstract</b></h4>
            </div>
            <div class="modal-body smooth-abstract-modal">
-            <p>With greater adoption of various high-level parallel programming models to harness on-node parallelism, accurate data race detection has become more crucial than ever. However, existing tools have great difficulty spotting data races through these high-level models, as they primarily target low-level concurrent execution models (e.g., concurrency expressed at the level of POSIX threads). In this paper, we propose a novel technique to accurately detect those data races that can occur at higher levels of concurrent execution. The core idea of our technique is to introduce the general concept of Thread-Local Concurrency (TLC) as a new way to translate the concurrency expressed by a high-level programming paradigm into the low execution level understood by the existing tools. Specifically, we extend the definition of vector clocks to allow the existing state-of-the-art race detectors to recognize those races that occur at the higher level of concurrency with minor modifications to these tools. Our evaluation with our prototype implemented within ThreadSanitizer shows that TLC can allow the existing tool to detect these races accurately with only small additional analysis overheads.</p>
+            <p>With greater adoption of various high-level parallel programming models to harness on-node parallelism, accurate data race detection has become more crucial than ever.  However, existing tools have great difficulty spotting data races through these high-level models, as they primarily target low-level concurrent execution models (e.g., concurrency expressed at the level of POSIX threads). In this paper, we propose a novel technique to accurately detect those data races that can occur at higher levels of concurrent execution. The core idea of our technique is to introduce the general concept of Thread-Local Concurrency (TLC) as a new way to translate the concurrency expressed by a high-level programming paradigm into the low execution level understood by the existing tools. Specifically, we extend the definition of vector clocks to allow the existing state-of-the-art race detectors to recognize those races that occur at the higher level of concurrency with minor modifications to these tools. Our evaluation with our prototype implemented within ThreadSanitizer shows that TLC can allow the existing tool to detect these races accurately with only small additional analysis overheads.</p>
            </div>
            <div class="modal-footer"></div>
           </div>
@@ -311,27 +317,27 @@
        <p>
         <a class="smooth-link" title="SWORD: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs"
            href=' https://doi.org/10.1109/IPDPS.2018.00094 '
-           target="_blank"><u>SWORD: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs</u></a>.
+           target="_blank">SWORD: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs</a>.
         
         
          
-          S. Atzeni,
+          Simone Atzeni,
          
         
          
-          G. Gopalakrishnan,
+          Ganesh Gopalakrishnan,
          
         
          
-          Z. Rakamaric,
+          Zvonimir Rakamarić,
          
         
          
-          I. Laguna,
+          Ignacio Laguna,
          
         
          
-          and G. L. Lee,
+          and Gregory L. Lee,
          
         
         
@@ -367,16 +373,19 @@
            </div>
            <div class="modal-body smooth-citation-modal">
             <pre>@INPROCEEDINGS{8425238,
-               author={S. Atzeni and G. Gopalakrishnan and Z. Rakamaric and I. Laguna and G. L. Lee and D. H. Ahn},
-               booktitle={2018 IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
-               title={SWORD: A Bounded Memory-Overhead Detector of OpenMP Data Races in Production Runs},
-               year={2018},
-               volume={},
-               number={},
-               pages={845-854},
-               doi={10.1109/IPDPS.2018.00094},
-               ISSN={1530-2075},
-               month={May},}
+  author    = {Simone Atzeni and Ganesh Gopalakrishnan and
+               Zvonimir Rakamari{\&#39;c} and Ignacio Laguna and
+               Gregory L. Lee and Dong H. Ahn},
+  booktitle = {2018 IEEE International Parallel and Distributed Processing
+               Symposium (IPDPS)},
+  title     = {{SWORD: A Bounded Memory-Overhead Detector of OpenMP Data
+                Races in Production Runs}},
+  year      = {2018},
+  pages     = {845-854},
+  doi       = {10.1109/IPDPS.2018.00094},
+  issn      = {1530-2075},
+  month     = {May},
+}
 </pre>
            </div>
            <div class="modal-footer"></div>
@@ -393,7 +402,7 @@
             <h4 class="modal-title"><b>Abstract</b></h4>
            </div>
            <div class="modal-body smooth-abstract-modal">
-            <p>The detection and elimination of data races in large-scale OpenMP programs is of critical importance. Unfortunately, today&#39;s state-of-the-art OpenMP race checkers suffer from high memory overheads and/or miss races. In this paper, we present SWORD, a data race detector that significantly improves upon these limitations. SWORD limits the application slowdown and memory usage by utilizing only a bounded, user-adjustable memory buffer to collect targeted memory accesses. When the buffer fills up, the accesses are compressed and flushed to a file system for later offline analysis. SWORD builds on an operational semantics that formally captures the notion of concurrent accesses within OpenMP regions. An offline race checker that is driven by these semantic rules allows SWORD to improve upon happens-before techniques that are known to mask races. To make its offline analysis highly efficient and scalable, SWORD employs effective self-balancing interval-tree-based algorithms. Our experimental results demonstrate that SWORD is capable of detecting races even within programs that use over 90% of the memory on each compute node. Further, our evaluation shows that it matches or exceeds the best available dynamic OpenMP race checker in detection capability while remaining efficient in execution time.</p>
+            <p>The detection and elimination of data races in large-scale OpenMP programs is of critical importance. Unfortunately, today&#39;s state-of-the-art OpenMP race checkers suffer from high memory overheads and/or miss races. In this paper, we present SWORD, a data race detector that significantly improves upon these limitations.  SWORD limits the application slowdown and memory usage by utilizing only a bounded, user-adjustable memory buffer to collect targeted memory accesses.  When the buffer fills up, the accesses are compressed and flushed to a file system for later offline analysis. SWORD builds on an operational semantics that formally captures the notion of concurrent accesses within OpenMP regions.  An offline race checker that is driven by these semantic rules allows SWORD to improve upon happens-before techniques that are known to mask races.  To make its offline analysis highly efficient and scalable, SWORD employs effective self-balancing interval-tree-based algorithms. Our experimental results demonstrate that SWORD is capable of detecting races even within programs that use over 90% of the memory on each compute node. Further, our evaluation shows that it matches or exceeds the best available dynamic OpenMP race checker in detection capability while remaining efficient in execution time.</p>
            </div>
            <div class="modal-footer"></div>
           </div>
@@ -406,27 +415,27 @@
        <p>
         <a class="smooth-link" title="OpenMP Tools Interface: Synchronization Information for Data Race Detection"
            href=' https://doi.org/10.1007/978-3-319-65578-9_17 '
-           target="_blank"><u>OpenMP Tools Interface: Synchronization Information for Data Race Detection</u></a>.
+           target="_blank">OpenMP Tools Interface: Synchronization Information for Data Race Detection</a>.
         
         
          
-          J. Protze,
+          Joachim Protze,
          
         
          
-          J. Hahnfeld,
+          Jonas Hahnfeld,
          
         
          
-          D. H. Ahn,
+          Dong H. Ahn,
          
         
          
-          M. Schulz,
+          Martin Schulz,
          
         
          
-          and M. S. Müller,
+          and Matthias S. Müller,
          
         
         
@@ -462,14 +471,17 @@
            </div>
            <div class="modal-body smooth-citation-modal">
             <pre>@inproceedings{IWOMP_2017_paper_21,
-               Author = {J. Protze J. Hahnfeld, D. Ahn M. Schulz M. S. Muller},
-               Booktitle = {13th {I}nternational {W}orkshop on {O}penMP, {IWOMP} 2017},
-               Doi = {10.1007/978-3-319-65578-9_17},
-               Isbn = {978-3-319-65577-2},
-               Month = {September},
-               Pages = {249-265},
-               Title = {OpenMP Tools Interface: Synchronization Information for Data Race Detection},
-               Year = {2017},}
+  title     = {{OpenMP Tools Interface: Synchronization Information for Data
+                Race Detection}},
+  author    = {Joachim Protze and Jonas Hahnfeld and Dong H. Ahn and
+               Martin Schulz and Matthias S. M{\&#34;u}ller},
+  booktitle = {{13th International Workshop on OpenMP, IWOMP 2017}},
+  doi       = {10.1007/978-3-319-65578-9_17},
+  isbn      = {978-3-319-65577-2},
+  month     = {September},
+  pages     = {249-265},
+  year      = {2017},
+}
 </pre>
            </div>
            <div class="modal-footer"></div>
@@ -486,7 +498,7 @@
             <h4 class="modal-title"><b>Abstract</b></h4>
            </div>
            <div class="modal-body smooth-abstract-modal">
-            <p>When it comes to data race detection, complete information about synchronization, concurrency and memory accesses is needed. This information might be gathered at various levels of abstraction. For best results regarding accuracy this information should be collected at the abstraction level of the parallel programming paradigm. With the latest preview of the OpenMP specification, a tools interface (OMPT) was added to OpenMP. In this paper we discuss whether the synchronization information provided by OMPT is sufficient to apply accurate data race analysis for OpenMP applications. We also present some implementation details for our data race detection tool called Archer which derives the synchronization information from OMPT.</p>
+            <p>When it comes to data race detection, complete information about synchronization, concurrency and memory accesses is needed. This information might be gathered at various levels of abstraction.  For best results regarding accuracy this information should be collected at the abstraction level of the parallel programming paradigm.  With the latest preview of the OpenMP specification, a tools interface (OMPT) was added to OpenMP. In this paper we discuss whether the synchronization information provided by OMPT is sufficient to apply accurate data race analysis for OpenMP applications. We also present some implementation details for our data race detection tool called Archer which derives the synchronization information from OMPT.</p>
            </div>
            <div class="modal-footer"></div>
           </div>
@@ -499,43 +511,43 @@
        <p>
         <a class="smooth-link" title="ARCHER: Effectively Spotting Data Races in Large OpenMP Applications"
            href=' https://doi.org/10.1109/IPDPS.2016.68 '
-           target="_blank"><u>ARCHER: Effectively Spotting Data Races in Large OpenMP Applications</u></a>.
+           target="_blank">ARCHER: Effectively Spotting Data Races in Large OpenMP Applications</a>.
         
         
          
-          S. Atzeni,
+          Simone Atzeni,
          
         
          
-          G. Gopalakrishnan,
+          Ganesh Gopalakrishnan,
          
         
          
-          Z. Rakamarić,
+          Zvonimir Rakamarić,
          
         
          
-          D. H. Ahn,
+          Dong H. Ahn,
          
         
          
-          I. Laguna,
+          Ignacio Laguna,
          
         
          
-          M. Schulz,
+          Martin Schulz,
          
         
          
-          G. L. Lee,
+          Gregory L. Lee,
          
         
          
-          J. Protze,
+          Joachim Protze,
          
         
          
-          and M. S. Müller,
+          and Matthias S. Müller,
          
         
         
@@ -571,20 +583,20 @@
            </div>
            <div class="modal-body smooth-citation-modal">
             <pre>@inproceedings{7516001,
-               Author = {S. Atzeni and G. Gopalakrishnan and Z.
-                         Rakamari{\&#39;c} and D. H. Ahn and I. Laguna
-                         and M. Schulz and G. L. Lee and J. Protze
-                         and M. S. M{\&#34;u}ller},
-               Booktitle = {2016 {IEEE} {I}nternational {P}arallel
-                            and {D}istributed {P}rocessing
-                            {S}ymposium ({IPDPS})},
-               Doi = {10.1109/IPDPS.2016.68},
-               Issn = {1530-2075},
-               Month = {May},
-               Pages = {53-62},
-               Title = {ARCHER: Effectively Spotting Data Races in
-                        Large OpenMP Applications},
-               Year = {2016},}
+  title     = {{ARCHER: Effectively Spotting Data Races in Large OpenMP
+                Applications}},
+  author    = {Simone Atzeni and Ganesh Gopalakrishnan and
+               Zvonimir Rakamari{\&#39;c} and Dong H. Ahn and
+               Ignacio Laguna and Martin Schulz and Gregory L. Lee and
+               Joachim Protze and Matthias S. M{\&#34;u}ller},
+  booktitle = {{2016 IEEE International Parallel and Distributed Processing
+                Symposium (IPDPS)}},
+  pages     = {53-62},
+  month     = {May},
+  year      = {2016},
+  doi       = {10.1109/IPDPS.2016.68},
+  issn      = {1530-2075},
+}
 </pre>
            </div>
            <div class="modal-footer"></div>
@@ -614,43 +626,43 @@
        <p>
         <a class="smooth-link" title="Towards Providing Low-Overhead Data Race Detection for Large OpenMP Applications"
            href=' https://doi.org/10.1109/LLVM-HPC.2014.7 '
-           target="_blank"><u>Towards Providing Low-Overhead Data Race Detection for Large OpenMP Applications</u></a>.
+           target="_blank">Towards Providing Low-Overhead Data Race Detection for Large OpenMP Applications</a>.
         
         
          
-          J. Protze,
+          Joachim Protze,
          
         
          
-          S. Atzeni,
+          Simone Atzeni,
          
         
          
-          D. H. Ahn,
+          Dong H. Ahn,
          
         
          
-          M. Schulz,
+          Martin Schulz,
          
         
          
-          G. Gopalakrishnan,
+          Ganesh Gopalakrishnan,
          
         
          
-          M. S. Müller,
+          Matthias S. Müller,
          
         
          
-          I. Laguna,
+          Ignacio Laguna,
          
         
          
-          Z. Rakamarić,
+          Zvonimir Rakamarić,
          
         
          
-          and G. L. Lee,
+          and Gregory L. Lee,
          
         
         
@@ -686,19 +698,18 @@
            </div>
            <div class="modal-body smooth-citation-modal">
             <pre>@inproceedings{7069300,
-               Author = {J. Protze and S. Atzeni and D. H. Ahn and
-                         M. Schulz and G. Gopalakrishnan and M. S.
-                         M{\&#34;u}ller and I. Laguna and
-                         Z. Rakamari{\&#39;c} and G. L. Lee},
-               Booktitle = {2014 {LLVM} {C}ompiler {I}nfrastructure
-                            in {HPC}},
-               Doi = {10.1109/LLVM-HPC.2014.7},
-               Month = {Nov},
-               Pages = {40-47},
-               Title = {{T}owards {P}roviding {L}ow-{O}verhead {D}ata
-                        {R}ace {D}etection for {L}arge {O}penMP
-                        {A}pplications},
-               Year = {2014},}
+  title     = {{Towards Providing Low-Overhead Data Race Detection for Large
+                OpenMP Applications}},
+  author    = {Joachim Protze and Simone Atzeni and Dong H. Ahn and
+               Martin Schulz and Ganesh Gopalakrishnan and
+               Matthias S.  M{\&#34;u}ller and Ignacio Laguna and
+               Zvonimir Rakamari{\&#39;c} and Gregory L. Lee},
+  booktitle = {{2014 LLVM Compiler Infrastructure in HPC}},
+  doi       = {10.1109/LLVM-HPC.2014.7},
+  month     = {Nov},
+  pages     = {40-47},
+  year      = {2014},
+}
 </pre>
            </div>
            <div class="modal-footer"></div>
@@ -715,7 +726,7 @@
             <h4 class="modal-title"><b>Abstract</b></h4>
            </div>
            <div class="modal-body smooth-abstract-modal">
-            <p>Neither static nor dynamic data race detection methods, by themselves, have proven to be sufficient for large HPC applications, as they often result in high runtime overheads and/or low race-checking accuracy. While combined static and dynamic approaches can fare better, creating such combinations, in practice, requires attention to many details. Specifically, existing state-of-the-art dynamic race detectors are aimed at low-level threading models, and cannot handle high-level models such as OpenMP. Further, they do not provide mechanisms by which static analysis methods can target selected regions of code with sufficient precision. In this paper, we present our solutions to both challenges. Specifically, we identify patterns within OpenMP runtimes that tend to mislead existing dynamic race checkers and provide mechanisms that help establish an explicit happens-before relation to prevent such misleading checks. We also implement a fine-grained blacklist mechanism to allow a runtime analyzer to exclude regions of code at line number granularity. We support race checking by adapting ThreadSanitizer, a mature data-race checker developed at Google that is now an integral part of Clang and GCC; and we have implemented our techniques within the state-of-the-art Intel OpenMP Runtime. Our results demonstrate that these techniques can significantly improve runtime analysis accuracy and overhead in the context of data race checking of OpenMP applications.</p>
+            <p>Neither static nor dynamic data race detection methods, by themselves, have proven to be sufficient for large HPC applications, as they often result in high runtime overheads and/or low race-checking accuracy. While combined static and dynamic approaches can fare better, creating such combinations, in practice, requires attention to many details. Specifically, existing state-of-the-art dynamic race detectors are aimed at low-level threading models, and cannot handle high-level models such as OpenMP. Further, they do not provide mechanisms by which static analysis methods can target selected regions of code with sufficient precision.  In this paper, we present our solutions to both challenges. Specifically, we identify patterns within OpenMP runtimes that tend to mislead existing dynamic race checkers and provide mechanisms that help establish an explicit happens-before relation to prevent such misleading checks. We also implement a fine-grained blacklist mechanism to allow a runtime analyzer to exclude regions of code at line number granularity. We support race checking by adapting ThreadSanitizer, a mature data-race checker developed at Google that is now an integral part of Clang and GCC; and we have implemented our techniques within the state-of-the-art Intel OpenMP Runtime.  Our results demonstrate that these techniques can significantly improve runtime analysis accuracy and overhead in the context of data race checking of OpenMP applications.</p>
            </div>
            <div class="modal-footer"></div>
           </div>
@@ -744,93 +755,9 @@
      
       <li>
        <p>
-        <a class="smooth-link" title="FLiT: Cross-platform floating-point result-consistency tester and workload"
-           href=' https://doi.org/ '
-           target="_blank"><u>FLiT: Cross-platform floating-point result-consistency tester and workload</u></a>.
-        
-        
-         
-          G. Sawaya,
-         
-        
-         
-          M. Bentley,
-         
-        
-         
-          I. Briggs,
-         
-        
-         
-          G. Gopalakrishnan,
-         
-        
-         
-          and D. H. Ahn,
-         
-        
-        
-         ,
-        
-        
-         
-          2017,
-         
-        
-        .
-        <br>
-        <script>
-         $(function () {
-           $('[data-toggle="tooltip"]').tooltip()
-         })
-        </script>
-        <a class="smooth-link smooth-modal-link" data-toggle="modal"
-           data-target="#abstract_modal_sawaya_flit_2017" href="">[Abstract]</a>
-        <a class="smooth-link smooth-modal-link" data-toggle="modal"
-           data-target="#bibtex_modal_sawaya_flit_2017" href="">[BibTex]</a>
-        <a class="smooth-link" target="_blank"
-           href="https://pruners.github.io/pdf/">[PDF]</a>
-        <div id="bibtex_modal_sawaya_flit_2017"
-             class="modal fade smooth-modal vertical-align-center"
-             role="dialog" style="padding: 0 0 0 0;">
-         <div class="modal-dialog smooth-modal-font">
-          <div class="modal-content">
-           <div class="modal-header smooth-modal-header">
-            <button type="button" class="close pull-right"
-                    data-dismiss="modal">&times;</button>
-            <h4 class="modal-title"><b>BibTex</b></h4>
-           </div>
-           <div class="modal-body smooth-citation-modal">
-            <pre></pre>
-           </div>
-           <div class="modal-footer"></div>
-          </div>
-         </div>
-        </div>
-        <div id="abstract_modal_sawaya_flit_2017" class="modal fade smooth-modal"
-            role="dialog" style="padding: 0 0 0 0;">
-         <div class="modal-dialog smooth-modal-font">
-          <div class="modal-content">
-           <div class="modal-header smooth-modal-header">
-            <button type="button" class="close pull-right"
-                    data-dismiss="modal">&times;</button>
-            <h4 class="modal-title"><b>Abstract</b></h4>
-           </div>
-           <div class="modal-body smooth-abstract-modal">
-            <p>Result reproducibility in societally important simulations faces the grave risk of becoming voided when code is ported across hardware platforms or optimized using different compiler flags. There are currently no available tools that can help a programmer assess the extent of such non-portability through systematic testing. In this work, we offer a novel testing framework called FLiT that comes with a large collection of predesigned tests, and also test automation facilities, including Makefile generation, distribution of the tests to CPU/GPU platforms, and result amalgamation/query supported through SQL queries. We also develop an intuitive 2D “heat-map” style visualization of how much a given compiler and its flag(s) can affect a given program. FLiT is an easy-to-use and community extensible framework, allowing the tool to grow in versatility as more tests are contributed and support for newer compilers is added. Our results span three architectures (including GPUs), four popular compilers, and dozens of compiler optimization flags. We demonstrate the power of FLiT’s test automation and result analysis/visualization support. For the first time, for example, FLiT’s systematic exploration was able to discover the following results: (1) when seeking higher performance through flags, compilers may apply unsafe algebraic simplifications, yielding up *six* or more different answers in some test cases; (2) compilers are inconsistent in the number of answer variants; in this ranking, Intel’s icpc comes first, followed by GCC, then Clang, and finally NVCC.</p>
-           </div>
-           <div class="modal-footer"></div>
-          </div>
-         </div>
-        </div>
-       </p>
-      </li>
-     
-      <li>
-       <p>
         <a class="smooth-link" title="Multi-level analysis of compiler-induced variability and performance tradeoffs"
            href=' https://doi.org/10.1145/3307681.3325960 '
-           target="_blank"><u>Multi-level analysis of compiler-induced variability and performance tradeoffs</u></a>.
+           target="_blank">Multi-level analysis of compiler-induced variability and performance tradeoffs</a>.
         
         
          
@@ -862,14 +789,14 @@
          
         
         
-         ,
+         Proceedings of the 28th international symposium on high-performance parallel and distributed computing,
         
         
          
           2019,
          
         
-        .
+        Phoenix, Arizona, USA.
         <br>
         <script>
          $(function () {
@@ -877,12 +804,12 @@
          })
         </script>
         <a class="smooth-link smooth-modal-link" data-toggle="modal"
-           data-target="#abstract_modal_Bentley_flit_2019" href="">[Abstract]</a>
+           data-target="#abstract_modal_bentley_flit_2019" href="">[Abstract]</a>
         <a class="smooth-link smooth-modal-link" data-toggle="modal"
-           data-target="#bibtex_modal_Bentley_flit_2019" href="">[BibTex]</a>
+           data-target="#bibtex_modal_bentley_flit_2019" href="">[BibTex]</a>
         <a class="smooth-link" target="_blank"
-           href="https://pruners.github.io/pdf/">[PDF]</a>
-        <div id="bibtex_modal_Bentley_flit_2019"
+           href="https://pruners.github.io/pdf/bentley_flit_2019.pdf">[PDF]</a>
+        <div id="bibtex_modal_bentley_flit_2019"
              class="modal fade smooth-modal vertical-align-center"
              role="dialog" style="padding: 0 0 0 0;">
          <div class="modal-dialog smooth-modal-font">
@@ -893,13 +820,31 @@
             <h4 class="modal-title"><b>BibTex</b></h4>
            </div>
            <div class="modal-body smooth-citation-modal">
-            <pre></pre>
+            <pre>@inproceedings{bentley_flit_2019,
+  title      = {{Multi-Level Analysis of Compiler-Induced Variability and
+                 Performance Tradeoffs}},
+  author     = {Michael Bentley and Ian Briggs and Ganesh Gopalakrishnan and
+                Dong H. Ahn and Ignacio Laguna and Gregory L. Lee and
+                Holger E. Jones},
+  booktitle  = {Proceedings of the 28th International Symposium on
+                High-Performance Parallel and Distributed Computing},
+  series     = {HPDC 19},
+  pages      = {61--72},
+  month      = {June},
+  year       = {2019},
+  publisher  = {ACM},
+  isbn       = {978-1-4503-6670-0},
+  url        = {http://doi.acm.org/10.1145/3307681.3325960},
+  doi        = {10.1145/3307681.3325960},
+  acmid      = {3325960},
+}
+</pre>
            </div>
            <div class="modal-footer"></div>
           </div>
          </div>
         </div>
-        <div id="abstract_modal_Bentley_flit_2019" class="modal fade smooth-modal"
+        <div id="abstract_modal_bentley_flit_2019" class="modal fade smooth-modal"
             role="dialog" style="padding: 0 0 0 0;">
          <div class="modal-dialog smooth-modal-font">
           <div class="modal-content">
@@ -909,7 +854,106 @@
             <h4 class="modal-title"><b>Abstract</b></h4>
            </div>
            <div class="modal-body smooth-abstract-modal">
-            <p></p>
+            <p>Successful HPC software applications are long-lived.  When ported across machines and their compilers, these applications often produce different numerical results, many of which are unacceptable.  Such variability is also a concern while optimizing the code more aggressively to gain performance.  Efficient tools that help locate the program units (files and functions) within which most of the variability occurs are badly needed, both to plan for code ports and to root-cause errors due to variability when they happen in the field.  In this work, we offer an enhanced version of the open-source testing framework FLiT to serve these roles.  Key new features of FLiT include a suite of bisection algorithms that help locate the root causes of variability. Another added feature allows an analysis of the tradeoffs between performance and the degree of variability.  Our new contributions also include a collection of case studies.  Results on the MFEM finite-element library include variability/performance tradeoffs, and the identification of a (hitherto unknown) abnormal level of result-variability even under mild compiler optimizations. Results from studying the Laghos proxy application include identifying a significantly divergent floating-point result-variability and successful root-causing down to the problematic function over as little as 14 program executions. Finally, in an evaluation of 4,376 controlled injections of floating-point perturbations on the LULESH proxy application, we showed that the FLiT framework has 100% precision and recall in discovering the file and function locations of the injections all within an average of only 15 program executions.</p>
+           </div>
+           <div class="modal-footer"></div>
+          </div>
+         </div>
+        </div>
+       </p>
+      </li>
+     
+      <li>
+       <p>
+        <a class="smooth-link" title="FLiT: Cross-platform floating-point result-consistency tester and workload"
+           href=' https://doi.org/10.1109/IISWC.2017.8167780 '
+           target="_blank">FLiT: Cross-platform floating-point result-consistency tester and workload</a>.
+        
+        
+         
+          Geof Sawaya,
+         
+        
+         
+          Michael Bentley,
+         
+        
+         
+          Ian Briggs,
+         
+        
+         
+          Ganesh Gopalakrishnan,
+         
+        
+         
+          and Dong H. Ahn,
+         
+        
+        
+         2017 IEEE International Symposium on Workload Characterization (IISWC),
+        
+        
+         
+          2017,
+         
+        
+        .
+        <br>
+        <script>
+         $(function () {
+           $('[data-toggle="tooltip"]').tooltip()
+         })
+        </script>
+        <a class="smooth-link smooth-modal-link" data-toggle="modal"
+           data-target="#abstract_modal_sawaya_flit_2017" href="">[Abstract]</a>
+        <a class="smooth-link smooth-modal-link" data-toggle="modal"
+           data-target="#bibtex_modal_sawaya_flit_2017" href="">[BibTex]</a>
+        <a class="smooth-link" target="_blank"
+           href="https://pruners.github.io/pdf/sawaya_flit_2017.pdf">[PDF]</a>
+        <div id="bibtex_modal_sawaya_flit_2017"
+             class="modal fade smooth-modal vertical-align-center"
+             role="dialog" style="padding: 0 0 0 0;">
+         <div class="modal-dialog smooth-modal-font">
+          <div class="modal-content">
+           <div class="modal-header smooth-modal-header">
+            <button type="button" class="close pull-right"
+                    data-dismiss="modal">&times;</button>
+            <h4 class="modal-title"><b>BibTex</b></h4>
+           </div>
+           <div class="modal-body smooth-citation-modal">
+            <pre>@inproceedings{sawaya_flit_2017,
+  title      = {{FLiT: Cross-Platform Floating-Point Result-Consistency
+                 Tester and Workload}},
+  author     = {Geof Sawaya and Michael Bentley and Ian Briggs and
+                Ganesh Gopalakrishnan and Dong H. Ahn},
+  booktitle  = {2017 IEEE International Symposium on Workload
+                Characterization (IISWC)},
+  pages      = {229--238},
+  month      = {Oct},
+  year       = {2017},
+  publisher  = {IEEE},
+  url        = {https://doi.org/10.1109/IISWC.2017.8167780},
+  doi        = {10.1109/IISWC.2017.8167780},
+  isbn       = {978-1-5386-1233-0},
+}
+</pre>
+           </div>
+           <div class="modal-footer"></div>
+          </div>
+         </div>
+        </div>
+        <div id="abstract_modal_sawaya_flit_2017" class="modal fade smooth-modal"
+            role="dialog" style="padding: 0 0 0 0;">
+         <div class="modal-dialog smooth-modal-font">
+          <div class="modal-content">
+           <div class="modal-header smooth-modal-header">
+            <button type="button" class="close pull-right"
+                    data-dismiss="modal">&times;</button>
+            <h4 class="modal-title"><b>Abstract</b></h4>
+           </div>
+           <div class="modal-body smooth-abstract-modal">
+            <p>Understanding the extent to which computational results can change across platforms, compilers, and compiler flags can go a long way toward supporting reproducible experiments. In this work, we offer the first automated testing aid called FLiT (Floating-point Litmus Tester) that can show how much these results can vary for any user-given collection of computational kernels. Our approach is to take a collection of these kernels, disperse them across a collection of compute nodes (each with a different architecture), have them compiled and run, and bring the results to a central SQL database for deeper analysis. Properly conducting these activities requires a careful selection (or design) of these kernels, input generation methods for them, and the ability to interpret the results in meaningful ways. The results in this paper are meant to inform two different communities: (a) those interested in seeking higher performance by considering “IEEE unsafe” optimizations, but then want to understand how much result variability to expect, and (b) those interested in standardizing compiler flags and their meanings, so that one may safely port code across generations of compilers and architectures. By releasing FLiT, we have also opened up the possibility of all HPC developers using it as a common resource as well as contributing back interesting test kernels as well as best practices, thus extending the floating-point result-consistency workload we contribute. This is the first such workload and result-consistency tester underlying floating-point reproducibility of which we are aware.</p>
            </div>
            <div class="modal-footer"></div>
           </div>
@@ -940,7 +984,7 @@
        <p>
         <a class="smooth-link" title="Noise injection techniques to expose subtle and unintended message races"
            href=' https://doi.org/10.1145/3018743.3018767 '
-           target="_blank"><u>Noise injection techniques to expose subtle and unintended message races</u></a>.
+           target="_blank">Noise injection techniques to expose subtle and unintended message races</a>.
         
         
          
@@ -1068,7 +1112,7 @@
        <p>
         <a class="smooth-link" title="Clock Delta Compression for Scalable Order-replay of Non-deterministic Parallel Applications"
            href=' https://doi.org/10.1145/2807591.2807642 '
-           target="_blank"><u>Clock Delta Compression for Scalable Order-replay of Non-deterministic Parallel Applications</u></a>.
+           target="_blank">Clock Delta Compression for Scalable Order-replay of Non-deterministic Parallel Applications</a>.
         
         
          
@@ -1178,7 +1222,11 @@
  <br>
  <div style="font-size: 14px;">
   <p>
-   <p><strong>Copyright notice:</strong> This material is presented to ensure timely dissemination of research and technical work. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author’s copyright.</p>
+   <p><strong>Copyright notice:</strong> This material is presented to ensure timely dissemination
+of research and technical work. Copyright and all rights therein are retained
+by authors or by other copyright holders. All persons copying this information
+are expected to adhere to the terms and constraints invoked by each author’s
+copyright.</p>
 
   </p>
  </div>

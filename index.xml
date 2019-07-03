@@ -26,8 +26,7 @@
       <pubDate>Fri, 27 Jan 2017 22:16:55 -0700</pubDate>
       
       <guid>https://pruners.github.io/contacts/</guid>
-      <description>Contacts  GitHub  Slack Channel   For an invitation please write an email to Simone Atzeni with a reason why you want to be part of the PRUNERS Slack Team.  
-Email Contacts Simone Atzeni     </description>
+      <description>Contacts   GitHub    Slack Channel    For an invitation please write an email to Simone Atzeni with a reason why you want to be part of the PRUNERS Slack Team.   Email Contacts  Simone Atzeni     </description>
     </item>
     
     <item>
@@ -36,9 +35,7 @@ Email Contacts Simone Atzeni     </description>
       <pubDate>Fri, 27 Jan 2017 22:16:50 -0700</pubDate>
       
       <guid>https://pruners.github.io/members/</guid>
-      <description>Members 
- 
- </description>
+      <description> Members       </description>
     </item>
     
     <item>
@@ -87,7 +84,7 @@ FLiT works by building many versions of the test suite, using multiple C++ compi
       <description>Archer Description Archer is a data race detector for OpenMP programs.
 Archer combines static and dynamic techniques to identify data races in large OpenMP applications, leading to low runtime and memory overheads, while still offering high accuracy and precision. It builds on an open-source tools infrastructure including LLVM, ThreadSanitizer, and OMPT to provide portability.
 Software Archer is an open-source tool and can be obtained on GitHub .
-Quick Start 1.</description>
+Quick Start Spack Installation: Recommended for curious users Archer maintains an up-to-date package in the Spack develop branch, which builds all dependencies and Archer itself.</description>
     </item>
     
   </channel>
