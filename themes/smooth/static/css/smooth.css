@@ -18,6 +18,7 @@ body {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, body h3, h4, h5, h6 {
   font-weight: bold;
+  color: #337ab7;
 }
 
 .affix {
@@ -153,31 +154,26 @@ body {
   background-color: #D3D3D3;
 }
 
-/* .dropdown:focus .dropdown:active */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.navbar-nav .dropdown-menu>li>a:hover {
-  
-}
-
-a.smooth-link:link {
-  color: dimgray;
-  /* color: #708090; */
-}
-
-a.smooth-link:visited {
-  color: darkslategray;
-  /* color: #696969; */
-}
-
-a.smooth-link:hover {
-  color: #FA8072;
-}
-
+a:link,
+a:visited,
+a:hover,
+a:active,
+a.smooth-link:link,
+a.smooth-link:visited,
+a.smooth-link:hover,
 a.smooth-link:active {
-  color: #FA8072;
+  color: #aa6666;
+}
+
+a:hover,
+a:active,
+a.smooth-link:hover,
+a.smooth-link:active {
+  text-decoration: underline;
 }
 
 .smooth-modal-font {

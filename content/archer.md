@@ -20,13 +20,13 @@ parent = "toolset"
 
 ## Software
 
-<span style="font-variant: small-caps;">Archer</span> is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/archer" target="_blank"><u>GitHub</u> <i class="fa fa-github"></i></a>.
+<span style="font-variant: small-caps;">Archer</span> is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/archer" target="_blank">GitHub <i class="fa fa-github"></i></a>.
 
 ---
 
 ## Quick Start
 
-### 1. Spack Installation: Recommended for curious users
+### Spack Installation: Recommended for curious users
 
 <span style="font-variant: small-caps;"><b>Archer</b></span> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <span style="font-variant: small-caps;"><b>Archer</b></span> itself. To install via Spack run:
 
@@ -37,7 +37,7 @@ $ spack/bin/spack install archer
 
 If you already have Spack, you can omit the first line.
 
-### 2. Manual Installation: Recommended for developers and contributors
+### Manual Installation: Recommended for developers and contributors
 
 Please refer to the instructions in the
 <a class="smooth-link" title="README" href="https://github.com/PRUNERS/archer/blob/master/README.md" target="_blank">README.md</a>. 

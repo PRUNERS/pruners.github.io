@@ -11,8 +11,8 @@ theme               = "smooth"
 
 [params]
   logo              = "img/pruners_logo_orange.svg"
-  custom_css        = ["css/smooth.min.css"]
-  custom_js         = ["js/smooth.min.js"]
+  custom_css        = ["css/smooth.css", "css/extras.css"]
+  custom_js         = ["js/smooth.js"]
   files             = "pdf/"
   google_analytics  = "UA-67339505-1"
 
@@ -207,8 +207,8 @@ theme               = "smooth"
   weight            = -80
 #[[menu.main]]
 #  name              = "News"
-#  identifier        = "news"
-#  url               = "#news"
+#  identifier        = "upcoming-events"
+#  url               = "#upcoming-events"
 #  weight            = -70
 [[menu.main]]
   name              = "About"

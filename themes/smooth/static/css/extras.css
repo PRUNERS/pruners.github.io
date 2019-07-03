@@ -1,0 +1,27 @@
+div.iframe-16-9-wrap {
+  overflow: hidden;
+  margin: 10px;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+div.iframe-16-9-wrap iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+span.date {
+  font-weight: bold;
+  /*text-decoration: underline;*/
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+div.member-logo {
+  padding-top: 30px;
+}

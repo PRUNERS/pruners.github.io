@@ -16,7 +16,7 @@
        <p>
         <a class="smooth-link" title="{{ .title }}"
            href='{{ if ne .DOI "" }} https://doi.org/{{ .DOI }} {{ else }} {{ .URL }} {{ end }}'
-           target="_blank"><u>{{ .title }}</u></a>.
+           target="_blank">{{ .title }}</a>.
         {{ $len := (len .author) }}
         {{ range $index, $item2 := .author }}
          {{ if ne (sub $len 1) $index }}

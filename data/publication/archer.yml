@@ -4,54 +4,65 @@ references:
   type: paper-conference
   author:
   - family: Protze
-    given: J.
+    given:  Joachim
   - family: Schulz
-    given: M.
+    given:  Martin
   - family: Ahn
-    given: D. H.
+    given:  Dong H.
   - family: Müller
-    given: M. S.
+    given:  Matthias S.
   issued:
-  - year: '2018'
-    month: '6'
-  title: 'Thread-local Concurrency: A Technique to Handle Data Race Detection at Programming Model Abstraction'
+  - year:  2018
+    month: 6
+  title: 'Thread-local Concurrency: A Technique to Handle Data Race Detection
+          at Programming Model Abstraction'
   titleshort: TLC
   location: Tempe, Arizona, USA
-  containertitle: 27th International Symposium on High-Performance Parallel and Distributed Computing (HPDC)
+  containertitle: '27th International Symposium on High-Performance Parallel
+                   and Distributed Computing (HPDC)'
   page: '144-155'
-  abstract: With greater adoption of various high-level parallel programming models
-    to harness on-node parallelism, accurate data race detection has become more crucial than ever.
-    However, existing tools have great difficulty spotting data races through these high-level models,
-    as they primarily target low-level concurrent execution models (e.g., concurrency expressed
-    at the level of POSIX threads). In this paper, we propose a novel technique to accurately detect
-    those data races that can occur at higher levels of concurrent execution. The core idea
-    of our technique is to introduce the general concept of Thread-Local Concurrency (TLC)
-    as a new way to translate the concurrency expressed by a high-level programming paradigm
-    into the low execution level understood by the existing tools. Specifically, we extend
-    the definition of vector clocks to allow the existing state-of-the-art race detectors
-    to recognize those races that occur at the higher level of concurrency with minor
-    modifications to these tools. Our evaluation with our prototype implemented within
-    ThreadSanitizer shows that TLC can allow the existing tool to detect these races
-    accurately with only small additional analysis overheads.
+  abstract: 'With greater adoption of various high-level parallel programming
+             models to harness on-node parallelism, accurate data race
+             detection has become more crucial than ever.  However, existing
+             tools have great difficulty spotting data races through these
+             high-level models, as they primarily target low-level concurrent
+             execution models (e.g., concurrency expressed at the level of
+             POSIX threads). In this paper, we propose a novel technique to
+             accurately detect those data races that can occur at higher levels
+             of concurrent execution. The core idea of our technique is to
+             introduce the general concept of Thread-Local Concurrency (TLC) as
+             a new way to translate the concurrency expressed by a high-level
+             programming paradigm into the low execution level understood by
+             the existing tools. Specifically, we extend the definition of
+             vector clocks to allow the existing state-of-the-art race
+             detectors to recognize those races that occur at the higher level
+             of concurrency with minor modifications to these tools. Our
+             evaluation with our prototype implemented within ThreadSanitizer
+             shows that TLC can allow the existing tool to detect these races
+             accurately with only small additional analysis overheads.'
   DOI: 10.1145/3208040.3208056
   ISBN: 978-1-4503-5785-2
   PDF: '3208056.pdf'
   citation: |
     @inproceedings{3208056,
-                   author = {Protze, Joachim and Schulz, Martin and Ahn, Dong H. and M\"{u}ller, Matthias S.},
-                   title = {Thread-local Concurrency: A Technique to Handle Data Race Detection at Programming Model Abstraction},
-                   booktitle = {Proceedings of the 27th International Symposium on High-Performance Parallel and Distributed Computing},
-                   series = {HPDC 18},
-                   year = {2018},
-                   isbn = {978-1-4503-5785-2},
-                   location = {Tempe, Arizona},
-                   pages = {144--155},
-                   numpages = {12},
-                   url = {http://doi.acm.org/10.1145/3208040.3208056},
-                   doi = {10.1145/3208040.3208056},
-                   acmid = {3208056},
-                   publisher = {ACM},
-                   address = {New York, NY, USA}, }
+      author    = {Joachim Protze and Martin Schulz and Dong H. Ahn and
+                   Matthias S. M\"{u}ller},
+      title     = {{Thread-local Concurrency: A Technique to Handle Data Race
+                    Detection at Programming Model Abstraction}},
+      booktitle = {Proceedings of the 27th International Symposium on
+                   High-Performance Parallel and Distributed Computing},
+      series    = {HPDC 18},
+      year      = {2018},
+      isbn      = {978-1-4503-5785-2},
+      location  = {Tempe, Arizona},
+      pages     = {144--155},
+      numpages  = {12},
+      url       = {http://doi.acm.org/10.1145/3208040.3208056},
+      doi       = {10.1145/3208040.3208056},
+      acmid     = {3208056},
+      publisher = {ACM},
+      address   = {New York, NY, USA},
+    }
 
 
 - id: '08425238'

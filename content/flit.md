@@ -57,4 +57,6 @@ Most recent publication describing the new functionality:
 
 ### Software
 
-FLiT is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/FLiT" target="_blank"><u>GitHub</u> <i class="fa fa-github"></i></a>.
+FLiT is an open-source tool and can be obtained on
+<a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/FLiT"
+   target="_blank">GitHub <i class="fa fa-github"></i></a>.
