@@ -15,7 +15,6 @@ div.iframe-16-9-wrap iframe {
 
 span.date {
   font-weight: bold;
-  /*text-decoration: underline;*/
 }
 
 .small-caps {
@@ -24,4 +23,24 @@ span.date {
 
 div.member-logo {
   padding-top: 30px;
+}
+
+div.news ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.news li {
+  padding: .5em;
+}
+
+div.news li:hover {
+  background-color: aliceblue;
+}
+
+div.news span.news-title {
+  display: block;
+  font-weight: bold;
+  font-size: 130%;
 }

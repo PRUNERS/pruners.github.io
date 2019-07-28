@@ -23,82 +23,77 @@ and dynamic analysis techniques to detect, control and eliminate targeted
 sources of non-determinism, as introduced through parallel programming
 libraries and APIs.
 
-<h1 class="news"><a name="upcoming-events"></a>Upcoming Events</h1>
-<ul>
- <li>
-  <span class="date">30 July 2019:</span>
-  <a class="smooth-link" href="https://www.pearc19.pearc.org/"
-     target="_blank">PEARC'19</a>
-  Tutorial,
-  <a class="smooth-link" href="http://fpanalysistools.org/"
-     target="_blank">"Tutorial on Floating-Point Analysis Tools"</a>,
-  featuring
-  <a class="smooth-link" href="/flit/">FLiT</a>,
-  <a class="smooth-link" href="https://github.com/LLNL/FPChecker"
-     target="_blank">FPChecker</a>,
-  <a class="smooth-link"
-     href="https://github.com/corvette-berkeley/precimonious"
-     target="_blank">Precimonious</a>,
-  and
-  <a class="smooth-link" href="https://github.com/LLNL/adapt-fp"
-     target="_blank">ADAPT</a>.
- </li>
- <li>
-  <span class="date">17 November 2019:</span>
-  <a class="smooth-link" href="https://sc19.supercomputing.org/"
-     target="_blank">SC'19</a>
-  Tutorial,
-  <a class="smooth-link" href="http://fpanalysistools.org/"
-     target="_blank">"Floating-Point Analysis and Reproducibility Tools for
-   Scientific Software"</a>,
-  featuring
-  <a class="smooth-link" href="/flit/">FLiT</a>,
-  <a class="smooth-link" href="/archer/"><span class="small-caps">
-   Archer</span></a>,
-  <a class="smooth-link" href="/rempi/">ReMPI</a>,
-  <a class="smooth-link" href="https://github.com/LLNL/FPChecker"
-     target="_blank">FPChecker</a>,
-  <a class="smooth-link"
-     href="https://github.com/corvette-berkeley/precimonious"
-     target="_blank">Precimonious</a>,
-  and
-  <a class="smooth-link" href="https://github.com/LLNL/adapt-fp"
-     target="_blank">ADAPT</a>.
- </li>
-</ul>
+<div class="news">
+# Upcoming Events
 
-<h1 class="news"><a name="latest-news"></a>Latest News</h1>
-<ul>
+- **30 July 2019:** 
+  <span class="news-title">
+   [Tutorial on Floating-Point Analysis Tools](http://fpanalysistools.org/)
+  </span>
+  at [PEARC'19](https://www.pearc19.pearc.org/)
+  featuring
+  [FLiT](/flit/),
+  [FPChecker](https://github.com/LLNL/FPChecker),
+  [Precimonious](https://github.com/corvette-berkeley/precimonious),
+  and
+  [ADAPT](https://github.com/LLNL/adapt-fp).
+- **17 November 2019:**
+  <span class="news-title">
+   [Floating-Point Analysis and Reproducibility Tools for Scientific
+   Software](http://fpanalysistools.org/)
+  </span>
+  at [SC'19](https://sc19.supercomputing.org/),
+  featuring
+  [FLiT](/flit/),
+  <span class="small-caps">[Archer](/archer/)</span>,
+  [ReMPI](/rempi/),
+  [FPChecker](https://github.com/LLNL/FPChecker),
+  [Precimonious](https://github.com/corvette-berkeley/precimonious),
+  and
+  [ADAPT](https://github.com/LLNL/adapt-fp).
+
+</div> <!-- end of div.news -->
+
+<div class="news">
+# Latest News
+
  <!-- TODO: Add HPDC paper, slides, data, etc. -->
  <!-- TODO: Add ECP tutorial with slides -->
  <!-- TODO: Add other PRUNERS papers? -->
  <!-- TODO: Add FLiT with Spack news -->
- <li>
-  <span class="date">August 2018:</span>
-  New publications (SWORD and TLC) on OpenMP race dectection techniques have
-  been added.
- </li>
- <li>
-  <span class="date">April 2017:</span>
-  Archer, ReMPI, and NINJA have been made available and easily depolyable via
-  the
-  <a class="smooth-link" href="https://github.com/LLNL/spack"
-     target="_blank">Spack package management tool</a>.
- </li>
- <li>
-  <span class="date">June 2015:</span>
-  "Pruning" Sources of Nondeterminism in Large-Scale Applications, News
-  Highlights in LLNL Computation and Bits and Bytes, June 2015.
-  <a class="smooth-link"
-     href="http://computation.llnl.gov/newsroom/pruning-sources-nondeterminism-large-scale-applications"
-     target="_blank">Read more...</a>
- </li>
- <li>
-  <span class="date">July 2014:</span>
-  Supercomputing Tools Speed Simulations, Research Highlights in LLNL Science
-  and Technology Review (S&TR), July 2014.
-  <a class="smooth-link"
-     href="https://str.llnl.gov/july-2014/ahn"
-     target="_blank">Read more...</a>
- </li>
-</ul>
+
+- **June 2019:**
+  <span class="news-title">
+   New FLiT publication at [HPDC'19](http://www.hpdc.org/2019/)
+  </span>
+  (see [papers](/papers/#flit) and [presentations](/presentations/#hpdc19)).
+  FLiT bisect functionality officially released.
+- **August 2018:**
+  <span class="news-title">
+   Two new <span class="small-caps">Archer</span> publications
+   (SWORD and Thread-Local Concurrency)
+  </span>
+  on OpenMP race dectection (see [papers](/papers/#archer)).
+  These techniques have been added to <span class="small-caps">Archer</span>.
+- **April 2017:**
+  <span class="news-title">
+   Spack packages available for
+   <span class="small-caps">Archer</span>,
+   ReMPI, and
+   <span class="small-caps">Ninja</span>
+  </span>
+  These tools are now easily depolyable via the
+  [Spack package management tool](https://github.com/LLNL/spack)
+- **June 2015:**
+  <span class="news-title">
+   ["Pruning" Sources of Nondeterminism in Large-Scale Applications](
+   http://computation.llnl.gov/newsroom/pruning-sources-nondeterminism-large-scale-applications)
+  </span>
+  News Highlights in LLNL Computation and Bits and Bytes, June 2015.
+- <span class="date">July 2014:</span>
+  <span class="news-title">
+   [Supercomputing Tools Speed Simulations](https://str.llnl.gov/july-2014/ahn)
+  </span>
+  Research Highlights in LLNL Science and Technology Review (S&TR), July 2014.
+
+</div> <!-- end of div.news -->

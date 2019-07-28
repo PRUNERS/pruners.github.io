@@ -4,7 +4,7 @@ title = "FLiT"
 parent = "toolset"
 +++
 
-<h1>FLiT</h1>
+# FLiT
 
 ---
 
@@ -48,15 +48,28 @@ Most recent publication describing the new functionality:
 
 [HPDC'19 Poster](../img/2019-06-hpdc-flit-poster.pdf)
 
-
-
-
-
-
 ---
 
-### Software
+## Software
 
 FLiT is an open-source tool and can be obtained on
 <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/FLiT"
    target="_blank">GitHub <i class="fa fa-github"></i></a>.
+
+---
+
+## Upcoming Events
+
+### PEARC'19 Tutorial
+
+**August 2018**
+
+
+
+### SC'19 Tutorial
+
+---
+
+## Latest News
+
+
