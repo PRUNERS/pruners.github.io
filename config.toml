@@ -5,6 +5,9 @@ title               = "PRUNERS"
 baseurl             = "https://pruners.github.io/"
 theme               = "smooth"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [permalinks]
   page              = "/:title/"
   about             = "/:filename/"
