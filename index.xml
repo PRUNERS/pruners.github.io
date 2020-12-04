@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>home on PRUNERS</title>
@@ -35,7 +35,7 @@
       <pubDate>Fri, 27 Jan 2017 22:16:50 -0700</pubDate>
       
       <guid>https://pruners.github.io/members/</guid>
-      <description> Members       </description>
+      <description>Members       </description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Fri, 27 Jan 2017 22:16:40 -0700</pubDate>
       
       <guid>https://pruners.github.io/rempi/</guid>
-      <description>ReMPI Description ReMPI is a highly scalable scalable record-and-replay tool for MPI applications. ReMPI records the order of MPI message matching in one run and can deterministically replay it during subsequent runs. One of the supported modes uses Clock Delta Compression (CDC) for running at extreme-scale. CDC can reduce the record size down to the bare minimum, which allows ReMPI to keep record data on node-local storage, and drastically improve scalability versus writing to a shared file system.</description>
+      <description>ReMPI  Description ReMPI is a highly scalable scalable record-and-replay tool for MPI applications. ReMPI records the order of MPI message matching in one run and can deterministically replay it during subsequent runs. One of the supported modes uses Clock Delta Compression (CDC) for running at extreme-scale. CDC can reduce the record size down to the bare minimum, which allows ReMPI to keep record data on node-local storage, and drastically improve scalability versus writing to a shared file system.</description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@
       <pubDate>Fri, 27 Jan 2017 22:16:37 -0700</pubDate>
       
       <guid>https://pruners.github.io/flit/</guid>
-      <description>FLiT Description FLiT Workfow overview, more detail on the bisection step is in our paper FLiT (originally named Floating-point Litmus Tester, but is more than that now) is a test infrastructure for detecting and locating varibility in floating-point code caused by variations in compiler code generation, hardware and execution environments. Tests can range from unit tests of functions, to full executbles.
+      <description>FLiT  Description #### FLiT Workfow overview, more detail on the bisection step is in [our paper](https://doi.org/10.1145/3307681.3325960) FLiT (originally named Floating-point Litmus Tester, but is more than that now) is a test infrastructure for detecting and locating varibility in floating-point code caused by variations in compiler code generation, hardware and execution environments. Tests can range from unit tests of functions, to full executbles.
 FLiT works by building many versions of the test suite, using multiple C++ compilers, floating-point related settings (i.</description>
     </item>
     
@@ -72,7 +72,7 @@ FLiT works by building many versions of the test suite, using multiple C++ compi
       <pubDate>Fri, 27 Jan 2017 22:16:29 -0700</pubDate>
       
       <guid>https://pruners.github.io/ninja/</guid>
-      <description>Ninja Description Ninja (Noise INJection Agent) is a smart network noise injector for quickly exposing unintended MPI message races. Ninja uses innovative network noise injection techniques to increase the chances of racy, incorrect MPI message matching within the target MPI application. Ninja has been shown to reproduce unsafe message races consistently within large production applications and can do this up to two orders of magnitude faster than the traditional testing approach (i.</description>
+      <description>Ninja  Description Ninja (Noise INJection Agent) is a smart network noise injector for quickly exposing unintended MPI message races. Ninja uses innovative network noise injection techniques to increase the chances of racy, incorrect MPI message matching within the target MPI application. Ninja has been shown to reproduce unsafe message races consistently within large production applications and can do this up to two orders of magnitude faster than the traditional testing approach (i.</description>
     </item>
     
     <item>
@@ -81,10 +81,10 @@ FLiT works by building many versions of the test suite, using multiple C++ compi
       <pubDate>Fri, 27 Jan 2017 22:16:26 -0700</pubDate>
       
       <guid>https://pruners.github.io/archer/</guid>
-      <description>Archer Description Archer is a data race detector for OpenMP programs.
+      <description>Archer  Description Archer is a data race detector for OpenMP programs.
 Archer combines static and dynamic techniques to identify data races in large OpenMP applications, leading to low runtime and memory overheads, while still offering high accuracy and precision. It builds on an open-source tools infrastructure including LLVM, ThreadSanitizer, and OMPT to provide portability.
-Software Archer is an open-source tool and can be obtained on GitHub .
-Quick Start Spack Installation: Recommended for curious users Archer maintains an up-to-date package in the Spack develop branch, which builds all dependencies and Archer itself.</description>
+ Software Archer is an open-source tool and can be obtained on GitHub .
+ Quick Start Install latest LLVM binary package The dynamic analysis of Archer is part of LLVM starting with LLVM release 10.</description>
     </item>
     
   </channel>

@@ -203,42 +203,32 @@
 
 
 <div class="container smooth-container">
-  
-
-<h1><span style="font-variant: small-caps;">Archer</span></h1>
-
-<hr />
-
+  <h1><span style="font-variant: small-caps;"><b>Archer</b></span></h1>
+<hr>
 <h2 id="description">Description</h2>
-
-<p><img src="../img/archer_logo.svg" width="25%" alt="Archer Logo" title="Archer" align="right" style="margin-left: 20px; margin-right: 20px;"/></p>
-
+<img src="../img/archer_logo.svg" width="25%" alt="Archer Logo" title="Archer" align="right" style="margin-left: 20px; margin-right: 20px;"/>
 <p><span style="font-variant: small-caps;"><b>Archer</b></span> is a data race detector for OpenMP programs.</p>
-
-<p><span style="font-variant: small-caps;">Archer</span> combines static and dynamic techniques to identify data races in large OpenMP applications, leading to low runtime and memory overheads, while still offering high accuracy and precision. It builds on an open-source tools infrastructure including LLVM, ThreadSanitizer, and OMPT to provide portability.</p>
-
-<hr />
-
+<p><span style="font-variant: small-caps;"><b>Archer</b></span> combines static and dynamic techniques to identify data races in large OpenMP applications, leading to low runtime and memory overheads, while still offering high accuracy and precision. It builds on an open-source tools infrastructure including LLVM, ThreadSanitizer, and OMPT to provide portability.</p>
+<hr>
 <h2 id="software">Software</h2>
-
-<p><span style="font-variant: small-caps;">Archer</span> is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/archer" target="_blank">GitHub <i class="fa fa-github"></i></a>.</p>
-
-<hr />
-
+<p><span style="font-variant: small-caps;"><b>Archer</b></span> is an open-source tool and can be obtained on <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/archer" target="_blank">GitHub <i class="fa fa-github"></i></a>.</p>
+<hr>
 <h2 id="quick-start">Quick Start</h2>
-
-<h3 id="spack-installation-recommended-for-curious-users">Spack Installation: Recommended for curious users</h3>
-
-<p><span style="font-variant: small-caps;"><b>Archer</b></span> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <span style="font-variant: small-caps;"><b>Archer</b></span> itself. To install via Spack run:</p>
-
-<pre><code class="language-console">$ git clone https://github.com/LLNL/spack
+<h3 id="install-latest-llvm-binary-package">Install latest LLVM binary package</h3>
+<p>The dynamic analysis of <span style="font-variant: small-caps;"><b>Archer</b></span> is part of LLVM starting with LLVM release 10.0.
+New features and fixes are upstreamed to LLVM, so always check out the latest version of LLVM.</p>
+<p>LLVM is available at <a class="smooth-link" title="LLVM Downloads" href="https://releases.llvm.org/download.html" target="_blank">the LLVM Download Page</a>.</p>
+<p>Alternatively install using Spack:</p>
+<pre><code class="language-console" data-lang="console">$ git clone https://github.com/LLNL/spack
+$ spack/bin/spack install llvm+clang
+</code></pre><h3 id="spack-installation-recommended-for-users-curious-about-the-static-analysis">Spack Installation: Recommended for users curious about the static analysis</h3>
+<p><span style="font-variant: small-caps;"><b>Archer</b></span> maintains an up-to-date package in the Spack develop branch, which builds all dependencies and <span style="font-variant: small-caps;"><b>Archer</b></span> itself.
+This version of <span style="font-variant: small-caps;"><b>Archer</b></span> includes the static analysis, but latest features of the dynamic anaylsis might be missing.
+To install via Spack run:</p>
+<pre><code class="language-console" data-lang="console">$ git clone https://github.com/LLNL/spack
 $ spack/bin/spack install archer
-</code></pre>
-
-<p>If you already have Spack, you can omit the first line.</p>
-
+</code></pre><p>If you already have Spack, you can omit the first line.</p>
 <h3 id="manual-installation-recommended-for-developers-and-contributors">Manual Installation: Recommended for developers and contributors</h3>
-
 <p>Please refer to the instructions in the
 <a class="smooth-link" title="README" href="https://github.com/PRUNERS/archer/blob/master/README.md" target="_blank">README.md</a>.</p>
 

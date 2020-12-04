@@ -203,17 +203,11 @@
 
 
 <div class="container smooth-container">
-  
-
-<h1 id="rempi">ReMPI</h1>
-
-<hr />
-
+  <h1 id="rempi">ReMPI</h1>
+<hr>
 <h2 id="description">Description</h2>
-
 <p><img src="../img/rempi_logo.png" width="40%" alt="ReMPI Logo" title="ReMPI"
-     align="right" style="margin: 10px 20px;" /></p>
-
+align="right" style="margin: 10px 20px;" /></p>
 <p>ReMPI is a highly scalable scalable record-and-replay tool for MPI
 applications.  ReMPI records the order of MPI message matching in one run and
 can deterministically replay it during subsequent runs. One of the supported
@@ -221,40 +215,25 @@ modes uses Clock Delta Compression (CDC) for running at extreme-scale. CDC can
 reduce the record size down to the bare minimum, which allows ReMPI to keep
 record data on node-local storage, and drastically improve scalability versus
 writing to a shared file system.</p>
-
-<hr />
-
+<hr>
 <h2 id="software">Software</h2>
-
 <p>ReMPI is open-source software and can be obtained on
 <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/ReMPI"
-   target="_blank">GitHub <i class="fa fa-github"></i></a>.</p>
-
-<hr />
-
+target="_blank">GitHub <i class="fa fa-github"></i></a>.</p>
+<hr>
 <h2 id="quick-start">Quick Start</h2>
-
 <h3 id="1-spack-installation-recommended-for-curious-users">1. Spack Installation: Recommended for curious users</h3>
-
 <p>ReMPI maintains an up-to-date package in the Spack develop branch, which builds all dependencies and ReMPI itself. To install via Spack run:</p>
-
-<pre><code class="language-console">$ git clone https://github.com/LLNL/spack
+<pre><code class="language-console" data-lang="console">$ git clone https://github.com/LLNL/spack
 $ spack/bin/spack install rempi
-</code></pre>
-
-<p>If you already have Spack, you can omit the first line.</p>
-
+</code></pre><p>If you already have Spack, you can omit the first line.</p>
 <h3 id="2-manual-installation-recommended-for-developers-and-contributors">2. Manual Installation: Recommended for developers and contributors</h3>
-
 <p>Please refer to the installation instructions in the
 <a class="smooth-link" title="README"
-   href="https://github.com/PRUNERS/ReMPI/blob/master/README.md"
-   target="_blank">README.md</a>.</p>
-
-<hr />
-
+href="https://github.com/PRUNERS/ReMPI/blob/master/README.md"
+target="_blank">README.md</a>.</p>
+<hr>
 <h2 id="reference">Reference</h2>
-
 <ul>
 <li>Kento Sato, Dong H. Ahn, Ignacio Laguna, Gregory L. Lee and Martin Schulz,
 &ldquo;Clock Delta Compression for Scalable Order-Replay of Non-Deterministic

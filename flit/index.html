@@ -203,57 +203,43 @@
 
 
 <div class="container smooth-container">
-  
-
-<h1>FLiT</h1>
-
-<hr />
-
+  <h1 id="flit">FLiT</h1>
+<hr>
 <h2 id="description">Description</h2>
-
-<p><img src="../img/workflow.svg" style="width:100%"></p>
-
-<h4 id="flit-workfow-overview-more-detail-on-the-bisection-step-is-in-our-paper-https-doi-org-10-1145-3307681-3325960">FLiT Workfow overview, more detail on the bisection step is in <a href="https://doi.org/10.1145/3307681.3325960">our paper</a></h4>
-
-<p><img src="../img/flit_logo.svg" width="20%" alt="FLiT Logo" title="FLiT" align="right" style="margin-left: 20px; margin-right: 20px;"/></p>
-
+<img src="../img/workflow.svg" style="width:100%">
+#### FLiT Workfow overview, more detail on the bisection step is in [our paper](https://doi.org/10.1145/3307681.3325960)
+<img src="../img/flit_logo.svg" width="20%" alt="FLiT Logo" title="FLiT" align="right" style="margin-left: 20px; margin-right: 20px;"/>
 <p>FLiT (originally named Floating-point Litmus Tester, but is more than that now) is a test infrastructure for detecting and locating varibility in floating-point code caused by variations in compiler code generation, hardware and execution environments. Tests can range from unit tests of functions, to full executbles.</p>
-
 <p>FLiT works by building many versions of the test suite, using multiple C++ compilers, floating-point related settings (i.e. flags) and optimization levels. These tests are then executed and compared against a user-specified trusted baseline compilation.  The comparison &lsquo;score&rsquo; is collected into a database, along with the other parameters relevant to the execution, such as host, compiler configuration and compiler vendor.</p>
-
 <p>After executing the suite and collecting the data, it is easy to see how results may diverge using only different compiler settings, etc. Also, the developer is able to understand how to configure their build environment for their target architecture(s) such that they can expect consistent floating-point computations.  Also, with timing measurements, users can weigh the trade-offs of variability and performance of each of the compiler optimizations.</p>
-
-<p><img src="../img/combined_tests.png" style="width:100%"></p>
-
-<h4 id="mfem-examples-speedup-vs-compilation-with-compilations-sorted-by-speedup-both-bitwise-equal-and-variable-compilations-are-shown-in-a-the-fastest-bitwise-equal-compilation-was-the-fastest-overall-in-b-the-opposite-is-true">MFEM examples, speedup vs. compilation with compilations sorted by speedup. Both bitwise equal and variable compilations are shown. In (a), the fastest bitwise equal compilation was the fastest overall. In (b), the opposite is true.</h4>
-
+<img src="../img/combined_tests.png" style="width:100%">
+#### MFEM examples, speedup vs. compilation with compilations sorted by speedup. Both bitwise equal and variable compilations are shown. In (a), the fastest bitwise equal compilation was the fastest overall. In (b), the opposite is true.
 <p>Once the value-changing optimizations are found, FLiT bisect is able to determine
 what source file was optimized that induced the value change, and is often able norrow this down to the function level.</p>
-
 <p>It consists of the following components:</p>
-
 <ul>
 <li>a c++ test infrastructure</li>
 <li>a dynamic make system to generate diverse executables</li>
 <li>a SQL database for collecting results</li>
 <li>a bisection tool which can determine where in code the optimizations changed your results</li>
 </ul>
-
 <p>Most recent publication describing the new functionality:
 <a href="https://doi.org/10.1145/3307681.3325960">HPDC&rsquo;19</a>,
 <a href="https://arxiv.org/abs/1811.05618">arXiv</a></p>
-
 <p><a href="../img/2019-06-hpdc-flit-poster.pdf"><img src="../img/2019-06-hpdc-flit-poster.png" style="width:40%"></a></p>
-
 <p><a href="../img/2019-06-hpdc-flit-poster.pdf">HPDC&rsquo;19 Poster</a></p>
-
-<hr />
-
-<h3 id="software">Software</h3>
-
+<hr>
+<h2 id="software">Software</h2>
 <p>FLiT is an open-source tool and can be obtained on
 <a class="smooth-link" title="GitHub" href="https://github.com/PRUNERS/FLiT"
-   target="_blank">GitHub <i class="fa fa-github"></i></a>.</p>
+target="_blank">GitHub <i class="fa fa-github"></i></a>.</p>
+<hr>
+<h2 id="upcoming-events">Upcoming Events</h2>
+<h3 id="pearc19-tutorial">PEARC&rsquo;19 Tutorial</h3>
+<p><strong>August 2018</strong></p>
+<h3 id="sc19-tutorial">SC&rsquo;19 Tutorial</h3>
+<hr>
+<h2 id="latest-news">Latest News</h2>
 
 </div>
 
