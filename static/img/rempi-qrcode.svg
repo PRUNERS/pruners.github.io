@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="116"
+   height="116"
+   viewBox="0 0 116 116"
+   sodipodi:docname="qr-rempi.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview4"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="5.0568849"
+     inkscape:cx="31.199303"
+     inkscape:cy="50.759354"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     style="fill:#000000"
+     d="M 0,102 V 88 h 14 14.000001 v 14 14 H 14 0 Z m 24.000001,0 V 92 H 14 4.0000001 v 10 10 H 14 24.000001 Z M 8.0000001,102 V 96.000001 H 14 20.000001 V 102 108 H 14 8.0000001 Z m 24.0000009,12 v -2 h 4 4 v 2 2 h -4 -4 z m 16,-2 v -4 h -4 -4 v -2 -2 h -2 -2 v 2 2 h -2 -2 v -2 -2 h 2 2 v -2 -2 h -2 -2 v -1.999999 -2 h 4 4 v -2 V 92 h 2 2 v -2 -2 h -6 -6 v -4 -4 h -2 -2 v 2 2 h -2 -2 v -2 -2 h -2 -2 v -2 -2 h 2 2 v -2 -2 h 6 6 v -6 -6 h -2 -2 v 2 2 h -2 -2 v 2 2 h -4 -4 v 2 2 H 18 16 v 4 4 h -2 -2 v 2 2 H 10 8.0000001 v -2 -2 h -2 -2 v 2 2 H 2 0 V 82 80 H 2 4.0000001 V 78 76 H 2 0 v -2 -2 h 2 2.0000001 v -4 -4 h 2 2 v -2 -2 h -4 H 0 V 58 56 H 2 4.0000001 V 54 52 H 2 0 V 50 48 H 2 4.0000001 V 46 44 H 2 0 V 42 40 H 2 4.0000001 V 38 36 H 2 0 v -2 -2 h 2 2.0000001 v 2 2 h 2 2 V 34 32 H 10 12 v 6 6 h 2 2 v -2 -2 h 2 2.000001 v 2 2 H 18 16 v 4 4 h 2 2.000001 v 4 4 h 2 2 v -2 -2 h 2 2 v -2 -2 h -2 -2 v -2 -2 h 2 2 v -2 -2 h -2 -2 v -2 -2 h 4 4 v -2 -2 h 4 4 v -2 -2 h -2 -2 v -2 -2 h -2 -2 v -2 -2 h 2 2 v -2 -2 h -2 -2 v -2 -2 h 2 2 v -2 -2 h 2 2 v 2 2 h -2 -2 v 2 2 h 2 2 v 2 2 h 2 2 V 16 8.0000004 h 4 4 v -2 -2 h -2 -2 V 2 0 h 2 2 v 2 2.0000004 h 2 2 V 2 0 h 2 2 v 2 2.0000004 h -2 -2 v 2 2 h -2 -2 V 10 12 h 2 2 v 4 4 h 4 4 v -4 -4 h -2 -2 V 10 8.0000004 h 2 2 V 10 12 h 2 2 v 2 2 h 2 2 V 10 4.0000004 h -2 -2 V 2 0 h 8 8 v 2 2.0000004 h -2 -2 v 2 2 h 2 2 V 10 12 h -2 -2 v 4 4 h 2 2 v 6 6 h -6 -6 v 2 2 h -2 -2 v 2 2 h 2 2 v 2 2 h 4 4 v -4 -4 h 6 6 v 4 4 h -6 -6 v 2 2 h 6 6 v 4 4 h 4 H 100 v -4 -4 h -1.999999 -2 v -2 -2 h 2 H 100 v 2 2 h 2 2 v 10 10 h 2 2 v -6 -6 h 2 2 v -2 -2 h -2 -2 v -4 -4 h -2 -2 v -2 -2 h -2 -2 v -2 -2 h -1.999999 -2 v -2 -2 h 2 H 100 v 2 2 h 2 2 v 2 2 h 4 4 v -2 -2 h -2 -2 v -2 -2 h 2 2 v 2 2 h 2 2 v 4 4 h -2 -2 v 2 2 h 2 2 v 6 6 h -2 -2 v 2 2 h 2 2 v 6 6 h -2 -2 v 2 2 h -2 -2 v -4 -4 h -4 -4 v -6 -6 h -3.999999 -4 v 2 2 h 2 2 v 2 2 h -2 -2 v 4 4 h 2 2 v 2 2 h 2 H 100 v -2 -2 h 2 2 v 2 2 h -2 -2 v 4 4 h 2 2 v -2 -2 h 6 6 v 6 6.000001 h -2 -2 v 2 V 100 h -2 -2 v 2 2 h -2 -2 v 2 2 h -4 -3.999999 v 2 2 H 100 h 4 v 2 2 h -4 -3.999999 v -2 -2 h -4 -4 v -2 -2 h 2 2 v -2 -2 h 2 2 v -2 -2 h -4 -4 v 2 2 h -2 -2 v 6 6 h -4 -4 v -2 -2 h -2 -2 v 2 2 h -2 -2 v -4 -4 h -2 -2 v 2 2 h -2 -2 v 2 2 h -2 -2 v -2 -2 h -2 -2 v 2 2 h -2 -2 z m 4,-6 v -2 h -2 -2 v 2 2 h 2 2 z m 12,-2 v -4 h -2 -2 V 96.000001 92 h 2 2 v 2.000001 2 h 2 2 v -2 V 92 h 4 4 v 2.000001 2 h -2 -2 v 2 V 100 h -2 -2 v 4 4 h 4 4 v -2 -2 h 2 2 V 98.000001 92 h -2 -2 v -8 -8 h 2 2 v 2 2 h 4 4 v -6 -6 h -2 -2 v -2 -2 h -6 -6 v 2 2 h 2 2 v 4 4 h -2 -2 v 6 6 h -2 -2 v -2 -2 h -2 -2 v 2 2 h -4 -4 v -4 -4 h -4 -4 v -2 -2 h 4 4 v -2 -2 h 2 2 v -2 -2 h 2 2 v -2 -2 h 2 2 v -4 -4 h 2 2 v 2 2 h 4 4 v -4 -4 h -6 -6 v -2 -2 h -2 -2 v -2 -2 h -2 -2 v 2 2 h 2 2 v 4 4 h -4 -4 v -4 -4 h -10 -10 v -2 -2 h 4 4 v -2 -2 h 4 4 v 2 2 h 2 2 v -2 -2 h 2 2 v -2 -2 h 2 2 v -2 -2 h 2 2 v -2 -2 h 2 2 v -2 -2 h 2 2 v 2 2 h 2 2 v -2 -2 h -2 -2 v -2 -2 h -2 -2 v 2 2 h -2 -2 v 2 2 h -2 -2 v -2 -2 h -2 -2 v 2 2 h -2 -2 v -4 -4 h -4 -4 v 2 2 h -2 -2 v 2 2 h 2 2 v 4 4 h -2 -2 v 2 2 h -4 -4 v 2 2 h -2 -2 v 2 2 h -2 -2 v 2 2 h 2 2 v 2 2 h -2 -2 v 2 2 h -2 -2 v 2 2 h 2 2 v -2 -2 h 2 2 v -2 -2 h 2 2 v 2 2 h 4 4 v 2 2 h -2 -2 v 2 2 h 2 2 v -2 -2 h 4 4 v 2 2 h 2 2 v 2 2 h -10 -10 v 4 4 h 2 2 v 2 2 h 2 2 v 2 2 h 2 2 v -2 -2 h 2 2 v 2 2 h 2 2 v 2 2 h -6 -6 V 96.000001 100 h -2 -2 v 2 2 h 2 2 v -2 -2 h 6 6 v 4 4 h 4 4 z m -20,-22 v -2 h 2 2 v 2 2 h -2 -2 z m 36,-12 v -2 h 2 2 v 2 2 h -2 -2 z m -20,-8 v -2 h 2 2 v 2 2 h -2 -2 z m -16,-4 v -2 h 6 6 v 2 2 h -6 -6 z m -12,-8 v -2 h 2 2 v 2 2 h -2 -2 z m 20,-12 v -2 h 2 2 v 2 2 h -2 -2 z m 8,-8 v -2 h 2 2 v 2 2 h -2 -2 z m -12,-4 v -2 h 2 2 v 2 2 h -2 -2 z M 104,102 v -2 h 2 2 v -1.999999 -2 h 2 2 v -2 V 92 h -2 -2 v -2 -2 h -2 -2 v 4 4.000001 h -2 -2 V 100 v 4 h 2 2 z M 96.000001,90 v -6 h -6 -6 v 6 6.000001 h 6 6 z m -8,0 v -2 h 2 2 v 2 2 h -2 -2 z M 12,78 V 76 H 10 8.0000001 V 74 72 H 12 16 v -2 -2 h 2 2.000001 V 66 64 H 14 8.0000001 v 4 4 h -2 -2 v 2 2 h 2 2 v 2 2 H 10 12 Z m 16.000001,0 v -2 h -2 -2 v 2 2 h 2 2 z m 36,0 v -2 h -2 -2 v 2 2 h 2 2 z M 112,70 v -2 h -2 -2 v 2 2 h 2 2 z M 16,56 V 52 H 12 8.0000001 V 50 48 H 10 12 V 46 44 H 10 8.0000001 v -2 -2 h -2 -2 v 2 2 h 2 2 v 2 2 h -2 -2 v 2 2 h 2 2 v 4 4 H 12 16 Z m 72.000001,0 v -4 h -2 -2 v 4 4 h 2 2 z m -48,-30 v -2 h -2 -2 v 2 2 h 2 2 z M 108,112 v -4 h 2 2 v -2 -2 h 2 2 v 2 2 h -2 -2 v 2 2 h 2 2 v 2 2 h -4 -4 z M 16,34 v -2 h 2 2.000001 v 2 2 H 18 16 Z m 8.000001,0 v -2 h 2 2 v 2 2 h -2 -2 z M 0,14 V 0 H 14 28.000001 V 14 28 H 14 0 Z m 24.000001,0 V 4.0000004 H 14 4.0000001 V 14 24 H 14 24.000001 Z M 8.0000001,14 V 8.0000004 H 14 20.000001 V 14 20 H 14 8.0000001 Z M 88.000001,14 V 0 H 102 116 V 14 28 H 102 88.000001 Z M 112,14 V 4.0000004 H 102 92.000001 V 14 24 H 102 112 Z M 96.000001,14 V 8.0000004 H 102 108 V 14 20 h -6 -5.999999 z m -64,-7.9999996 v -2 h 4 4 V 2 0 h 2 2 v 2 2.0000004 h -2 -2 v 2 2 h -4 -4 z"
+     id="path817"
+     inkscape:connector-curvature="0" />
+</svg>

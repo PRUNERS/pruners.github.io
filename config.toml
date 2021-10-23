@@ -203,7 +203,19 @@ theme               = "smooth"
 [[menu.main]]
   name              = "Publications"
   identifier        = "publications"
-  url               = "/publications/"
+#  url               = "/publications/"
+  weight            = -80
+[[menu.main]]
+  name              = "Papers"
+  identifier        = "papers"
+  parent            = "publications"
+  url               = "/papers/"
+  weight            = -80
+[[menu.main]]
+  name              = "Presentations"
+  identifier        = "presentations"
+  parent            = "publications"
+  url               = "/presentations/"
   weight            = -80
 #[[menu.main]]
 #  name              = "News"
